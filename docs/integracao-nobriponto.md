@@ -61,6 +61,9 @@ VPS (RPA cron) ──► Abono de Faltas ────► absence_records ──�
      (30/30) e Horas Realizadas = `horasTrabalhadas` (30/30) — API é fonte
      confiável. O `falta` da API coincide com FI em ~metade dos casos; a fonte
      de FI/FJ segue sendo o relatório de Absenteísmo até mapearmos a diferença.
+     Hipótese (dos processos de emissão): o relatório é gerado com
+     "Considerar Atraso" + "Considerar Tolerância de Atraso/Falta", e o
+     espelho da API não aplica essas opções — ver docs/processos-relatorios.md.
 2. **PLANEJADO** = `cargaHoraria` do espelho (era "Horas Previstas")
 3. **ABS %** = ABS HORA ÷ PLANEJADO
 4. Período abonado → horas: `O dia todo.` = 8:00 · `1º/2º período.` = 4:00

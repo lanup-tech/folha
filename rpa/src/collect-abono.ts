@@ -56,10 +56,20 @@ async function main() {
     await page.click('button[type="submit"]');
     await page.waitForLoadState("networkidle");
 
-    // 2. Relatório Abono de Faltas — AJUSTAR navegação/filtros/export
+    // 2. Relatório "Abonos e Faltas Justificadas"
+    //    (roteiro oficial: docs/processos-relatorios.md — seletores a gravar
+    //     na tela real; o fluxo manual é:)
+    //    Relatórios -> Abonos e Faltas Justificadas
+    //    Período: 1º ao último dia da competência (calculado, nunca digitado)
+    //    Motivos: selecionar todos | Empresas: selecionar todas
+    //    Gerar Relatório -> Exportar -> XLSX
     // await page.click('text=Relatórios');
-    // await page.click('text=Abono de Faltas');
-    // ... selecionar competência, exportar, parsear linhas para `rows`
+    // await page.click('text=Abonos e Faltas Justificadas');
+    // await page.fill('[name=dataInicial]', primeiroDia(competencia));
+    // await page.fill('[name=dataFinal]', ultimoDia(competencia));
+    // ... selecionar todos os motivos e todas as empresas
+    // const download = await page.waitForEvent('download'); // Exportar XLSX
+    // ... parsear o XLSX para `rows` (mesma lógica de scripts/ingest-competencia.mjs)
 
     // 3. Persistência
     for (const row of rows) {

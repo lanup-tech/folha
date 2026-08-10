@@ -32,3 +32,5 @@ Agendamento (crontab, diário às 06:00):
 
 > Os seletores em `src/collect-abono.ts` são um esqueleto: precisam ser gravados
 > contra a tela real do ponto (peça acesso de leitura ao ambiente do cliente).
+> O roteiro de navegação e filtros de cada relatório está em
+> `docs/processos-relatorios.md` (destilado dos processos oficiais NOBRITECH).
