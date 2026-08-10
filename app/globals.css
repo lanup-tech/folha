@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/*
+ * NobriPonto Analytics — tema whitelabel.
+ * As cores de MARCA (chrome da UI) vêm do tenant e são injetadas como
+ * CSS vars pelo layout. As cores de DADOS (séries dos gráficos) usam a
+ * paleta categórica validada (CVD-safe) e não mudam com a marca.
+ */
+:root {
+  /* marca (default: Funchal — sobrescrito por tenant via layout) */
+  --brand-primary: #ff6600;
+  --brand-dark: #010066;
+
+  /* superfícies e tinta */
+  --surface-1: #fcfcfb;
+  --page: #f6f6f4;
+  --ink-primary: #17171c;
+  --ink-secondary: #52514e;
+  --ink-muted: #898781;
+  --gridline: #e1e0d9;
+  --baseline: #c3c2b7;
+  --hairline: rgba(11, 11, 11, 0.1);
+
+  /* séries categóricas (ordem fixa, validada) */
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+
+  /* status (reservadas — nunca usadas como série) */
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+}
+
+body {
+  background: var(--page);
+  color: var(--ink-primary);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+}

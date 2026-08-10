@@ -1,0 +1,41 @@
+import type { Motivo } from "../types";
+
+/**
+ * Base de motivos — hoje mantida em planilha ("motivos" no Abono de Faltas),
+ * passa a ser cadastrada pelo cliente final no front (página Motivos) e
+ * persistida na tabela `absence_reasons` do Supabase.
+ *
+ * ABONADO       => conta como falta abonada (entra em ABONADA)
+ * JUSTIFICADO   => conta como falta justificada (entra em JUSTIFICADA)
+ * DESCONSIDERAR => não entra no cálculo de absenteísmo
+ */
+export const motivosBase: Motivo[] = [
+  { name: "AFASTADA", treatment: "DESCONSIDERAR", active: true },
+  { name: "ATESTADO INTERNACAO", treatment: "ABONADO", active: true },
+  { name: "ATESTADO MÉDICO", treatment: "ABONADO", active: true },
+  { name: "ATESTADO ÓBITO FAMILIAR", treatment: "ABONADO", active: true },
+  { name: "DECLARACAO DE COMPARECIMENTO", treatment: "ABONADO", active: true },
+  { name: "DECLARACAO ODONTOLOGICA", treatment: "ABONADO", active: true },
+  { name: "FOLGA AUTORIZADA GESTOR", treatment: "ABONADO", active: true },
+  { name: "DECLARACAO DE ACOMPANHAMENTO", treatment: "ABONADO", active: true },
+  { name: "LICENÇA AMAMENTAÇÃO", treatment: "ABONADO", active: true },
+  { name: "TRIBUNAL DE JUSTIÇA", treatment: "ABONADO", active: true },
+  { name: "DECLARACAO ESCOLAR", treatment: "ABONADO", active: true },
+  { name: "AT MED ACOMP FILHO", treatment: "ABONADO", active: true },
+  { name: "ABONADO PELO GESTOR", treatment: "ABONADO", active: true },
+  { name: "LICENÇA MATERNIDADE", treatment: "DESCONSIDERAR", active: true },
+  { name: "AVISO PRÉVIO", treatment: "DESCONSIDERAR", active: true },
+  { name: "CAMPANHA DE FOLGA", treatment: "DESCONSIDERAR", active: true },
+  { name: "COMPENSAÇÃO", treatment: "DESCONSIDERAR", active: true },
+  { name: "COMPENSACAO CARNAVAL", treatment: "DESCONSIDERAR", active: true },
+  { name: "FOLGA COMPENSAÇÃO", treatment: "DESCONSIDERAR", active: true },
+  { name: "HOME OFFICE", treatment: "DESCONSIDERAR", active: true },
+  { name: "PROBLEMAS TRANSPORTE PUBLICO", treatment: "DESCONSIDERAR", active: true },
+  { name: "TREINAMENTO", treatment: "DESCONSIDERAR", active: true },
+  { name: "ABONADO PELA EMPRESA", treatment: "DESCONSIDERAR", active: true },
+  { name: "PROBLEMA VPN", treatment: "DESCONSIDERAR", active: true },
+  { name: "SERVIÇO EXTERNO", treatment: "DESCONSIDERAR", active: true },
+  { name: "FOLGA MESÁRIO", treatment: "DESCONSIDERAR", active: true },
+  { name: "LICENÇA MATRIMONIAL", treatment: "DESCONSIDERAR", active: true },
+  { name: "DOAÇÃO DE SANGUE", treatment: "DESCONSIDERAR", active: true },
+];
