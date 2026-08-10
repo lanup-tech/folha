@@ -11,25 +11,25 @@ const sources = [
     report: "01 Funcionários ativos",
     origin: "API",
     status: "aguardando credenciais",
-    detail: "Cadastro completo (nome, CPF, matrícula, setor, cargo, admissão)",
+    detail: "GET /funcionario — cadastro completo, empresa resolvida pelo CNPJ",
   },
   {
     report: "02 Extrato de Horas",
     origin: "API",
     status: "aguardando credenciais",
-    detail: "Total diurno/noturno trabalhado (HE) por colaborador",
+    detail: "GET /espelhoDePontos — HE diurna/noturna (extraDiurna/extraNoturna)",
   },
   {
     report: "02 Absenteísmo",
     origin: "API",
     status: "aguardando credenciais",
-    detail: "Horas previstas, realizadas, faltas justificadas/injustificadas",
+    detail: "GET /espelhoDePontos — carga horária, horas trabalhadas, faltas, atrasos",
   },
   {
     report: "02 Abono de Faltas",
     origin: "RPA",
     status: "aguardando VPS",
-    detail: "Motivo, período abonado, CID, data — exportado via robô na VPS",
+    detail: "Sem GET na API v1.5 — motivo, período abonado e CID vêm do robô na VPS",
   },
 ];
 
