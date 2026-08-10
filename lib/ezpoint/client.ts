@@ -87,17 +87,16 @@ export class EzpointClient {
   constructor(private creds: EzpointCredentials) {}
 
   static fromEnv(): EzpointClient {
-    const { EZPOINT_EMPRESA, EZPOINT_USUARIO, EZPOINT_SENHA } = process.env;
-    if (!EZPOINT_EMPRESA || !EZPOINT_USUARIO || !EZPOINT_SENHA) {
+    const env = process.env;
+    const empresa = env.EZPOINT_EMPRESA ?? env.NOBRIPONTO_API_EMPRESA;
+    const usuario = env.EZPOINT_USUARIO ?? env.NOBRIPONTO_API_USER;
+    const senha = env.EZPOINT_SENHA ?? env.NOBRIPONTO_API_PASSWORD;
+    if (!empresa || !usuario || !senha) {
       throw new Error(
-        "Credenciais da API EzPoint ausentes — preencha EZPOINT_EMPRESA, EZPOINT_USUARIO e EZPOINT_SENHA no .env.local"
+        "Credenciais da API EzPoint ausentes — preencha EZPOINT_EMPRESA/USUARIO/SENHA (ou NOBRIPONTO_API_*) no .env.local"
       );
     }
-    return new EzpointClient({
-      empresa: EZPOINT_EMPRESA,
-      usuario: EZPOINT_USUARIO,
-      senha: EZPOINT_SENHA,
-    });
+    return new EzpointClient({ empresa, usuario, senha });
   }
 
   private async request<T>(path: string, init?: RequestInit): Promise<T> {
