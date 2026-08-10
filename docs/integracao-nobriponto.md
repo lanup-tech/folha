@@ -57,12 +57,21 @@ VPS (RPA cron) ──► Abono de Faltas ────► absence_records ──�
 1. **ABS HORA** = INJUSTIFICADA + ABONADA + JUSTIFICADA
    - ABONADA / JUSTIFICADA: lançamentos do Abono de Faltas classificados pelo
      **tratamento do motivo** em `absence_reasons` (editável na página Motivos)
-   - INJUSTIFICADA: `falta` do espelho menos o que foi justificado/abonado
-     (**validar na prática** se o `falta` da API já desconta abonos)
+   - Conciliação jul/2026 (30 amostras): Horas Previstas = `cargaHoraria`
+     (30/30) e Horas Realizadas = `horasTrabalhadas` (30/30) — API é fonte
+     confiável. O `falta` da API coincide com FI em ~metade dos casos; a fonte
+     de FI/FJ segue sendo o relatório de Absenteísmo até mapearmos a diferença.
 2. **PLANEJADO** = `cargaHoraria` do espelho (era "Horas Previstas")
 3. **ABS %** = ABS HORA ÷ PLANEJADO
 4. Período abonado → horas: `O dia todo.` = 8:00 · `1º/2º período.` = 4:00
-   (a API usa códigos S/1/2/3/4 no POST — mesmo conceito)
+   (a API usa códigos S/1/2/3/4 no POST — mesmo conceito).
+   **Correção validada na conciliação com a API (jul/2026)**: a valoração 8h
+   fixa inflava a ABONADA de quem tem jornada menor (ex.: 5:20/dia) e de
+   afastados (o relatório lista fins de semana), gerando ABS > 100%. Regra
+   vigente: **ABONADA ≤ Faltas Justificadas do ponto** (excesso vira alerta),
+   de modo que ABS HORA = FI + FJ, sempre coerente com o ponto. A valoração
+   exata por jornada diária (`dias[].cargaHoraria` do espelho) entra com a
+   carga via API.
 5. **ABS % nunca pode passar de 100%** — acima disso é erro de carga e vira
    alerta de qualidade no dashboard (nunca correção silenciosa)
 6. PLANEJADO = 0 (admitido após fechamento, afastado sem escala) fica fora do

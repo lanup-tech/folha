@@ -5782,7 +5782,7 @@
       "admissionDate": "11/09/2023",
       "heMin": 0,
       "unjustifiedMin": 79,
-      "excusedMin": 480,
+      "excusedMin": 0,
       "justifiedMin": 0,
       "plannedMin": 10710
     },
@@ -5912,7 +5912,7 @@
       "admissionDate": "07/10/2025",
       "heMin": 0,
       "unjustifiedMin": 153,
-      "excusedMin": 480,
+      "excusedMin": 320,
       "justifiedMin": 0,
       "plannedMin": 8000
     },
@@ -6796,7 +6796,7 @@
       "admissionDate": "01/08/2014",
       "heMin": 0,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
+      "excusedMin": 20,
       "justifiedMin": 0,
       "plannedMin": 10710
     },
@@ -7134,7 +7134,7 @@
       "admissionDate": "27/05/2025",
       "heMin": 0,
       "unjustifiedMin": 28,
-      "excusedMin": 480,
+      "excusedMin": 320,
       "justifiedMin": 0,
       "plannedMin": 8000
     },
@@ -7874,10 +7874,10 @@
     "unmatchedFromApi": [],
     "unknownMotivos": [],
     "inconsistencies": [
-      "PALOMA TINO DA SILVA: abonado (480min) maior que faltas justificadas do ponto (0min)",
-      "PAULO EDUARDO VIANA GOMES: abonado (480min) maior que faltas justificadas do ponto (320min)",
-      "SIMONE DE ALMEIDA: abonado (480min) maior que faltas justificadas do ponto (20min)",
-      "THALYTA CRISTINA DA MATA NEVES: abonado (480min) maior que faltas justificadas do ponto (320min)"
+      "PALOMA TINO DA SILVA: abono do relatório (8h) excede as faltas justificadas do ponto (0h) — valoração 8h/dia corrigida pelo teto",
+      "PAULO EDUARDO VIANA GOMES: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
+      "SIMONE DE ALMEIDA: abono do relatório (8h) excede as faltas justificadas do ponto (0h) — valoração 8h/dia corrigida pelo teto",
+      "THALYTA CRISTINA DA MATA NEVES: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto"
     ],
     "periodIssues": [
       "AbonoDeFaltas.xlsx: aba \"30-06-2026 a 30-06-2026\" cobre só parte do mês — reexportar 2026-06-01 a 2026-06-30",

@@ -232,11 +232,19 @@ for (const r of abs.rows) {
   const plannedMin = toMinutes(r[aPrev]);
   const fjMin = toMinutes(r[aJust]);
   const unjustifiedMin = toMinutes(r[aInj]);
-  const excusedMin = excusedByName.get(k) ?? 0;
-  const justifiedMin = Math.max(0, fjMin - excusedMin);
-  if (excusedMin > fjMin && excusedMin - fjMin > 30) {
+
+  // O relatório de abono valora "O dia todo" em 8h fixas e lista dias sem carga
+  // (fins de semana em afastamentos) — o que inflava ABONADA acima do que o
+  // ponto mediu e gerava ABS > 100%. Regra validada na conciliação com a API
+  // (espelhoDePontos): ABONADA não pode passar das Faltas Justificadas do
+  // ponto; o excesso vira alerta. Assim ABS HORA = FI + FJ, sempre coerente
+  // com o ponto. A valoração exata por jornada diária virá da carga via API.
+  const excusedRaw = excusedByName.get(k) ?? 0;
+  const excusedMin = Math.min(excusedRaw, fjMin);
+  const justifiedMin = fjMin - excusedMin;
+  if (excusedRaw - fjMin > 30) {
     inconsistencies.push(
-      `${rawName}: abonado (${excusedMin}min) maior que faltas justificadas do ponto (${fjMin}min)`
+      `${rawName}: abono do relatório (${Math.round(excusedRaw / 60)}h) excede as faltas justificadas do ponto (${Math.round(fjMin / 60)}h) — valoração 8h/dia corrigida pelo teto`
     );
   }
 
