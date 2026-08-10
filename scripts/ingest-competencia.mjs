@@ -66,19 +66,54 @@ const companyByCnpj = {
 
 function readSheet(file) {
   const wb = XLSX.read(readFileSync(join(rawDir, file)));
-  const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1, raw: false });
+  const sheetName = wb.SheetNames[0];
+  const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheetName], { header: 1, raw: false });
   const headerIdx = rows.findIndex((r) => r?.some((c) => nameKey(c) === "FUNCIONARIO"));
   if (headerIdx < 0) throw new Error(`${file}: cabeçalho 'Funcionário' não encontrado`);
   const header = rows[headerIdx].map((h) => nameKey(h));
   const col = (label) => header.findIndex((h) => h.startsWith(nameKey(label)));
   const totalsRow = new Set(["TOTAIS", "TOTAL", "TOTAL GERAL"]);
   return {
+    sheetName,
     col,
     rows: rows
       .slice(headerIdx + 1)
       .filter((r) => r?.length && String(r[col("Funcionário")] ?? "").trim())
       .filter((r) => !totalsRow.has(nameKey(r[col("Funcionário")]))),
   };
+}
+
+/** Nome da aba dos relatórios traz o período: "01-07-2026 a 31-07-2026" */
+function sheetPeriod(sheetName) {
+  const m = sheetName.match(/(\d{2})-(\d{2})-(\d{4})\s*a\s*(\d{2})-(\d{2})-(\d{4})/);
+  if (!m) return null;
+  return { start: `${m[3]}-${m[2]}-${m[1]}`, end: `${m[6]}-${m[5]}-${m[4]}` };
+}
+
+const lastDay = (() => {
+  const [y, mo] = competencia.split("-").map(Number);
+  return String(new Date(y, mo, 0).getDate()).padStart(2, "0");
+})();
+const expectedStart = `${competencia}-01`;
+const expectedEnd = `${competencia}-${lastDay}`;
+const periodIssues = [];
+
+/**
+ * Valida o período da aba contra a competência.
+ * Retorna: 'ok' | 'partial' (mesmo mês, incompleto) | 'wrong' (outro mês)
+ */
+function checkPeriod(file, sheetName) {
+  const p = sheetPeriod(sheetName);
+  if (!p) return "ok"; // aba sem período no nome — segue
+  if (!p.start.startsWith(competencia) && !p.end.startsWith(competencia)) {
+    periodIssues.push(`${file}: aba "${sheetName}" é de OUTRO PERÍODO — arquivo ignorado, reexportar ${expectedStart} a ${expectedEnd}`);
+    return "wrong";
+  }
+  if (p.start !== expectedStart || p.end !== expectedEnd) {
+    periodIssues.push(`${file}: aba "${sheetName}" cobre só parte do mês — reexportar ${expectedStart} a ${expectedEnd}`);
+    return "partial";
+  }
+  return "ok";
 }
 
 // ---------- fontes ----------
@@ -108,6 +143,8 @@ if (existsSync(apiPath)) {
 // ---------- 1. Abono de Faltas -> abonado por pessoa + totais por motivo ----------
 
 const abono = readSheet("AbonoDeFaltas.xlsx");
+const abonoStatus = checkPeriod("AbonoDeFaltas.xlsx", abono.sheetName);
+if (abonoStatus === "wrong") abono.rows = [];
 const cFunc = abono.col("Funcionário");
 const cEmp = abono.col("Empresa");
 const cMot = abono.col("Motivo");
@@ -146,6 +183,7 @@ for (const r of abono.rows) {
 // ---------- 2. Extrato de Horas -> HE + empresa por pessoa ----------
 
 const extrato = readSheet("Extrato de Horas.xlsx");
+const extratoStatus = checkPeriod("Extrato de Horas.xlsx", extrato.sheetName);
 const xFunc = extrato.col("Funcionário");
 const xEmp = extrato.col("Empresa");
 const xHe = extrato.col("Extra Diurna Trabalhada"); // EX¹
@@ -153,7 +191,8 @@ const heByName = new Map();
 const companyNameByName = new Map();
 for (const r of extrato.rows) {
   const k = nameKey(r[xFunc]);
-  heByName.set(k, toMinutes(r[xHe]));
+  // extrato de outro mês: aproveita só o mapeamento nome->empresa, nunca as horas
+  if (extratoStatus === "ok") heByName.set(k, toMinutes(r[xHe]));
   const comp = companyFromName(r[xEmp]);
   if (comp) companyNameByName.set(k, comp);
 }
@@ -168,6 +207,11 @@ for (const r of abono.rows) {
 // ---------- 3. Absenteísmo (base do quadro) -> consolidado ----------
 
 const abs = readSheet("Absenteismo.xlsx");
+if (checkPeriod("Absenteismo.xlsx", abs.sheetName) !== "ok") {
+  console.error(`[ingest] ABORTADO: Absenteismo.xlsx precisa cobrir o mês inteiro (${expectedStart} a ${expectedEnd}) — é a base do quadro.`);
+  console.error(periodIssues.join("\n"));
+  process.exit(1);
+}
 const aFunc = abs.col("Funcionário");
 const aPrev = abs.col("Horas Previstas");
 const aJust = abs.col("Faltas Justificadas");
@@ -231,6 +275,7 @@ const out = {
     unmatchedFromApi: unmatched,
     unknownMotivos: [...unknownMotivos],
     inconsistencies,
+    periodIssues,
   },
 };
 
@@ -244,3 +289,4 @@ console.log(`  lançamentos de abono: ${abono.rows.length} · motivos distintos:
 console.log(`  sem match na API (demitidos?): ${unmatched.length}`);
 if (unknownMotivos.size) console.log(`  MOTIVOS FORA DA BASE: ${[...unknownMotivos].join(" | ")}`);
 if (inconsistencies.length) console.log(`  inconsistências abono×ponto: ${inconsistencies.length}`);
+for (const issue of periodIssues) console.log(`  PERÍODO: ${issue}`);

@@ -1,5 +1,6 @@
 import type { EmployeeMonth, MotivoMonthTotal } from "../types";
 import { employeesMay2026, motivoTotalsMay2026 } from "./may-2026";
+import june2026Json from "@/data/competencias/2026-06.json";
 import july2026Json from "@/data/competencias/2026-07.json";
 
 /**
@@ -29,6 +30,15 @@ const may2026: CompetenciaData = {
   source: "amostra das planilhas de análise",
 };
 
+const june2026: CompetenciaData = {
+  key: "2026-06",
+  label: "Junho 2026",
+  employees: june2026Json.employees as EmployeeMonth[],
+  motivoTotals: june2026Json.motivoTotals as MotivoMonthTotal[],
+  source:
+    "PARCIAL — Abono exportado só de 30/06 e Extrato veio de maio (HE zerada); reexportar os dois relatórios do mês cheio",
+};
+
 const july2026: CompetenciaData = {
   key: "2026-07",
   label: "Julho 2026",
@@ -37,7 +47,7 @@ const july2026: CompetenciaData = {
   source: "relatórios crus + API de funcionários",
 };
 
-export const competencias: CompetenciaData[] = [may2026, july2026];
+export const competencias: CompetenciaData[] = [may2026, june2026, july2026];
 
 export const defaultCompetenciaKey = "2026-07";
 
