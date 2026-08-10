@@ -4,14 +4,9 @@ import { useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import type { EmployeeRanked } from "@/lib/data/aggregate";
 import type { CompanyKey } from "@/lib/types";
+import { companyLabel } from "@/lib/data/companies";
 import { formatDuration, formatPercent } from "@/lib/format";
 import clsx from "clsx";
-
-const companyLabel: Record<CompanyKey, string> = {
-  EMPREENDIMENTOS: "Negócios",
-  PARTICIPACOES: "Participações",
-  TATTINI: "Tattini",
-};
 
 export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
   const [query, setQuery] = useState("");
@@ -87,7 +82,7 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
           <tbody>
             {filtered.map((e) => (
               <tr
-                key={`${e.company}-${e.registration}`}
+                key={`${e.company}-${e.registration}-${e.name}`}
                 className="border-b border-black/5 hover:bg-black/[0.02]"
               >
                 <td className="px-4 py-2 tabular">{e.registration}</td>

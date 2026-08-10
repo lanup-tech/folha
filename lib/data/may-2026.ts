@@ -1,32 +1,12 @@
 import { parseDuration as d } from "../format";
-import type { Company, EmployeeMonth, CompanyKey, MotivoMonthTotal } from "../types";
+import type { EmployeeMonth, CompanyKey, MotivoMonthTotal } from "../types";
 
 /**
  * Competência MAIO/2026 — amostra real transcrita das planilhas
  * "01 ANALISE TATTINI/PARTICIPACOES/EMPREENDIMENTOS 05 2026" (Drive).
  * Em produção estes dados vêm do Supabase, alimentado por API + RPA.
+ * (As empresas/CNPJs ficam em lib/data/companies.ts.)
  */
-
-export const companies: Company[] = [
-  {
-    key: "EMPREENDIMENTOS",
-    name: "Funchal Negócios Empreendimentos LTDA",
-    shortName: "Negócios",
-    cnpj: "10.328.634/0001-21",
-  },
-  {
-    key: "PARTICIPACOES",
-    name: "Funchal Participações e Empreendimentos LTDA",
-    shortName: "Participações",
-    cnpj: null,
-  },
-  {
-    key: "TATTINI",
-    name: "Tattini Sociedade de Advogados",
-    shortName: "Tattini",
-    cnpj: null,
-  },
-];
 
 // [setor, matrícula, nome, cargo, admissão, HE, injustificada, abonada, justificada, planejado]
 type Row = [string, string, string, string, string, string, string, string, string, string];

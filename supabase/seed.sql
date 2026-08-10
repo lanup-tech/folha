@@ -11,10 +11,11 @@ from tenants where slug = 'nobriponto';
 insert into companies (client_id, name, short_name, cnpj)
 select c.id, v.name, v.short_name, v.cnpj
 from clients c,
+  -- CNPJs confirmados via API EzPoint (GET /funcionario, campo cnpjCpfEmpresa)
   (values
     ('Funchal Negócios Empreendimentos LTDA', 'Negócios', '10.328.634/0001-21'),
-    ('Funchal Participações e Empreendimentos LTDA', 'Participações', null),
-    ('Tattini Sociedade de Advogados', 'Tattini', null)
+    ('Funchal Participações e Empreendimentos LTDA', 'Participações', '30.511.674/0001-11'),
+    ('Tattini Sociedade de Advogados', 'Tattini', '10.550.544/0001-80')
   ) as v(name, short_name, cnpj)
 where c.slug = 'funchal';
 

@@ -1,6 +1,6 @@
 import { absHoraMin, type CompanyKey, type EmployeeMonth } from "../types";
 import { absRatio } from "../format";
-import { companies, employeesMay2026 } from "./may-2026";
+import { companies } from "./companies";
 
 export interface CompanySummary {
   key: CompanyKey;
@@ -34,9 +34,7 @@ export interface QualityAlert {
   message: string;
 }
 
-const all = employeesMay2026;
-
-export function companySummaries(): CompanySummary[] {
+export function companySummaries(all: EmployeeMonth[]): CompanySummary[] {
   return companies.map((c) => {
     const rows = all.filter((e) => e.company === c.key);
     const plannedMin = sum(rows, (e) => e.plannedMin);
@@ -56,7 +54,7 @@ export function companySummaries(): CompanySummary[] {
   });
 }
 
-export function overallKpis() {
+export function overallKpis(all: EmployeeMonth[]) {
   const plannedMin = sum(all, (e) => e.plannedMin);
   const absMin = sum(all, absHoraMin);
   return {
@@ -68,13 +66,14 @@ export function overallKpis() {
     excusedMin: sum(all, (e) => e.excusedMin),
     justifiedMin: sum(all, (e) => e.justifiedMin),
     absPct: absRatio(absMin, plannedMin),
-    critical: rankedEmployees().filter((e) => e.absPct >= 0.1).length,
+    critical: rankedEmployees(all).filter((e) => e.absPct >= 0.1).length,
   };
 }
 
-export function sectorSummaries(top = 8): SectorSummary[] {
+export function sectorSummaries(all: EmployeeMonth[], top = 8): SectorSummary[] {
   const map = new Map<string, SectorSummary>();
   for (const e of all) {
+    if (!e.sector) continue;
     const key = `${e.company}|${e.sector}`;
     const cur =
       map.get(key) ??
@@ -91,7 +90,7 @@ export function sectorSummaries(top = 8): SectorSummary[] {
     .slice(0, top);
 }
 
-export function rankedEmployees(): EmployeeRanked[] {
+export function rankedEmployees(all: EmployeeMonth[]): EmployeeRanked[] {
   return all
     .map((e) => {
       const absMin = absHoraMin(e);
@@ -101,9 +100,9 @@ export function rankedEmployees(): EmployeeRanked[] {
 }
 
 /** Regra do negócio: ABS % nunca pode passar de 100% — acima disso é erro de carga. */
-export function qualityAlerts(): QualityAlert[] {
+export function qualityAlerts(all: EmployeeMonth[]): QualityAlert[] {
   const alerts: QualityAlert[] = [];
-  for (const e of rankedEmployees()) {
+  for (const e of rankedEmployees(all)) {
     if (e.absPct > 1) {
       alerts.push({ employee: e, message: "ABS % acima de 100% — revisar carga de dados" });
     } else if (e.absPct === 1 && e.plannedMin > 0) {

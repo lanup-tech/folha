@@ -10,21 +10,39 @@ import {
   rankedEmployees,
   sectorSummaries,
 } from "@/lib/data/aggregate";
-import { motivoTotalsMay2026 } from "@/lib/data/may-2026";
+import { getCompetencia } from "@/lib/data/competencias";
+import { companyLabel } from "@/lib/data/companies";
 import { formatDuration, formatPercent } from "@/lib/format";
 import { AlertTriangle } from "lucide-react";
 
-export default function DashboardPage() {
-  const kpis = overallKpis();
-  const byCompany = companySummaries();
-  const alerts = qualityAlerts();
-  const top = rankedEmployees().filter((e) => e.absPct > 0 && e.absPct <= 1).slice(0, 10);
-  const sectors = sectorSummaries(6);
+const MAX_ALERTS_SHOWN = 8;
+
+export default async function DashboardPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ competencia?: string }>;
+}) {
+  const params = await searchParams;
+  const comp = getCompetencia(params.competencia);
+  const employees = comp.employees;
+
+  const kpis = overallKpis(employees);
+  const byCompany = companySummaries(employees);
+  const alerts = qualityAlerts(employees);
+  const top = rankedEmployees(employees)
+    .filter((e) => e.absPct > 0 && e.absPct <= 1)
+    .slice(0, 10);
+  const sectors = sectorSummaries(employees, 6);
+  const motivos = comp.motivoTotals.slice(0, 10);
 
   return (
     <>
-      <Topbar title="Visão geral do absenteísmo" />
+      <Topbar title="Visão geral do absenteísmo" competencia={comp.key} />
       <main className="flex flex-col gap-4 p-6">
+        <p className="text-xs text-[var(--ink-muted)]">
+          Competência {comp.label} · fonte: {comp.source}
+        </p>
+
         {/* KPIs */}
         <section className="grid grid-cols-2 gap-4 lg:grid-cols-5">
           <KpiCard
@@ -59,7 +77,7 @@ export default function DashboardPage() {
               Alertas de qualidade ({alerts.length})
             </h2>
             <ul className="flex flex-col gap-1 text-sm text-[var(--ink-secondary)]">
-              {alerts.map((a, i) => (
+              {alerts.slice(0, MAX_ALERTS_SHOWN).map((a, i) => (
                 <li key={i}>
                   <span className="font-medium text-[var(--ink-primary)]">
                     {a.employee.name}
@@ -68,6 +86,11 @@ export default function DashboardPage() {
                 </li>
               ))}
             </ul>
+            {alerts.length > MAX_ALERTS_SHOWN && (
+              <p className="mt-2 text-xs text-[var(--ink-muted)]">
+                + {alerts.length - MAX_ALERTS_SHOWN} outros — ver página Colaboradores
+              </p>
+            )}
           </section>
         )}
 
@@ -97,9 +120,11 @@ export default function DashboardPage() {
         {/* Gráficos linha 2 */}
         <section className="grid grid-cols-1 gap-4 xl:grid-cols-2">
           <div className="card p-4">
-            <h2 className="mb-3 text-sm font-semibold">Horas por motivo (Abono de Faltas)</h2>
+            <h2 className="mb-3 text-sm font-semibold">
+              Horas por motivo (Abono de Faltas) — top {motivos.length}
+            </h2>
             <TopMotivosChart
-              data={motivoTotalsMay2026.map((m) => ({
+              data={motivos.map((m) => ({
                 motivo: m.motivo,
                 horas: m.totalMin / 60,
                 treatment: m.treatment,
@@ -151,15 +176,9 @@ export default function DashboardPage() {
             </thead>
             <tbody>
               {top.map((e) => (
-                <tr key={`${e.company}-${e.registration}`} className="border-b border-black/5">
+                <tr key={`${e.company}-${e.registration}-${e.name}`} className="border-b border-black/5">
                   <td className="py-2 font-medium">{e.name}</td>
-                  <td className="py-2 text-[var(--ink-secondary)]">
-                    {e.company === "EMPREENDIMENTOS"
-                      ? "Negócios"
-                      : e.company === "PARTICIPACOES"
-                        ? "Participações"
-                        : "Tattini"}
-                  </td>
+                  <td className="py-2 text-[var(--ink-secondary)]">{companyLabel[e.company]}</td>
                   <td className="py-2 text-[var(--ink-secondary)]">{e.sector}</td>
                   <td className="py-2 text-right tabular">{formatDuration(e.unjustifiedMin)}</td>
                   <td className="py-2 text-right tabular">{formatDuration(e.excusedMin)}</td>

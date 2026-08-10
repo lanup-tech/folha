@@ -19,6 +19,19 @@ npm install
 npm run dev   # http://localhost:3000
 ```
 
+### Carregando uma competência a partir dos relatórios crus
+
+Coloque `Absenteismo.xlsx`, `Extrato de Horas.xlsx`, `AbonoDeFaltas.xlsx` (e o
+`funcionarios_api.json` do `GET /funcionario`) em `data/raw/<AAAA-MM>/` e rode:
+
+```bash
+node scripts/ingest-competencia.mjs data/raw/2026-07 2026-07
+```
+
+Gera `data/competencias/<AAAA-MM>.json`, registre em `lib/data/competencias.ts`
+e a competência aparece no seletor do painel. `data/raw/` fica fora do git
+(dados pessoais).
+
 Sem credenciais o painel roda com os dados da competência **maio/2026**
 (amostra real transcrita das planilhas) em `lib/data/may-2026.ts` — o visual e
 as regras de cálculo já são os definitivos; só a origem dos dados muda quando o
