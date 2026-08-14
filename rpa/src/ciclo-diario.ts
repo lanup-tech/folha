@@ -43,13 +43,29 @@ const carga = etapa(
   raiz
 );
 
+let consolidou = false;
+let integra = false;
 if (carga) {
-  etapa(
-    "3/3 consolidação da competência",
+  consolidou = etapa(
+    "3/4 consolidação da competência",
     "node",
     ["scripts/montar-competencia-api.mjs", competencia],
     raiz
   );
 }
 
-console.log(`\n[${carimbo()}] ciclo encerrado (abono=${abono ? "ok" : "falhou"}, carga=${carga ? "ok" : "falhou"})`);
+if (consolidou) {
+  // sanidade antes de considerar o dia fechado: ABS > 100%, motivos fora da
+  // base, empresa zerada… (sai com código 1 e aparece no log do cron)
+  integra = etapa(
+    "4/4 validação da competência",
+    "node",
+    ["scripts/validar-competencia.mjs", competencia],
+    raiz
+  );
+}
+
+console.log(
+  `\n[${carimbo()}] ciclo encerrado — abono=${abono ? "ok" : "falhou"} · carga=${carga ? "ok" : "falhou"} · consolidação=${consolidou ? "ok" : "falhou"} · validação=${integra ? "ok" : "com problemas"}`
+);
+if (!abono || !carga || !consolidou || !integra) process.exitCode = 1;
