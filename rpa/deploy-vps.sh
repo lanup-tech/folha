@@ -41,8 +41,9 @@ fi
 
 echo "==> 5/5 agendamento"
 cat >/etc/cron.d/nobri-rpa <<'CRON'
-# Coleta diária do Abono de Faltas + ingestão (06:00)
-0 6 * * * nobri cd /opt/nobri-ponto/rpa && /usr/bin/npx tsx src/collect-abono.ts >> /var/log/nobri-rpa.log 2>&1
+# Ciclo diário 06:00 — Abono (RPA) + carga da API + consolidação da competência
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+0 6 * * * nobri cd /opt/nobri-ponto/rpa && npx tsx src/ciclo-diario.ts >> /var/log/nobri-rpa.log 2>&1
 CRON
 chmod 644 /etc/cron.d/nobri-rpa
 touch /var/log/nobri-rpa.log && chown "$USER_SVC:$USER_SVC" /var/log/nobri-rpa.log
