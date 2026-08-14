@@ -12,7 +12,9 @@
       "unjustifiedMin": 810,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "FOLGA COMPENSAÇÃO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -25,7 +27,9 @@
       "unjustifiedMin": 314,
       "excusedMin": 142,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -38,7 +42,9 @@
       "unjustifiedMin": 279,
       "excusedMin": 1979,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -51,7 +57,9 @@
       "unjustifiedMin": 700,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -64,7 +72,9 @@
       "unjustifiedMin": 1089,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -77,7 +87,9 @@
       "unjustifiedMin": 930,
       "excusedMin": 743,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -90,7 +102,9 @@
       "unjustifiedMin": 313,
       "excusedMin": 689,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -103,7 +117,9 @@
       "unjustifiedMin": 2362,
       "excusedMin": 110,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -116,7 +132,9 @@
       "unjustifiedMin": 521,
       "excusedMin": 1440,
       "justifiedMin": 270,
-      "plannedMin": 11940
+      "plannedMin": 11940,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -129,7 +147,9 @@
       "unjustifiedMin": 1298,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "FOLGA COMPENSAÇÃO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -142,7 +162,9 @@
       "unjustifiedMin": 2550,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -155,7 +177,9 @@
       "unjustifiedMin": 690,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -168,7 +192,9 @@
       "unjustifiedMin": 1759,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -181,7 +207,9 @@
       "unjustifiedMin": 168,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -194,7 +222,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 480,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -207,7 +237,9 @@
       "unjustifiedMin": 1526,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -220,7 +252,9 @@
       "unjustifiedMin": 785,
       "excusedMin": 640,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -233,7 +267,9 @@
       "unjustifiedMin": 540,
       "excusedMin": 1920,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -246,7 +282,9 @@
       "unjustifiedMin": 270,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -259,7 +297,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -272,7 +312,9 @@
       "unjustifiedMin": 1369,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8640
+      "plannedMin": 8640,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -285,7 +327,9 @@
       "unjustifiedMin": 1920,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -298,7 +342,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 56,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -311,7 +357,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 179,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -324,7 +372,9 @@
       "unjustifiedMin": 791,
       "excusedMin": 3037,
       "justifiedMin": 150,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -337,7 +387,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -350,7 +402,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 429,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -363,7 +417,9 @@
       "unjustifiedMin": 539,
       "excusedMin": 424,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -376,7 +432,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 510,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -389,7 +447,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -402,7 +462,9 @@
       "unjustifiedMin": 1619,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -415,7 +477,9 @@
       "unjustifiedMin": 82,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -428,7 +492,9 @@
       "unjustifiedMin": 162,
       "excusedMin": 135,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -441,7 +507,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -454,7 +522,9 @@
       "unjustifiedMin": 744,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 1280
+      "plannedMin": 1280,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -467,7 +537,9 @@
       "unjustifiedMin": 971,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -480,7 +552,9 @@
       "unjustifiedMin": 479,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -493,7 +567,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8320,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -506,7 +582,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -519,7 +597,9 @@
       "unjustifiedMin": 38,
       "excusedMin": 109,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -532,7 +612,9 @@
       "unjustifiedMin": 2540,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 5120
+      "plannedMin": 5120,
+      "mainMotivo": "TREINAMENTO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -545,7 +627,9 @@
       "unjustifiedMin": 1750,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -558,7 +642,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -571,7 +657,9 @@
       "unjustifiedMin": 837,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -584,7 +672,9 @@
       "unjustifiedMin": 80,
       "excusedMin": 2664,
       "justifiedMin": 150,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -597,7 +687,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -610,7 +702,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -623,7 +717,9 @@
       "unjustifiedMin": 1819,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -636,7 +732,9 @@
       "unjustifiedMin": 1529,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -649,7 +747,9 @@
       "unjustifiedMin": 446,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -662,7 +762,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 76,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -675,7 +777,9 @@
       "unjustifiedMin": 54,
       "excusedMin": 1185,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -688,7 +792,9 @@
       "unjustifiedMin": 571,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -701,7 +807,9 @@
       "unjustifiedMin": 804,
       "excusedMin": 300,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ESCOLAR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -714,7 +822,9 @@
       "unjustifiedMin": 140,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -727,7 +837,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 272,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -740,7 +852,9 @@
       "unjustifiedMin": 102,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -753,7 +867,9 @@
       "unjustifiedMin": 886,
       "excusedMin": 2400,
       "justifiedMin": 150,
-      "plannedMin": 9180
+      "plannedMin": 9180,
+      "mainMotivo": "ATESTADO INTERNACAO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -766,7 +882,9 @@
       "unjustifiedMin": 903,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -779,7 +897,9 @@
       "unjustifiedMin": 49,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -792,7 +912,9 @@
       "unjustifiedMin": 59,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -805,7 +927,9 @@
       "unjustifiedMin": 480,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -818,7 +942,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8320,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -831,7 +957,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -844,7 +972,9 @@
       "unjustifiedMin": 538,
       "excusedMin": 7140,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -857,7 +987,9 @@
       "unjustifiedMin": 103,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -870,7 +1002,9 @@
       "unjustifiedMin": 1864,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 7140
+      "plannedMin": 7140,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -883,7 +1017,9 @@
       "unjustifiedMin": 1949,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -896,7 +1032,9 @@
       "unjustifiedMin": 443,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -909,7 +1047,9 @@
       "unjustifiedMin": 497,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -922,7 +1062,9 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -935,7 +1077,9 @@
       "unjustifiedMin": 2398,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -948,7 +1092,9 @@
       "unjustifiedMin": 1049,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -961,7 +1107,9 @@
       "unjustifiedMin": 432,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -974,7 +1122,9 @@
       "unjustifiedMin": 47,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -987,7 +1137,9 @@
       "unjustifiedMin": 293,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1000,7 +1152,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1013,7 +1167,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1026,7 +1182,9 @@
       "unjustifiedMin": 659,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1039,7 +1197,9 @@
       "unjustifiedMin": 1626,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1052,7 +1212,9 @@
       "unjustifiedMin": 4290,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 7140
+      "plannedMin": 7140,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1065,7 +1227,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -1078,7 +1242,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 89,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1091,7 +1257,9 @@
       "unjustifiedMin": 107,
       "excusedMin": 1130,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1104,7 +1272,9 @@
       "unjustifiedMin": 5760,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1117,7 +1287,9 @@
       "unjustifiedMin": 259,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1130,7 +1302,9 @@
       "unjustifiedMin": 1907,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1143,7 +1317,9 @@
       "unjustifiedMin": 817,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1156,7 +1332,9 @@
       "unjustifiedMin": 1665,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -1169,7 +1347,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1182,7 +1362,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1195,7 +1377,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 135,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1208,7 +1392,9 @@
       "unjustifiedMin": 980,
       "excusedMin": 127,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1221,7 +1407,9 @@
       "unjustifiedMin": 391,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1234,7 +1422,9 @@
       "unjustifiedMin": 161,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1247,7 +1437,9 @@
       "unjustifiedMin": 458,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1260,7 +1452,9 @@
       "unjustifiedMin": 714,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1273,7 +1467,9 @@
       "unjustifiedMin": 765,
       "excusedMin": 2496,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1286,7 +1482,9 @@
       "unjustifiedMin": 374,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1299,7 +1497,9 @@
       "unjustifiedMin": 296,
       "excusedMin": 1037,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1312,7 +1512,9 @@
       "unjustifiedMin": 39,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1325,7 +1527,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 360,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1338,7 +1542,9 @@
       "unjustifiedMin": 571,
       "excusedMin": 647,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1351,7 +1557,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 1775,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1364,7 +1572,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1377,7 +1587,9 @@
       "unjustifiedMin": 262,
       "excusedMin": 315,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1390,7 +1602,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1403,7 +1617,9 @@
       "unjustifiedMin": 624,
       "excusedMin": 103,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1416,7 +1632,9 @@
       "unjustifiedMin": 1300,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1429,7 +1647,9 @@
       "unjustifiedMin": 1680,
       "excusedMin": 2940,
       "justifiedMin": 180,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1442,7 +1662,9 @@
       "unjustifiedMin": 487,
       "excusedMin": 300,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1455,7 +1677,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1468,7 +1692,9 @@
       "unjustifiedMin": 1140,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1481,7 +1707,9 @@
       "unjustifiedMin": 1022,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1494,7 +1722,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 1020,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1507,7 +1737,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 778,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -1520,7 +1752,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1533,7 +1767,9 @@
       "unjustifiedMin": 380,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1546,7 +1782,9 @@
       "unjustifiedMin": 71,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1559,7 +1797,9 @@
       "unjustifiedMin": 179,
       "excusedMin": 103,
       "justifiedMin": 0,
-      "plannedMin": 11580
+      "plannedMin": 11580,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1572,7 +1812,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1585,7 +1827,9 @@
       "unjustifiedMin": 215,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1598,7 +1842,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 1296,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1611,7 +1857,9 @@
       "unjustifiedMin": 545,
       "excusedMin": 628,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1624,7 +1872,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1637,7 +1887,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 149,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -1650,7 +1902,9 @@
       "unjustifiedMin": 88,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1663,7 +1917,9 @@
       "unjustifiedMin": 820,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1676,7 +1932,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 130,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1689,7 +1947,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1702,7 +1962,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1715,7 +1977,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 1050,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1728,7 +1992,9 @@
       "unjustifiedMin": 667,
       "excusedMin": 712,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1741,7 +2007,9 @@
       "unjustifiedMin": 1094,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 7140
+      "plannedMin": 7140,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1754,7 +2022,9 @@
       "unjustifiedMin": 432,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1767,7 +2037,9 @@
       "unjustifiedMin": 1770,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1780,7 +2052,9 @@
       "unjustifiedMin": 228,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -1793,7 +2067,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 469,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -1806,7 +2082,9 @@
       "unjustifiedMin": 161,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1819,7 +2097,9 @@
       "unjustifiedMin": 1572,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1832,7 +2112,9 @@
       "unjustifiedMin": 221,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1845,7 +2127,9 @@
       "unjustifiedMin": 465,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1858,7 +2142,9 @@
       "unjustifiedMin": 286,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1871,7 +2157,9 @@
       "unjustifiedMin": 180,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1884,7 +2172,9 @@
       "unjustifiedMin": 530,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -1897,7 +2187,9 @@
       "unjustifiedMin": 2514,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1910,7 +2202,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -1923,7 +2217,9 @@
       "unjustifiedMin": 2471,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1936,7 +2232,9 @@
       "unjustifiedMin": 1060,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 2040
+      "plannedMin": 2040,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1949,7 +2247,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 397,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1962,7 +2262,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 5760,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1975,7 +2277,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1988,7 +2292,9 @@
       "unjustifiedMin": 1178,
       "excusedMin": 3043,
       "justifiedMin": 180,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2001,7 +2307,9 @@
       "unjustifiedMin": 312,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2014,7 +2322,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 164,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -2027,7 +2337,9 @@
       "unjustifiedMin": 31,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2040,7 +2352,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 354,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2053,7 +2367,9 @@
       "unjustifiedMin": 197,
       "excusedMin": 375,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2066,7 +2382,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2079,7 +2397,9 @@
       "unjustifiedMin": 705,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2092,7 +2412,9 @@
       "unjustifiedMin": 527,
       "excusedMin": 44,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2105,7 +2427,9 @@
       "unjustifiedMin": 8320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2118,7 +2442,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2131,7 +2457,9 @@
       "unjustifiedMin": 140,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2144,7 +2472,9 @@
       "unjustifiedMin": 700,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2157,7 +2487,9 @@
       "unjustifiedMin": 2504,
       "excusedMin": 96,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2170,7 +2502,9 @@
       "unjustifiedMin": 693,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2183,7 +2517,9 @@
       "unjustifiedMin": 293,
       "excusedMin": 1076,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2196,7 +2532,9 @@
       "unjustifiedMin": 1967,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2209,7 +2547,9 @@
       "unjustifiedMin": 1514,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2222,7 +2562,9 @@
       "unjustifiedMin": 654,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2235,7 +2577,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELA EMPRESA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2248,7 +2592,9 @@
       "unjustifiedMin": 1201,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2261,7 +2607,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 6784,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -2274,7 +2622,9 @@
       "unjustifiedMin": 2040,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2287,7 +2637,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 155,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2300,7 +2652,9 @@
       "unjustifiedMin": 33,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "PROBLEMA VPN",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2313,7 +2667,9 @@
       "unjustifiedMin": 872,
       "excusedMin": 597,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2326,7 +2682,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 121,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2339,7 +2697,9 @@
       "unjustifiedMin": 91,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2352,7 +2712,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2365,7 +2727,9 @@
       "unjustifiedMin": 1079,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2378,7 +2742,9 @@
       "unjustifiedMin": 847,
       "excusedMin": 153,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -2391,7 +2757,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8320,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2404,7 +2772,9 @@
       "unjustifiedMin": 8701,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2417,7 +2787,9 @@
       "unjustifiedMin": 208,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2430,7 +2802,9 @@
       "unjustifiedMin": 543,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2443,7 +2817,9 @@
       "unjustifiedMin": 153,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2456,7 +2832,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2469,7 +2847,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2482,7 +2862,9 @@
       "unjustifiedMin": 436,
       "excusedMin": 3200,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2495,7 +2877,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2508,7 +2892,9 @@
       "unjustifiedMin": 24,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -2521,7 +2907,9 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2534,7 +2922,9 @@
       "unjustifiedMin": 979,
       "excusedMin": 1494,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2547,7 +2937,9 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2560,7 +2952,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2573,7 +2967,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 2644,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2586,7 +2982,9 @@
       "unjustifiedMin": 919,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "FOLGA COMPENSAÇÃO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2599,7 +2997,9 @@
       "unjustifiedMin": 245,
       "excusedMin": 1535,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2612,7 +3012,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2625,7 +3027,9 @@
       "unjustifiedMin": 1920,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2638,7 +3042,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 640,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -2651,7 +3057,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2664,7 +3072,9 @@
       "unjustifiedMin": 83,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2677,7 +3087,9 @@
       "unjustifiedMin": 174,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2690,7 +3102,9 @@
       "unjustifiedMin": 7344,
       "excusedMin": 864,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -2703,7 +3117,9 @@
       "unjustifiedMin": 725,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2716,7 +3132,9 @@
       "unjustifiedMin": 31,
       "excusedMin": 432,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2729,7 +3147,9 @@
       "unjustifiedMin": 394,
       "excusedMin": 1546,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2742,7 +3162,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2755,7 +3177,9 @@
       "unjustifiedMin": 22,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2768,7 +3192,9 @@
       "unjustifiedMin": 775,
       "excusedMin": 2291,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2781,7 +3207,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 150,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2794,7 +3222,9 @@
       "unjustifiedMin": 1075,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2807,7 +3237,9 @@
       "unjustifiedMin": 653,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "FOLGA COMPENSAÇÃO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2820,7 +3252,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2833,7 +3267,9 @@
       "unjustifiedMin": 1150,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2846,7 +3282,9 @@
       "unjustifiedMin": 123,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2859,7 +3297,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2872,7 +3312,9 @@
       "unjustifiedMin": 57,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2885,7 +3327,9 @@
       "unjustifiedMin": 149,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2898,7 +3342,9 @@
       "unjustifiedMin": 231,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2911,7 +3357,9 @@
       "unjustifiedMin": 238,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -2924,7 +3372,9 @@
       "unjustifiedMin": 185,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2937,7 +3387,9 @@
       "unjustifiedMin": 790,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2950,7 +3402,9 @@
       "unjustifiedMin": 855,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2963,7 +3417,9 @@
       "unjustifiedMin": 334,
       "excusedMin": 640,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2976,7 +3432,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2989,7 +3447,9 @@
       "unjustifiedMin": 1316,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3002,7 +3462,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 1586,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -3015,7 +3477,9 @@
       "unjustifiedMin": 654,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3028,7 +3492,9 @@
       "unjustifiedMin": 461,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3041,7 +3507,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 210,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3054,7 +3522,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3067,7 +3537,9 @@
       "unjustifiedMin": 81,
       "excusedMin": 272,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3080,7 +3552,9 @@
       "unjustifiedMin": 936,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 2040
+      "plannedMin": 2040,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3093,7 +3567,9 @@
       "unjustifiedMin": 110,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3106,7 +3582,9 @@
       "unjustifiedMin": 948,
       "excusedMin": 640,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3119,7 +3597,9 @@
       "unjustifiedMin": 41,
       "excusedMin": 864,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3132,7 +3612,9 @@
       "unjustifiedMin": 287,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3145,7 +3627,9 @@
       "unjustifiedMin": 110,
       "excusedMin": 84,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3158,7 +3642,9 @@
       "unjustifiedMin": 614,
       "excusedMin": 756,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3171,7 +3657,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3184,7 +3672,9 @@
       "unjustifiedMin": 443,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3197,7 +3687,9 @@
       "unjustifiedMin": 857,
       "excusedMin": 64,
       "justifiedMin": 0,
-      "plannedMin": 9180
+      "plannedMin": 9180,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3210,7 +3702,9 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3223,7 +3717,9 @@
       "unjustifiedMin": 2215,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3236,7 +3732,9 @@
       "unjustifiedMin": 202,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3249,7 +3747,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3262,7 +3762,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3275,7 +3777,9 @@
       "unjustifiedMin": 34,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3288,7 +3792,9 @@
       "unjustifiedMin": 594,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3301,7 +3807,9 @@
       "unjustifiedMin": 137,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3314,7 +3822,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 159,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3327,7 +3837,9 @@
       "unjustifiedMin": 345,
       "excusedMin": 209,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3340,7 +3852,9 @@
       "unjustifiedMin": 865,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3353,7 +3867,9 @@
       "unjustifiedMin": 270,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3366,7 +3882,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3379,7 +3897,9 @@
       "unjustifiedMin": 71,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 3888
+      "plannedMin": 3888,
+      "mainMotivo": "TREINAMENTO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3392,7 +3912,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 4907,
       "justifiedMin": 300,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3405,7 +3927,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3418,7 +3942,9 @@
       "unjustifiedMin": 762,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3431,7 +3957,9 @@
       "unjustifiedMin": 340,
       "excusedMin": 387,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3444,7 +3972,9 @@
       "unjustifiedMin": 315,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO ÓBITO FAMILIAR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -3457,7 +3987,9 @@
       "unjustifiedMin": 288,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3470,7 +4002,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3483,7 +4017,9 @@
       "unjustifiedMin": 1118,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3496,7 +4032,9 @@
       "unjustifiedMin": 614,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3509,7 +4047,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3522,7 +4062,9 @@
       "unjustifiedMin": 55,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3535,7 +4077,9 @@
       "unjustifiedMin": 30,
       "excusedMin": 2040,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3548,7 +4092,9 @@
       "unjustifiedMin": 592,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3561,7 +4107,9 @@
       "unjustifiedMin": 258,
       "excusedMin": 210,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -3574,7 +4122,9 @@
       "unjustifiedMin": 270,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -3587,7 +4137,9 @@
       "unjustifiedMin": 63,
       "excusedMin": 1920,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -3600,7 +4152,9 @@
       "unjustifiedMin": 184,
       "excusedMin": 628,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3613,7 +4167,9 @@
       "unjustifiedMin": 115,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3626,7 +4182,9 @@
       "unjustifiedMin": 1178,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9180
+      "plannedMin": 9180,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3639,7 +4197,9 @@
       "unjustifiedMin": 295,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3652,7 +4212,9 @@
       "unjustifiedMin": 1030,
       "excusedMin": 1107,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3665,7 +4227,9 @@
       "unjustifiedMin": 192,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "PROBLEMAS TRANSPORTE PUBLICO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3678,7 +4242,9 @@
       "unjustifiedMin": 29,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3691,7 +4257,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 2055,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -3704,7 +4272,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3717,7 +4287,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -3730,7 +4302,9 @@
       "unjustifiedMin": 143,
       "excusedMin": 164,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -3743,7 +4317,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 7680,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3756,7 +4332,9 @@
       "unjustifiedMin": 1220,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3769,7 +4347,9 @@
       "unjustifiedMin": 158,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3782,7 +4362,9 @@
       "unjustifiedMin": 645,
       "excusedMin": 172,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3795,7 +4377,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 0,
-      "plannedMin": 11580
+      "plannedMin": 11580,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3808,7 +4392,9 @@
       "unjustifiedMin": 1970,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3821,7 +4407,9 @@
       "unjustifiedMin": 153,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 5100
+      "plannedMin": 5100,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3834,7 +4422,9 @@
       "unjustifiedMin": 36,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3847,7 +4437,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8320,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3860,7 +4452,9 @@
       "unjustifiedMin": 41,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3873,7 +4467,9 @@
       "unjustifiedMin": 589,
       "excusedMin": 377,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3886,7 +4482,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 2640,
       "justifiedMin": 0,
-      "plannedMin": 11640
+      "plannedMin": 11640,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3899,7 +4497,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 189,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3912,7 +4512,9 @@
       "unjustifiedMin": 89,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3925,7 +4527,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3938,7 +4542,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 2550,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -3951,7 +4557,9 @@
       "unjustifiedMin": 1089,
       "excusedMin": 2400,
       "justifiedMin": 150,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3964,7 +4572,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 308,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3977,7 +4587,9 @@
       "unjustifiedMin": 529,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3990,7 +4602,9 @@
       "unjustifiedMin": 5219,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4003,7 +4617,9 @@
       "unjustifiedMin": 463,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4016,7 +4632,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -4029,7 +4647,9 @@
       "unjustifiedMin": 326,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4042,7 +4662,9 @@
       "unjustifiedMin": 400,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4055,7 +4677,9 @@
       "unjustifiedMin": 423,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4068,7 +4692,9 @@
       "unjustifiedMin": 560,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4081,7 +4707,9 @@
       "unjustifiedMin": 822,
       "excusedMin": 5100,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO INTERNACAO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4094,7 +4722,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4107,7 +4737,9 @@
       "unjustifiedMin": 807,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4120,7 +4752,9 @@
       "unjustifiedMin": 338,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4133,7 +4767,9 @@
       "unjustifiedMin": 24,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4146,7 +4782,9 @@
       "unjustifiedMin": 247,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4159,7 +4797,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4172,7 +4812,9 @@
       "unjustifiedMin": 793,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4185,7 +4827,9 @@
       "unjustifiedMin": 33,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4198,7 +4842,9 @@
       "unjustifiedMin": 257,
       "excusedMin": 734,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4211,7 +4857,9 @@
       "unjustifiedMin": 1609,
       "excusedMin": 5132,
       "justifiedMin": 300,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4224,7 +4872,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 2400,
       "justifiedMin": 150,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -4237,7 +4887,9 @@
       "unjustifiedMin": 199,
       "excusedMin": 267,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4250,7 +4902,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8640
+      "plannedMin": 8640,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -4263,7 +4917,9 @@
       "unjustifiedMin": 270,
       "excusedMin": 510,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4276,7 +4932,9 @@
       "unjustifiedMin": 1230,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4289,7 +4947,9 @@
       "unjustifiedMin": 4170,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4302,7 +4962,9 @@
       "unjustifiedMin": 128,
       "excusedMin": 1176,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4315,7 +4977,9 @@
       "unjustifiedMin": 75,
       "excusedMin": 1567,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4328,7 +4992,9 @@
       "unjustifiedMin": 256,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4341,7 +5007,9 @@
       "unjustifiedMin": 350,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4354,7 +5022,9 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4367,7 +5037,9 @@
       "unjustifiedMin": 2108,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "TREINAMENTO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4380,7 +5052,9 @@
       "unjustifiedMin": 1633,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4393,7 +5067,9 @@
       "unjustifiedMin": 254,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4406,7 +5082,9 @@
       "unjustifiedMin": 46,
       "excusedMin": 856,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO ÓBITO FAMILIAR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4419,7 +5097,9 @@
       "unjustifiedMin": 705,
       "excusedMin": 485,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4432,7 +5112,9 @@
       "unjustifiedMin": 270,
       "excusedMin": 228,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4445,7 +5127,9 @@
       "unjustifiedMin": 183,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4458,7 +5142,9 @@
       "unjustifiedMin": 1861,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4471,7 +5157,9 @@
       "unjustifiedMin": 1635,
       "excusedMin": 1280,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4484,7 +5172,9 @@
       "unjustifiedMin": 1200,
       "excusedMin": 120,
       "justifiedMin": 510,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DOAÇAO DE SANGUE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4497,7 +5187,9 @@
       "unjustifiedMin": 7040,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4510,7 +5202,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4523,7 +5217,9 @@
       "unjustifiedMin": 76,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4536,7 +5232,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "PROBLEMAS TRANSPORTE PUBLICO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "PARTICIPACOES",
@@ -4549,7 +5247,9 @@
       "unjustifiedMin": 2100,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4562,7 +5262,9 @@
       "unjustifiedMin": 273,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4575,7 +5277,9 @@
       "unjustifiedMin": 2159,
       "excusedMin": 5520,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4588,7 +5292,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 75,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4601,7 +5307,9 @@
       "unjustifiedMin": 224,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4614,7 +5322,9 @@
       "unjustifiedMin": 27,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4627,7 +5337,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -4640,7 +5352,9 @@
       "unjustifiedMin": 48,
       "excusedMin": 163,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4653,7 +5367,9 @@
       "unjustifiedMin": 129,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4666,7 +5382,9 @@
       "unjustifiedMin": 714,
       "excusedMin": 432,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -4679,7 +5397,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4692,7 +5412,9 @@
       "unjustifiedMin": 455,
       "excusedMin": 119,
       "justifiedMin": 510,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4705,7 +5427,9 @@
       "unjustifiedMin": 428,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -4718,7 +5442,9 @@
       "unjustifiedMin": 116,
       "excusedMin": 114,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4731,7 +5457,9 @@
       "unjustifiedMin": 591,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4744,7 +5472,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4757,7 +5487,9 @@
       "unjustifiedMin": 736,
       "excusedMin": 324,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4770,7 +5502,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4783,7 +5517,9 @@
       "unjustifiedMin": 1163,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4796,7 +5532,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4809,7 +5547,9 @@
       "unjustifiedMin": 408,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4822,7 +5562,9 @@
       "unjustifiedMin": 643,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4835,7 +5577,9 @@
       "unjustifiedMin": 241,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4848,7 +5592,9 @@
       "unjustifiedMin": 99,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4861,7 +5607,9 @@
       "unjustifiedMin": 1081,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4874,7 +5622,9 @@
       "unjustifiedMin": 332,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4887,7 +5637,9 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4900,7 +5652,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4913,7 +5667,9 @@
       "unjustifiedMin": 958,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4926,7 +5682,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 836,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4939,7 +5697,9 @@
       "unjustifiedMin": 1646,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 7140
+      "plannedMin": 7140,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4952,7 +5712,9 @@
       "unjustifiedMin": 39,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4965,7 +5727,9 @@
       "unjustifiedMin": 47,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4978,7 +5742,9 @@
       "unjustifiedMin": 6630,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4991,7 +5757,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5004,7 +5772,9 @@
       "unjustifiedMin": 577,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "TREINAMENTO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "TATTINI",
@@ -5017,7 +5787,9 @@
       "unjustifiedMin": 181,
       "excusedMin": 89,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5030,7 +5802,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5043,7 +5817,9 @@
       "unjustifiedMin": 39,
       "excusedMin": 146,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5056,7 +5832,9 @@
       "unjustifiedMin": 180,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5069,7 +5847,9 @@
       "unjustifiedMin": 99,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 5100
+      "plannedMin": 5100,
+      "mainMotivo": "TREINAMENTO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5082,7 +5862,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -5095,7 +5877,9 @@
       "unjustifiedMin": 776,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5108,7 +5892,9 @@
       "unjustifiedMin": 229,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5121,7 +5907,9 @@
       "unjustifiedMin": 1020,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -5134,7 +5922,9 @@
       "unjustifiedMin": 252,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5147,7 +5937,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5160,7 +5952,9 @@
       "unjustifiedMin": 1623,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5173,7 +5967,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5186,7 +5982,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5199,7 +5997,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 2880,
       "justifiedMin": 4770,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5212,7 +6012,9 @@
       "unjustifiedMin": 84,
       "excusedMin": 2760,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5225,7 +6027,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5238,7 +6042,9 @@
       "unjustifiedMin": 511,
       "excusedMin": 125,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5251,7 +6057,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 39,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5264,7 +6072,9 @@
       "unjustifiedMin": 914,
       "excusedMin": 97,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5277,7 +6087,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5290,7 +6102,9 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5303,7 +6117,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5316,7 +6132,9 @@
       "unjustifiedMin": 2820,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5329,7 +6147,9 @@
       "unjustifiedMin": 315,
       "excusedMin": 524,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5342,7 +6162,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 9504,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5355,7 +6177,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5368,7 +6192,9 @@
       "unjustifiedMin": 914,
       "excusedMin": 615,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5381,7 +6207,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5394,7 +6222,9 @@
       "unjustifiedMin": 99,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5407,7 +6237,9 @@
       "unjustifiedMin": 634,
       "excusedMin": 1530,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5420,7 +6252,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5433,7 +6267,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5446,7 +6282,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 1177,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5459,7 +6297,9 @@
       "unjustifiedMin": 102,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5472,7 +6312,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5485,7 +6327,9 @@
       "unjustifiedMin": 170,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5498,7 +6342,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5511,7 +6357,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 179,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5524,7 +6372,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 2160,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -5537,7 +6387,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5550,7 +6402,9 @@
       "unjustifiedMin": 462,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5563,7 +6417,9 @@
       "unjustifiedMin": 449,
       "excusedMin": 2550,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5576,7 +6432,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5589,7 +6447,9 @@
       "unjustifiedMin": 138,
       "excusedMin": 194,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5602,7 +6462,9 @@
       "unjustifiedMin": 1343,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5615,7 +6477,9 @@
       "unjustifiedMin": 125,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5628,7 +6492,9 @@
       "unjustifiedMin": 990,
       "excusedMin": 640,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5641,7 +6507,9 @@
       "unjustifiedMin": 1110,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5654,7 +6522,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8310
+      "plannedMin": 8310,
+      "mainMotivo": "FOLGA COMPENSAÇÃO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "TATTINI",
@@ -5667,7 +6537,9 @@
       "unjustifiedMin": 91,
       "excusedMin": 169,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5680,7 +6552,9 @@
       "unjustifiedMin": 507,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5693,7 +6567,9 @@
       "unjustifiedMin": 24,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5706,7 +6582,9 @@
       "unjustifiedMin": 1392,
       "excusedMin": 782,
       "justifiedMin": 5100,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "PARTICIPACOES",
@@ -5719,7 +6597,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 2737,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5732,7 +6612,9 @@
       "unjustifiedMin": 187,
       "excusedMin": 270,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5745,7 +6627,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5758,7 +6642,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 180,
       "justifiedMin": 0,
-      "plannedMin": 7560
+      "plannedMin": 7560,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5771,7 +6657,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 116,
       "justifiedMin": 0,
-      "plannedMin": 11580
+      "plannedMin": 11580,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5784,7 +6672,9 @@
       "unjustifiedMin": 1080,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5797,7 +6687,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 209,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5810,7 +6702,9 @@
       "unjustifiedMin": 280,
       "excusedMin": 38,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5823,7 +6717,9 @@
       "unjustifiedMin": 714,
       "excusedMin": 640,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -5836,7 +6732,9 @@
       "unjustifiedMin": 161,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5849,7 +6747,9 @@
       "unjustifiedMin": 1530,
       "excusedMin": 6720,
       "justifiedMin": 2970,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5862,7 +6762,9 @@
       "unjustifiedMin": 810,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5875,7 +6777,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5888,7 +6792,9 @@
       "unjustifiedMin": 89,
       "excusedMin": 1440,
       "justifiedMin": 120,
-      "plannedMin": 11640
+      "plannedMin": 11640,
+      "mainMotivo": "ATESTADO ÓBITO FAMILIAR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5901,7 +6807,9 @@
       "unjustifiedMin": 68,
       "excusedMin": 136,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5914,7 +6822,9 @@
       "unjustifiedMin": 1185,
       "excusedMin": 960,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5927,7 +6837,9 @@
       "unjustifiedMin": 44,
       "excusedMin": 206,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5940,7 +6852,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 1656,
       "justifiedMin": 0,
-      "plannedMin": 11640
+      "plannedMin": 11640,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5953,7 +6867,9 @@
       "unjustifiedMin": 923,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5966,7 +6882,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5979,7 +6897,9 @@
       "unjustifiedMin": 256,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5992,7 +6912,9 @@
       "unjustifiedMin": 245,
       "excusedMin": 170,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6005,7 +6927,9 @@
       "unjustifiedMin": 338,
       "excusedMin": 5483,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6018,7 +6942,9 @@
       "unjustifiedMin": 986,
       "excusedMin": 238,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6031,7 +6957,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 546,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6044,7 +6972,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 372,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6057,7 +6987,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6070,7 +7002,9 @@
       "unjustifiedMin": 1001,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6083,7 +7017,9 @@
       "unjustifiedMin": 267,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6096,7 +7032,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 6080,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -6109,7 +7047,9 @@
       "unjustifiedMin": 130,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6122,7 +7062,9 @@
       "unjustifiedMin": 102,
       "excusedMin": 1920,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -6135,7 +7077,9 @@
       "unjustifiedMin": 432,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6148,7 +7092,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -6161,7 +7107,9 @@
       "unjustifiedMin": 1620,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6174,7 +7122,9 @@
       "unjustifiedMin": 2642,
       "excusedMin": 3417,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6187,7 +7137,9 @@
       "unjustifiedMin": 432,
       "excusedMin": 666,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6200,7 +7152,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6213,7 +7167,9 @@
       "unjustifiedMin": 314,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -6226,7 +7182,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 7200,
       "justifiedMin": 1470,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -6239,7 +7197,9 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6252,7 +7212,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6265,7 +7227,9 @@
       "unjustifiedMin": 51,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": "TREINAMENTO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "PARTICIPACOES",
@@ -6278,7 +7242,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 76,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6291,7 +7257,9 @@
       "unjustifiedMin": 812,
       "excusedMin": 147,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6304,7 +7272,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6317,7 +7287,9 @@
       "unjustifiedMin": 326,
       "excusedMin": 1680,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6330,7 +7302,9 @@
       "unjustifiedMin": 3840,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6343,7 +7317,9 @@
       "unjustifiedMin": 1331,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6356,7 +7332,9 @@
       "unjustifiedMin": 380,
       "excusedMin": 1280,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6369,7 +7347,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6382,7 +7362,9 @@
       "unjustifiedMin": 42,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6395,7 +7377,9 @@
       "unjustifiedMin": 310,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6408,7 +7392,9 @@
       "unjustifiedMin": 92,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6421,7 +7407,9 @@
       "unjustifiedMin": 105,
       "excusedMin": 163,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6434,7 +7422,9 @@
       "unjustifiedMin": 1152,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6447,7 +7437,9 @@
       "unjustifiedMin": 252,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6460,7 +7452,9 @@
       "unjustifiedMin": 20,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6473,7 +7467,9 @@
       "unjustifiedMin": 59,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -6486,7 +7482,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 72,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6499,7 +7497,9 @@
       "unjustifiedMin": 877,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -6512,7 +7512,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 1015,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6525,7 +7527,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 321,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6538,7 +7542,9 @@
       "unjustifiedMin": 364,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6551,7 +7557,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6564,7 +7572,9 @@
       "unjustifiedMin": 917,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6577,7 +7587,9 @@
       "unjustifiedMin": 213,
       "excusedMin": 207,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6590,7 +7602,9 @@
       "unjustifiedMin": 426,
       "excusedMin": 531,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6603,7 +7617,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 247,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6616,7 +7632,9 @@
       "unjustifiedMin": 109,
       "excusedMin": 1650,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6629,7 +7647,9 @@
       "unjustifiedMin": 2166,
       "excusedMin": 4536,
       "justifiedMin": 270,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6642,7 +7662,9 @@
       "unjustifiedMin": 3900,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6655,7 +7677,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 3570,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6668,7 +7692,9 @@
       "unjustifiedMin": 1180,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 3888
+      "plannedMin": 3888,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6681,7 +7707,9 @@
       "unjustifiedMin": 972,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6694,7 +7722,9 @@
       "unjustifiedMin": 857,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6707,7 +7737,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6720,7 +7752,9 @@
       "unjustifiedMin": 870,
       "excusedMin": 749,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -6733,7 +7767,9 @@
       "unjustifiedMin": 69,
       "excusedMin": 20,
       "justifiedMin": 0,
-      "plannedMin": 11248
+      "plannedMin": 11248,
+      "mainMotivo": "FOLGA AUTORIZADA GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -6746,7 +7782,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6759,7 +7797,9 @@
       "unjustifiedMin": 659,
       "excusedMin": 1388,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6772,7 +7812,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6785,7 +7827,9 @@
       "unjustifiedMin": 252,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6798,7 +7842,9 @@
       "unjustifiedMin": 1350,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6811,7 +7857,9 @@
       "unjustifiedMin": 30,
       "excusedMin": 134,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6824,7 +7872,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 1915,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6837,7 +7887,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 210,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6850,7 +7902,9 @@
       "unjustifiedMin": 337,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -6863,7 +7917,9 @@
       "unjustifiedMin": 322,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6876,7 +7932,9 @@
       "unjustifiedMin": 974,
       "excusedMin": 162,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6889,7 +7947,9 @@
       "unjustifiedMin": 1549,
       "excusedMin": 960,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6902,7 +7962,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6915,7 +7977,9 @@
       "unjustifiedMin": 1530,
       "excusedMin": 1530,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6928,7 +7992,9 @@
       "unjustifiedMin": 80,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6941,7 +8007,9 @@
       "unjustifiedMin": 634,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "FOLGA COMPENSAÇÃO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6954,7 +8022,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6967,7 +8037,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6980,7 +8052,9 @@
       "unjustifiedMin": 39,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6993,7 +8067,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7006,7 +8082,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 671,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7019,7 +8097,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 315,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7032,7 +8112,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 1087,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7045,7 +8127,9 @@
       "unjustifiedMin": 1003,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9180
+      "plannedMin": 9180,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7058,7 +8142,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7071,7 +8157,9 @@
       "unjustifiedMin": 70,
       "excusedMin": 78,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -7084,7 +8172,9 @@
       "unjustifiedMin": 400,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7097,7 +8187,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4590
+      "plannedMin": 4590,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -7110,7 +8202,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7123,7 +8217,9 @@
       "unjustifiedMin": 156,
       "excusedMin": 2172,
       "justifiedMin": 1536,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7136,7 +8232,9 @@
       "unjustifiedMin": 744,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 1280
+      "plannedMin": 1280,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7149,7 +8247,9 @@
       "unjustifiedMin": 121,
       "excusedMin": 319,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7162,7 +8262,9 @@
       "unjustifiedMin": 864,
       "excusedMin": 2068,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -7175,7 +8277,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 621,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7188,7 +8292,9 @@
       "unjustifiedMin": 851,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7201,7 +8307,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7214,7 +8322,9 @@
       "unjustifiedMin": 8000,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7227,7 +8337,9 @@
       "unjustifiedMin": 1045,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7240,7 +8352,9 @@
       "unjustifiedMin": 67,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7253,7 +8367,9 @@
       "unjustifiedMin": 1646,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7266,7 +8382,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 234,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7279,7 +8397,9 @@
       "unjustifiedMin": 627,
       "excusedMin": 256,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7292,7 +8412,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 11220,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7305,7 +8427,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8640
+      "plannedMin": 8640,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7318,7 +8442,9 @@
       "unjustifiedMin": 198,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7331,7 +8457,9 @@
       "unjustifiedMin": 797,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7344,7 +8472,9 @@
       "unjustifiedMin": 76,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7357,7 +8487,9 @@
       "unjustifiedMin": 4218,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7370,7 +8502,9 @@
       "unjustifiedMin": 395,
       "excusedMin": 349,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7383,7 +8517,9 @@
       "unjustifiedMin": 389,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7396,7 +8532,9 @@
       "unjustifiedMin": 67,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7409,7 +8547,9 @@
       "unjustifiedMin": 346,
       "excusedMin": 207,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7422,7 +8562,9 @@
       "unjustifiedMin": 47,
       "excusedMin": 94,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7435,7 +8577,9 @@
       "unjustifiedMin": 339,
       "excusedMin": 126,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7448,7 +8592,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 673,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7461,7 +8607,9 @@
       "unjustifiedMin": 167,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -7474,7 +8622,9 @@
       "unjustifiedMin": 62,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7487,7 +8637,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 389,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7500,7 +8652,9 @@
       "unjustifiedMin": 446,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7513,7 +8667,9 @@
       "unjustifiedMin": 5610,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7526,7 +8682,9 @@
       "unjustifiedMin": 1920,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7539,7 +8697,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7552,7 +8712,9 @@
       "unjustifiedMin": 1530,
       "excusedMin": 117,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7565,7 +8727,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 1068,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7578,7 +8742,9 @@
       "unjustifiedMin": 192,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7591,7 +8757,9 @@
       "unjustifiedMin": 877,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7604,7 +8772,9 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -7617,7 +8787,9 @@
       "unjustifiedMin": 324,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7630,7 +8802,9 @@
       "unjustifiedMin": 221,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7643,7 +8817,9 @@
       "unjustifiedMin": 329,
       "excusedMin": 1097,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7656,7 +8832,9 @@
       "unjustifiedMin": 745,
       "excusedMin": 1328,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -7669,7 +8847,9 @@
       "unjustifiedMin": 347,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7682,7 +8862,9 @@
       "unjustifiedMin": 25,
       "excusedMin": 1600,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7695,7 +8877,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 141,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7708,7 +8892,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 2040
+      "plannedMin": 2040,
+      "mainMotivo": "TREINAMENTO",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7721,7 +8907,9 @@
       "unjustifiedMin": 551,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7734,7 +8922,9 @@
       "unjustifiedMin": 265,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7747,7 +8937,9 @@
       "unjustifiedMin": 51,
       "excusedMin": 130,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7760,7 +8952,9 @@
       "unjustifiedMin": 595,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7773,7 +8967,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 876,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7786,7 +8982,9 @@
       "unjustifiedMin": 1083,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7799,7 +8997,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7812,7 +9012,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 103,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7825,7 +9027,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7838,7 +9042,9 @@
       "unjustifiedMin": 43,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7851,7 +9057,9 @@
       "unjustifiedMin": 299,
       "excusedMin": 240,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7864,7 +9072,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7877,7 +9087,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7890,7 +9102,9 @@
       "unjustifiedMin": 420,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7903,7 +9117,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 180,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7916,7 +9132,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 60,
-      "plannedMin": 11580
+      "plannedMin": 11580,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7929,7 +9147,9 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7942,7 +9162,9 @@
       "unjustifiedMin": 600,
       "excusedMin": 153,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7955,7 +9177,9 @@
       "unjustifiedMin": 238,
       "excusedMin": 640,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7968,7 +9192,9 @@
       "unjustifiedMin": 1600,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7981,7 +9207,9 @@
       "unjustifiedMin": 942,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 7140
+      "plannedMin": 7140,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7994,7 +9222,9 @@
       "unjustifiedMin": 1360,
       "excusedMin": 156,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8007,7 +9237,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8020,7 +9252,9 @@
       "unjustifiedMin": 396,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8033,7 +9267,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 117,
       "justifiedMin": 0,
-      "plannedMin": 11580
+      "plannedMin": 11580,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8046,7 +9282,9 @@
       "unjustifiedMin": 1174,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8059,7 +9297,9 @@
       "unjustifiedMin": 700,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -8072,7 +9312,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8085,7 +9327,9 @@
       "unjustifiedMin": 317,
       "excusedMin": 2400,
       "justifiedMin": 150,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -8098,7 +9342,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8111,7 +9357,9 @@
       "unjustifiedMin": 560,
       "excusedMin": 960,
       "justifiedMin": 60,
-      "plannedMin": 6120
+      "plannedMin": 6120,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8124,7 +9372,9 @@
       "unjustifiedMin": 491,
       "excusedMin": 114,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8137,7 +9387,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 1280,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8150,7 +9402,9 @@
       "unjustifiedMin": 375,
       "excusedMin": 5352,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8163,7 +9417,9 @@
       "unjustifiedMin": 51,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8176,7 +9432,9 @@
       "unjustifiedMin": 724,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 1728
+      "plannedMin": 1728,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8189,7 +9447,9 @@
       "unjustifiedMin": 97,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8202,7 +9462,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 2400,
       "justifiedMin": 150,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -8215,7 +9477,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 165,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8228,7 +9492,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8241,7 +9507,9 @@
       "unjustifiedMin": 524,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8254,7 +9522,9 @@
       "unjustifiedMin": 282,
       "excusedMin": 667,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8267,7 +9537,9 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8280,7 +9552,9 @@
       "unjustifiedMin": 832,
       "excusedMin": 298,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -8293,7 +9567,9 @@
       "unjustifiedMin": 7140,
       "excusedMin": 0,
       "justifiedMin": 4080,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8306,7 +9582,9 @@
       "unjustifiedMin": 1052,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8319,7 +9597,9 @@
       "unjustifiedMin": 2468,
       "excusedMin": 432,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -8332,7 +9612,9 @@
       "unjustifiedMin": 1902,
       "excusedMin": 225,
       "justifiedMin": 0,
-      "plannedMin": 4080
+      "plannedMin": 4080,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8345,7 +9627,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8358,7 +9642,9 @@
       "unjustifiedMin": 44,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8371,7 +9657,9 @@
       "unjustifiedMin": 94,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8384,7 +9672,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8397,7 +9687,9 @@
       "unjustifiedMin": 636,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9504
+      "plannedMin": 9504,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -8410,7 +9702,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 124,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8423,7 +9717,9 @@
       "unjustifiedMin": 101,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8436,7 +9732,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -8449,7 +9747,9 @@
       "unjustifiedMin": 620,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9180
+      "plannedMin": 9180,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8462,7 +9762,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8475,7 +9777,9 @@
       "unjustifiedMin": 517,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8488,7 +9792,9 @@
       "unjustifiedMin": 649,
       "excusedMin": 1380,
       "justifiedMin": 60,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8501,7 +9807,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 239,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8514,7 +9822,9 @@
       "unjustifiedMin": 35,
       "excusedMin": 3060,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -8527,7 +9837,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 519,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8540,7 +9852,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 126,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8553,7 +9867,9 @@
       "unjustifiedMin": 580,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8566,7 +9882,9 @@
       "unjustifiedMin": 391,
       "excusedMin": 905,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8579,7 +9897,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8592,7 +9912,9 @@
       "unjustifiedMin": 714,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8605,7 +9927,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 209,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8618,7 +9942,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 94,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8631,7 +9957,9 @@
       "unjustifiedMin": 534,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8644,7 +9972,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 506,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -8657,7 +9987,9 @@
       "unjustifiedMin": 77,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8670,7 +10002,9 @@
       "unjustifiedMin": 187,
       "excusedMin": 1213,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8683,7 +10017,9 @@
       "unjustifiedMin": 1530,
       "excusedMin": 48,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8696,7 +10032,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8709,7 +10047,9 @@
       "unjustifiedMin": 1338,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8722,7 +10062,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 190,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -8735,7 +10077,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -8748,7 +10092,9 @@
       "unjustifiedMin": 7564,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8761,7 +10107,9 @@
       "unjustifiedMin": 1530,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8774,7 +10122,9 @@
       "unjustifiedMin": 780,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8787,7 +10137,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8800,7 +10152,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -8813,7 +10167,9 @@
       "unjustifiedMin": 668,
       "excusedMin": 510,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8826,7 +10182,9 @@
       "unjustifiedMin": 229,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8839,7 +10197,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8852,7 +10212,9 @@
       "unjustifiedMin": 1280,
       "excusedMin": 554,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8865,7 +10227,9 @@
       "unjustifiedMin": 810,
       "excusedMin": 660,
       "justifiedMin": 30,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8878,7 +10242,9 @@
       "unjustifiedMin": 519,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8891,7 +10257,9 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8904,7 +10272,9 @@
       "unjustifiedMin": 668,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8917,7 +10287,9 @@
       "unjustifiedMin": 86,
       "excusedMin": 2123,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8930,7 +10302,9 @@
       "unjustifiedMin": 823,
       "excusedMin": 531,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8943,7 +10317,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 100,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -8956,7 +10332,9 @@
       "unjustifiedMin": 1029,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8969,7 +10347,9 @@
       "unjustifiedMin": 30,
       "excusedMin": 55,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8982,7 +10362,9 @@
       "unjustifiedMin": 985,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -8995,7 +10377,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 210,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -9008,7 +10392,9 @@
       "unjustifiedMin": 682,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -9021,7 +10407,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 1440,
       "justifiedMin": 90,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -9034,7 +10422,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -9047,7 +10437,9 @@
       "unjustifiedMin": 59,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -9060,7 +10452,9 @@
       "unjustifiedMin": 76,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -9073,7 +10467,9 @@
       "unjustifiedMin": 470,
       "excusedMin": 1055,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -9086,7 +10482,9 @@
       "unjustifiedMin": 220,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8320
+      "plannedMin": 8320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -9099,7 +10497,9 @@
       "unjustifiedMin": 73,
       "excusedMin": 1920,
       "justifiedMin": 120,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -9112,7 +10512,9 @@
       "unjustifiedMin": 25,
       "excusedMin": 98,
       "justifiedMin": 0,
-      "plannedMin": 11220
+      "plannedMin": 11220,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     }
   ],
   "motivoTotals": [

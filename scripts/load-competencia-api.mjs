@@ -122,13 +122,15 @@ try {
     }
     const registration = String(f.matricula ?? "").trim() || `ez-${f.id}`;
     const sid = await ensureSector(companyId, (f.setor || f.departamento || "").trim());
+    // Chave = external_id (id da API). A matrícula NÃO é única: o ponto aceita
+    // duas pessoas com a mesma matrícula na mesma empresa (ex.: 6053 na Tattini).
     const { rows: [e] } = await db.query(
       `insert into employees (company_id, sector_id, registration, name, cpf, pis, role, admission_date, external_id)
        values ($1, $2, $3, $4, nullif($5, ''), nullif($6, ''), nullif($7, ''), nullif($8, '')::date, $9)
-       on conflict (company_id, registration) do update set
-         sector_id = excluded.sector_id, name = excluded.name, cpf = excluded.cpf,
-         pis = excluded.pis, role = excluded.role, admission_date = excluded.admission_date,
-         external_id = excluded.external_id
+       on conflict (company_id, external_id) do update set
+         sector_id = excluded.sector_id, registration = excluded.registration,
+         name = excluded.name, cpf = excluded.cpf,
+         pis = excluded.pis, role = excluded.role, admission_date = excluded.admission_date
        returning id`,
       [
         companyId,

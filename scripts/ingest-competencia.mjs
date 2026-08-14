@@ -155,6 +155,8 @@ const cPer = abono.col("Período Abonado");
 const excusedByName = new Map(); // ABONADO -> min por pessoa
 const motivoAgg = new Map(); // motivo -> { treatment, totalMin, occurrences }
 const unknownMotivos = new Set();
+// motivo -> minutos por pessoa (qualquer tratamento), para explicar afastamentos
+const motivosByName = new Map();
 
 for (const r of abono.rows) {
   const motivoRaw = fixEncoding(String(r[cMot] ?? "").trim());
@@ -174,10 +176,22 @@ for (const r of abono.rows) {
   agg.occurrences += 1;
   motivoAgg.set(motivoRaw, agg);
 
+  const k = nameKey(r[cFunc]);
+  const porPessoa = motivosByName.get(k) ?? new Map();
+  porPessoa.set(motivoRaw, (porPessoa.get(motivoRaw) ?? 0) + minutes);
+  motivosByName.set(k, porPessoa);
+
   if (t === "ABONADO") {
-    const k = nameKey(r[cFunc]);
     excusedByName.set(k, (excusedByName.get(k) ?? 0) + minutes);
   }
+}
+
+/** Motivo com mais horas da pessoa na competência (explica afastamentos). */
+function motivoPredominante(k) {
+  const m = motivosByName.get(k);
+  if (!m) return null;
+  const [motivo, min] = [...m.entries()].sort((a, b) => b[1] - a[1])[0];
+  return { motivo, min, treatment: treatmentByMotivo.get(nameKey(motivo)) ?? "DESCONSIDERAR" };
 }
 
 // ---------- 2. Extrato de Horas -> HE + empresa por pessoa ----------
@@ -248,6 +262,7 @@ for (const r of abs.rows) {
     );
   }
 
+  const pred = motivoPredominante(k);
   employees.push({
     company: company ?? "EMPREENDIMENTOS",
     sector: api?.sector ?? "",
@@ -260,6 +275,10 @@ for (const r of abs.rows) {
     excusedMin,
     justifiedMin,
     plannedMin,
+    // motivo que responde pela maior parte das horas de abono da pessoa —
+    // usado para explicar afastamentos nos alertas do painel
+    mainMotivo: pred?.motivo ?? null,
+    mainMotivoTreatment: pred?.treatment ?? null,
   });
 }
 

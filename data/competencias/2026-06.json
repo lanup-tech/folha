@@ -12,7 +12,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -25,7 +27,9 @@
       "unjustifiedMin": 605,
       "excusedMin": 0,
       "justifiedMin": 934,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -38,7 +42,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -51,7 +57,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 0,
       "justifiedMin": 1170,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -64,7 +72,9 @@
       "unjustifiedMin": 80,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -77,7 +87,9 @@
       "unjustifiedMin": 78,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -90,7 +102,9 @@
       "unjustifiedMin": 34,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -103,7 +117,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 626,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -116,7 +132,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -129,7 +147,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 571,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -142,7 +162,9 @@
       "unjustifiedMin": 45,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11100
+      "plannedMin": 11100,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -155,7 +177,9 @@
       "unjustifiedMin": 67,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -168,7 +192,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -181,7 +207,9 @@
       "unjustifiedMin": 347,
       "excusedMin": 0,
       "justifiedMin": 161,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -194,7 +222,9 @@
       "unjustifiedMin": 432,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -207,7 +237,9 @@
       "unjustifiedMin": 457,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -220,7 +252,9 @@
       "unjustifiedMin": 157,
       "excusedMin": 0,
       "justifiedMin": 640,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -233,7 +267,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -246,7 +282,9 @@
       "unjustifiedMin": 52,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -259,7 +297,9 @@
       "unjustifiedMin": 232,
       "excusedMin": 0,
       "justifiedMin": 640,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -272,7 +312,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -285,7 +327,9 @@
       "unjustifiedMin": 62,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -298,7 +342,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 98,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -311,7 +357,9 @@
       "unjustifiedMin": 364,
       "excusedMin": 0,
       "justifiedMin": 2737,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -324,7 +372,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -337,7 +387,9 @@
       "unjustifiedMin": 121,
       "excusedMin": 0,
       "justifiedMin": 407,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -350,7 +402,9 @@
       "unjustifiedMin": 68,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -363,7 +417,9 @@
       "unjustifiedMin": 134,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -376,7 +432,9 @@
       "unjustifiedMin": 299,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8670
+      "plannedMin": 8670,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -389,7 +447,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -402,7 +462,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -415,7 +477,9 @@
       "unjustifiedMin": 273,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -428,7 +492,9 @@
       "unjustifiedMin": 1037,
       "excusedMin": 480,
       "justifiedMin": 3836,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -441,7 +507,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 480,
       "justifiedMin": 1560,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -454,7 +522,9 @@
       "unjustifiedMin": 48,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -467,7 +537,9 @@
       "unjustifiedMin": 476,
       "excusedMin": 0,
       "justifiedMin": 1207,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -480,7 +552,9 @@
       "unjustifiedMin": 52,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -493,7 +567,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 0,
       "justifiedMin": 1415,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -506,7 +582,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -519,7 +597,9 @@
       "unjustifiedMin": 224,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -532,7 +612,9 @@
       "unjustifiedMin": 148,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -545,7 +627,9 @@
       "unjustifiedMin": 63,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -558,7 +642,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 121,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -571,7 +657,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 120,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -584,7 +672,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 480,
       "justifiedMin": 2472,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -597,7 +687,9 @@
       "unjustifiedMin": 374,
       "excusedMin": 0,
       "justifiedMin": 1255,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -610,7 +702,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 115,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -623,7 +717,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -636,7 +732,9 @@
       "unjustifiedMin": 370,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 6120
+      "plannedMin": 6120,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -649,7 +747,9 @@
       "unjustifiedMin": 42,
       "excusedMin": 0,
       "justifiedMin": 1467,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -662,7 +762,9 @@
       "unjustifiedMin": 282,
       "excusedMin": 0,
       "justifiedMin": 2550,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -675,7 +777,9 @@
       "unjustifiedMin": 543,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -688,7 +792,9 @@
       "unjustifiedMin": 65,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -701,7 +807,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8000,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "TATTINI",
@@ -714,7 +822,9 @@
       "unjustifiedMin": 1046,
       "excusedMin": 0,
       "justifiedMin": 347,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -727,7 +837,9 @@
       "unjustifiedMin": 71,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 9690
+      "plannedMin": 9690,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -740,7 +852,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 640,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -753,7 +867,9 @@
       "unjustifiedMin": 443,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -766,7 +882,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -779,7 +897,9 @@
       "unjustifiedMin": 115,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -792,7 +912,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 95,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -805,7 +927,9 @@
       "unjustifiedMin": 354,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -818,7 +942,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -831,7 +957,9 @@
       "unjustifiedMin": 256,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -844,7 +972,9 @@
       "unjustifiedMin": 246,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -857,7 +987,9 @@
       "unjustifiedMin": 691,
       "excusedMin": 240,
       "justifiedMin": 570,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -870,7 +1002,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -883,7 +1017,9 @@
       "unjustifiedMin": 48,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -896,7 +1032,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -909,7 +1047,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -922,7 +1062,9 @@
       "unjustifiedMin": 21,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -935,7 +1077,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 0,
       "justifiedMin": 640,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -948,7 +1092,9 @@
       "unjustifiedMin": 101,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -961,7 +1107,9 @@
       "unjustifiedMin": 1097,
       "excusedMin": 0,
       "justifiedMin": 3570,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -974,7 +1122,9 @@
       "unjustifiedMin": 85,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -987,7 +1137,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1000,7 +1152,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1013,7 +1167,9 @@
       "unjustifiedMin": 43,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1026,7 +1182,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1039,7 +1197,9 @@
       "unjustifiedMin": 186,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1052,7 +1212,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 3224,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1065,7 +1227,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1078,7 +1242,9 @@
       "unjustifiedMin": 136,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1091,7 +1257,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 4590,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1104,7 +1272,9 @@
       "unjustifiedMin": 31,
       "excusedMin": 480,
       "justifiedMin": 160,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1117,7 +1287,9 @@
       "unjustifiedMin": 260,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1130,7 +1302,9 @@
       "unjustifiedMin": 55,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1143,7 +1317,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 137,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1156,7 +1332,9 @@
       "unjustifiedMin": 46,
       "excusedMin": 0,
       "justifiedMin": 340,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1169,7 +1347,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 113,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1182,7 +1362,9 @@
       "unjustifiedMin": 134,
       "excusedMin": 0,
       "justifiedMin": 883,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1195,7 +1377,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 735,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1208,7 +1392,9 @@
       "unjustifiedMin": 220,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1221,7 +1407,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 135,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1234,7 +1422,9 @@
       "unjustifiedMin": 336,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1247,7 +1437,9 @@
       "unjustifiedMin": 42,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1260,7 +1452,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1273,7 +1467,9 @@
       "unjustifiedMin": 337,
       "excusedMin": 0,
       "justifiedMin": 1147,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1286,7 +1482,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1299,7 +1497,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 256,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1312,7 +1512,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1325,7 +1527,9 @@
       "unjustifiedMin": 93,
       "excusedMin": 0,
       "justifiedMin": 63,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1338,7 +1542,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 61,
-      "plannedMin": 11100
+      "plannedMin": 11100,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1351,7 +1557,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1364,7 +1572,9 @@
       "unjustifiedMin": 107,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1377,7 +1587,9 @@
       "unjustifiedMin": 98,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1390,7 +1602,9 @@
       "unjustifiedMin": 73,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1403,7 +1617,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1416,7 +1632,9 @@
       "unjustifiedMin": 52,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1429,7 +1647,9 @@
       "unjustifiedMin": 30,
       "excusedMin": 0,
       "justifiedMin": 122,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1442,7 +1662,9 @@
       "unjustifiedMin": 348,
       "excusedMin": 0,
       "justifiedMin": 3481,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1455,7 +1677,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1468,7 +1692,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 0,
       "justifiedMin": 92,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1481,7 +1707,9 @@
       "unjustifiedMin": 217,
       "excusedMin": 0,
       "justifiedMin": 11,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1494,7 +1722,9 @@
       "unjustifiedMin": 349,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1507,7 +1737,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 200,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1520,7 +1752,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 56,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -1533,7 +1767,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 240,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -1546,7 +1782,9 @@
       "unjustifiedMin": 45,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1559,7 +1797,9 @@
       "unjustifiedMin": 321,
       "excusedMin": 0,
       "justifiedMin": 2040,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1572,7 +1812,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1585,7 +1827,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1598,7 +1842,9 @@
       "unjustifiedMin": 120,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1611,7 +1857,9 @@
       "unjustifiedMin": 256,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1624,7 +1872,9 @@
       "unjustifiedMin": 170,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1637,7 +1887,9 @@
       "unjustifiedMin": 136,
       "excusedMin": 0,
       "justifiedMin": 864,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1650,7 +1902,9 @@
       "unjustifiedMin": 180,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1663,7 +1917,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1676,7 +1932,9 @@
       "unjustifiedMin": 960,
       "excusedMin": 480,
       "justifiedMin": 4320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1689,7 +1947,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1702,7 +1962,9 @@
       "unjustifiedMin": 1399,
       "excusedMin": 0,
       "justifiedMin": 449,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1715,7 +1977,9 @@
       "unjustifiedMin": 381,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1728,7 +1992,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1741,7 +2007,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1754,7 +2022,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 171,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1767,7 +2037,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 446,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1780,7 +2052,9 @@
       "unjustifiedMin": 174,
       "excusedMin": 0,
       "justifiedMin": 228,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1793,7 +2067,9 @@
       "unjustifiedMin": 8000,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1806,7 +2082,9 @@
       "unjustifiedMin": 199,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1819,7 +2097,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1832,7 +2112,9 @@
       "unjustifiedMin": 21,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1845,7 +2127,9 @@
       "unjustifiedMin": 198,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1858,7 +2142,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 177,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1871,7 +2157,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1192,
-      "plannedMin": 11160
+      "plannedMin": 11160,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1884,7 +2172,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1440,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1897,7 +2187,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1910,7 +2202,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1923,7 +2217,9 @@
       "unjustifiedMin": 81,
       "excusedMin": 0,
       "justifiedMin": 798,
-      "plannedMin": 10680
+      "plannedMin": 10680,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1936,7 +2232,9 @@
       "unjustifiedMin": 73,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1949,7 +2247,9 @@
       "unjustifiedMin": 96,
       "excusedMin": 0,
       "justifiedMin": 69,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1962,7 +2262,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 5841,
-      "plannedMin": 10680
+      "plannedMin": 10680,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -1975,7 +2277,9 @@
       "unjustifiedMin": 126,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -1988,7 +2292,9 @@
       "unjustifiedMin": 41,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2001,7 +2307,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 134,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2014,7 +2322,9 @@
       "unjustifiedMin": 269,
       "excusedMin": 0,
       "justifiedMin": 1715,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2027,7 +2337,9 @@
       "unjustifiedMin": 51,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2040,7 +2352,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 72,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2053,7 +2367,9 @@
       "unjustifiedMin": 44,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 11040
+      "plannedMin": 11040,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2066,7 +2382,9 @@
       "unjustifiedMin": 762,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2079,7 +2397,9 @@
       "unjustifiedMin": 1567,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2092,7 +2412,9 @@
       "unjustifiedMin": 73,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2105,7 +2427,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8000,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2118,7 +2442,9 @@
       "unjustifiedMin": 135,
       "excusedMin": 480,
       "justifiedMin": 1228,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2131,7 +2457,9 @@
       "unjustifiedMin": 87,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2144,7 +2472,9 @@
       "unjustifiedMin": 402,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2157,7 +2487,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2170,7 +2502,9 @@
       "unjustifiedMin": 88,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2183,7 +2517,9 @@
       "unjustifiedMin": 191,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2196,7 +2532,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2209,7 +2547,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 270,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2222,7 +2562,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 2550,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2235,7 +2577,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2248,7 +2592,9 @@
       "unjustifiedMin": 281,
       "excusedMin": 0,
       "justifiedMin": 1178,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2261,7 +2607,9 @@
       "unjustifiedMin": 36,
       "excusedMin": 0,
       "justifiedMin": 960,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2274,7 +2622,9 @@
       "unjustifiedMin": 300,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2287,7 +2637,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2300,7 +2652,9 @@
       "unjustifiedMin": 110,
       "excusedMin": 0,
       "justifiedMin": 640,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2313,7 +2667,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 38,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2326,7 +2682,9 @@
       "unjustifiedMin": 73,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2339,7 +2697,9 @@
       "unjustifiedMin": 175,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2352,7 +2712,9 @@
       "unjustifiedMin": 123,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2365,7 +2727,9 @@
       "unjustifiedMin": 212,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2378,7 +2742,9 @@
       "unjustifiedMin": 109,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2391,7 +2757,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2404,7 +2772,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2417,7 +2787,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2430,7 +2802,9 @@
       "unjustifiedMin": 72,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2443,7 +2817,9 @@
       "unjustifiedMin": 853,
       "excusedMin": 187,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2456,7 +2832,9 @@
       "unjustifiedMin": 36,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -2469,7 +2847,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2482,7 +2862,9 @@
       "unjustifiedMin": 400,
       "excusedMin": 0,
       "justifiedMin": 960,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2495,7 +2877,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 25,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2508,7 +2892,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2521,7 +2907,9 @@
       "unjustifiedMin": 518,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2534,7 +2922,9 @@
       "unjustifiedMin": 209,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2547,7 +2937,9 @@
       "unjustifiedMin": 84,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2560,7 +2952,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2573,7 +2967,9 @@
       "unjustifiedMin": 87,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2586,7 +2982,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2599,7 +2997,9 @@
       "unjustifiedMin": 57,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2612,7 +3012,9 @@
       "unjustifiedMin": 486,
       "excusedMin": 0,
       "justifiedMin": 362,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2625,7 +3027,9 @@
       "unjustifiedMin": 143,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2638,7 +3042,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 60,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2651,7 +3057,9 @@
       "unjustifiedMin": 33,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2664,7 +3072,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 750,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2677,7 +3087,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -2690,7 +3102,9 @@
       "unjustifiedMin": 157,
       "excusedMin": 0,
       "justifiedMin": 1634,
-      "plannedMin": 10740
+      "plannedMin": 10740,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2703,7 +3117,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2716,7 +3132,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 277,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2729,7 +3147,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2742,7 +3162,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 159,
       "justifiedMin": 60,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2755,7 +3177,9 @@
       "unjustifiedMin": 47,
       "excusedMin": 0,
       "justifiedMin": 428,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2768,7 +3192,9 @@
       "unjustifiedMin": 48,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2781,7 +3207,9 @@
       "unjustifiedMin": 175,
       "excusedMin": 0,
       "justifiedMin": 14,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2794,7 +3222,9 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2807,7 +3237,9 @@
       "unjustifiedMin": 223,
       "excusedMin": 0,
       "justifiedMin": 40,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2820,7 +3252,9 @@
       "unjustifiedMin": 232,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2833,7 +3267,9 @@
       "unjustifiedMin": 19,
       "excusedMin": 0,
       "justifiedMin": 47,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2846,7 +3282,9 @@
       "unjustifiedMin": 139,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2859,7 +3297,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 69,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -2872,7 +3312,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 248,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2885,7 +3327,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2898,7 +3342,9 @@
       "unjustifiedMin": 534,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2911,7 +3357,9 @@
       "unjustifiedMin": 312,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2924,7 +3372,9 @@
       "unjustifiedMin": 48,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2937,7 +3387,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 600,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2950,7 +3402,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 53,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2963,7 +3417,9 @@
       "unjustifiedMin": 83,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2976,7 +3432,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -2989,7 +3447,9 @@
       "unjustifiedMin": 117,
       "excusedMin": 0,
       "justifiedMin": 747,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3002,7 +3462,9 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3015,7 +3477,9 @@
       "unjustifiedMin": 43,
       "excusedMin": 0,
       "justifiedMin": 640,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3028,7 +3492,9 @@
       "unjustifiedMin": 69,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3041,7 +3507,9 @@
       "unjustifiedMin": 36,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3054,7 +3522,9 @@
       "unjustifiedMin": 825,
       "excusedMin": 0,
       "justifiedMin": 1271,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3067,7 +3537,9 @@
       "unjustifiedMin": 108,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3080,7 +3552,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1595,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3093,7 +3567,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3106,7 +3582,9 @@
       "unjustifiedMin": 217,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3119,7 +3597,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3132,7 +3612,9 @@
       "unjustifiedMin": 274,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3145,7 +3627,9 @@
       "unjustifiedMin": 135,
       "excusedMin": 0,
       "justifiedMin": 90,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3158,7 +3642,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3171,7 +3657,9 @@
       "unjustifiedMin": 46,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3184,7 +3672,9 @@
       "unjustifiedMin": 213,
       "excusedMin": 99,
       "justifiedMin": 780,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -3197,7 +3687,9 @@
       "unjustifiedMin": 109,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3210,7 +3702,9 @@
       "unjustifiedMin": 107,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3223,7 +3717,9 @@
       "unjustifiedMin": 95,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3236,7 +3732,9 @@
       "unjustifiedMin": 865,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3249,7 +3747,9 @@
       "unjustifiedMin": 154,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3262,7 +3762,9 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 1600,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3275,7 +3777,9 @@
       "unjustifiedMin": 30,
       "excusedMin": 0,
       "justifiedMin": 82,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3288,7 +3792,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8000,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3301,7 +3807,9 @@
       "unjustifiedMin": 51,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3314,7 +3822,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 180,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3327,7 +3837,9 @@
       "unjustifiedMin": 209,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3340,7 +3852,9 @@
       "unjustifiedMin": 50,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3353,7 +3867,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 8000,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3366,7 +3882,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3379,7 +3897,9 @@
       "unjustifiedMin": 383,
       "excusedMin": 0,
       "justifiedMin": 290,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3392,7 +3912,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 53,
-      "plannedMin": 11160
+      "plannedMin": 11160,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3405,7 +3927,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 547,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3418,7 +3942,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3431,7 +3957,9 @@
       "unjustifiedMin": 44,
       "excusedMin": 0,
       "justifiedMin": 2040,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3444,7 +3972,9 @@
       "unjustifiedMin": 43,
       "excusedMin": 0,
       "justifiedMin": 263,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3457,7 +3987,9 @@
       "unjustifiedMin": 250,
       "excusedMin": 0,
       "justifiedMin": 475,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3470,7 +4002,9 @@
       "unjustifiedMin": 1600,
       "excusedMin": 0,
       "justifiedMin": 4240,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3483,7 +4017,9 @@
       "unjustifiedMin": 110,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3496,7 +4032,9 @@
       "unjustifiedMin": 86,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3509,7 +4047,9 @@
       "unjustifiedMin": 306,
       "excusedMin": 0,
       "justifiedMin": 1740,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3522,7 +4062,9 @@
       "unjustifiedMin": 33,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3535,7 +4077,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 49,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3548,7 +4092,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3561,7 +4107,9 @@
       "unjustifiedMin": 116,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3574,7 +4122,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3587,7 +4137,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 0,
       "justifiedMin": 432,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3600,7 +4152,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3613,7 +4167,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3626,7 +4182,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3639,7 +4197,9 @@
       "unjustifiedMin": 32,
       "excusedMin": 0,
       "justifiedMin": 109,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3652,7 +4212,9 @@
       "unjustifiedMin": 134,
       "excusedMin": 480,
       "justifiedMin": 4099,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3665,7 +4227,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3678,7 +4242,9 @@
       "unjustifiedMin": 86,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3691,7 +4257,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3704,7 +4272,9 @@
       "unjustifiedMin": 329,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8670
+      "plannedMin": 8670,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3717,7 +4287,9 @@
       "unjustifiedMin": 46,
       "excusedMin": 0,
       "justifiedMin": 79,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3730,7 +4302,9 @@
       "unjustifiedMin": 342,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3743,7 +4317,9 @@
       "unjustifiedMin": 151,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3756,7 +4332,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3769,7 +4347,9 @@
       "unjustifiedMin": 631,
       "excusedMin": 0,
       "justifiedMin": 3060,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3782,7 +4362,9 @@
       "unjustifiedMin": 128,
       "excusedMin": 0,
       "justifiedMin": 272,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3795,7 +4377,9 @@
       "unjustifiedMin": 43,
       "excusedMin": 0,
       "justifiedMin": 3570,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3808,7 +4392,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3821,7 +4407,9 @@
       "unjustifiedMin": 266,
       "excusedMin": 480,
       "justifiedMin": 810,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3834,7 +4422,9 @@
       "unjustifiedMin": 37,
       "excusedMin": 0,
       "justifiedMin": 2550,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3847,7 +4437,9 @@
       "unjustifiedMin": 80,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3860,7 +4452,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 115,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3873,7 +4467,9 @@
       "unjustifiedMin": 49,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3886,7 +4482,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 480,
       "justifiedMin": 480,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3899,7 +4497,9 @@
       "unjustifiedMin": 66,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3912,7 +4512,9 @@
       "unjustifiedMin": 106,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3925,7 +4527,9 @@
       "unjustifiedMin": 150,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3938,7 +4542,9 @@
       "unjustifiedMin": 750,
       "excusedMin": 0,
       "justifiedMin": 6010,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3951,7 +4557,9 @@
       "unjustifiedMin": 180,
       "excusedMin": 0,
       "justifiedMin": 2340,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -3964,7 +4572,9 @@
       "unjustifiedMin": 216,
       "excusedMin": 0,
       "justifiedMin": 160,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -3977,7 +4587,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 504,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -3990,7 +4602,9 @@
       "unjustifiedMin": 45,
       "excusedMin": 0,
       "justifiedMin": 432,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4003,7 +4617,9 @@
       "unjustifiedMin": 757,
       "excusedMin": 0,
       "justifiedMin": 154,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4016,7 +4632,9 @@
       "unjustifiedMin": 191,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4029,7 +4647,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 30,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4042,7 +4662,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10200,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4055,7 +4677,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4068,7 +4692,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4081,7 +4707,9 @@
       "unjustifiedMin": 22,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4094,7 +4722,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4107,7 +4737,9 @@
       "unjustifiedMin": 20,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4120,7 +4752,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4133,7 +4767,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 90,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4146,7 +4782,9 @@
       "unjustifiedMin": 153,
       "excusedMin": 480,
       "justifiedMin": 2880,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4159,7 +4797,9 @@
       "unjustifiedMin": 29,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 9690
+      "plannedMin": 9690,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4172,7 +4812,9 @@
       "unjustifiedMin": 36,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 3570
+      "plannedMin": 3570,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4185,7 +4827,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4198,7 +4842,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4211,7 +4857,9 @@
       "unjustifiedMin": 73,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4224,7 +4872,9 @@
       "unjustifiedMin": 25,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4237,7 +4887,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4250,7 +4902,9 @@
       "unjustifiedMin": 220,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4263,7 +4917,9 @@
       "unjustifiedMin": 56,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4276,7 +4932,9 @@
       "unjustifiedMin": 258,
       "excusedMin": 0,
       "justifiedMin": 417,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4289,7 +4947,9 @@
       "unjustifiedMin": 57,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4302,7 +4962,9 @@
       "unjustifiedMin": 45,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4315,7 +4977,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 4590,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4328,7 +4992,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4341,7 +5007,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 114,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4354,7 +5022,9 @@
       "unjustifiedMin": 73,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4367,7 +5037,9 @@
       "unjustifiedMin": 121,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4380,7 +5052,9 @@
       "unjustifiedMin": 167,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4393,7 +5067,9 @@
       "unjustifiedMin": 138,
       "excusedMin": 0,
       "justifiedMin": 376,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4406,7 +5082,9 @@
       "unjustifiedMin": 194,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4419,7 +5097,9 @@
       "unjustifiedMin": 84,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4432,7 +5112,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4445,7 +5127,9 @@
       "unjustifiedMin": 34,
       "excusedMin": 480,
       "justifiedMin": 540,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4458,7 +5142,9 @@
       "unjustifiedMin": 138,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4471,7 +5157,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4484,7 +5172,9 @@
       "unjustifiedMin": 615,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4497,7 +5187,9 @@
       "unjustifiedMin": 36,
       "excusedMin": 0,
       "justifiedMin": 1242,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4510,7 +5202,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4523,7 +5217,9 @@
       "unjustifiedMin": 222,
       "excusedMin": 0,
       "justifiedMin": 270,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4536,7 +5232,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1724,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4549,7 +5247,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4562,7 +5262,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 291,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4575,7 +5277,9 @@
       "unjustifiedMin": 107,
       "excusedMin": 0,
       "justifiedMin": 1355,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4588,7 +5292,9 @@
       "unjustifiedMin": 366,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4601,7 +5307,9 @@
       "unjustifiedMin": 117,
       "excusedMin": 0,
       "justifiedMin": 226,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4614,7 +5322,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 62,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4627,7 +5337,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 9072,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4640,7 +5352,9 @@
       "unjustifiedMin": 48,
       "excusedMin": 0,
       "justifiedMin": 432,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4653,7 +5367,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4666,7 +5382,9 @@
       "unjustifiedMin": 149,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4679,7 +5397,9 @@
       "unjustifiedMin": 72,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4692,7 +5412,9 @@
       "unjustifiedMin": 270,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4705,7 +5427,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 131,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4718,7 +5442,9 @@
       "unjustifiedMin": 60,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4731,7 +5457,9 @@
       "unjustifiedMin": 59,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4744,7 +5472,9 @@
       "unjustifiedMin": 142,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 8670
+      "plannedMin": 8670,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4757,7 +5487,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4770,7 +5502,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 2040,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4783,7 +5517,9 @@
       "unjustifiedMin": 414,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4796,7 +5532,9 @@
       "unjustifiedMin": 56,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4809,7 +5547,9 @@
       "unjustifiedMin": 32,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8670
+      "plannedMin": 8670,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4822,7 +5562,9 @@
       "unjustifiedMin": 639,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4835,7 +5577,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1243,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4848,7 +5592,9 @@
       "unjustifiedMin": 549,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4861,7 +5607,9 @@
       "unjustifiedMin": 127,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4874,7 +5622,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 6400
+      "plannedMin": 6400,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4887,7 +5637,9 @@
       "unjustifiedMin": 325,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4900,7 +5652,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -4913,7 +5667,9 @@
       "unjustifiedMin": 71,
       "excusedMin": 0,
       "justifiedMin": 56,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4926,7 +5682,9 @@
       "unjustifiedMin": 124,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4939,7 +5697,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "PARTICIPACOES",
@@ -4952,7 +5712,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4965,7 +5727,9 @@
       "unjustifiedMin": 35,
       "excusedMin": 0,
       "justifiedMin": 379,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -4978,7 +5742,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -4991,7 +5757,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 68,
-      "plannedMin": 10320
+      "plannedMin": 10320,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5004,7 +5772,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 120,
-      "plannedMin": 11100
+      "plannedMin": 11100,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5017,7 +5787,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5030,7 +5802,9 @@
       "unjustifiedMin": 68,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5043,7 +5817,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 39,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5056,7 +5832,9 @@
       "unjustifiedMin": 104,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5069,7 +5847,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5082,7 +5862,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5095,7 +5877,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1759,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5108,7 +5892,9 @@
       "unjustifiedMin": 74,
       "excusedMin": 0,
       "justifiedMin": 124,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5121,7 +5907,9 @@
       "unjustifiedMin": 43,
       "excusedMin": 0,
       "justifiedMin": 640,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5134,7 +5922,9 @@
       "unjustifiedMin": 114,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5147,7 +5937,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5160,7 +5952,9 @@
       "unjustifiedMin": 152,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5173,7 +5967,9 @@
       "unjustifiedMin": 74,
       "excusedMin": 100,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5186,7 +5982,9 @@
       "unjustifiedMin": 124,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5199,7 +5997,9 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5212,7 +6012,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5225,7 +6027,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 523,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5238,7 +6042,9 @@
       "unjustifiedMin": 66,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5251,7 +6057,9 @@
       "unjustifiedMin": 470,
       "excusedMin": 480,
       "justifiedMin": 5920,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5264,7 +6072,9 @@
       "unjustifiedMin": 61,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5277,7 +6087,9 @@
       "unjustifiedMin": 221,
       "excusedMin": 0,
       "justifiedMin": 1289,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5290,7 +6102,9 @@
       "unjustifiedMin": 44,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5303,7 +6117,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 29,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5316,7 +6132,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1294,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5329,7 +6147,9 @@
       "unjustifiedMin": 1170,
       "excusedMin": 480,
       "justifiedMin": 1397,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5342,7 +6162,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5355,7 +6177,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5368,7 +6192,9 @@
       "unjustifiedMin": 281,
       "excusedMin": 0,
       "justifiedMin": 702,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5381,7 +6207,9 @@
       "unjustifiedMin": 44,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5394,7 +6222,9 @@
       "unjustifiedMin": 49,
       "excusedMin": 0,
       "justifiedMin": 898,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5407,7 +6237,9 @@
       "unjustifiedMin": 295,
       "excusedMin": 0,
       "justifiedMin": 1524,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5420,7 +6252,9 @@
       "unjustifiedMin": 31,
       "excusedMin": 0,
       "justifiedMin": 575,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5433,7 +6267,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 120,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5446,7 +6282,9 @@
       "unjustifiedMin": 75,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5459,7 +6297,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5472,7 +6312,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 74,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5485,7 +6327,9 @@
       "unjustifiedMin": 29,
       "excusedMin": 0,
       "justifiedMin": 1600,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5498,7 +6342,9 @@
       "unjustifiedMin": 131,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5511,7 +6357,9 @@
       "unjustifiedMin": 424,
       "excusedMin": 0,
       "justifiedMin": 130,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5524,7 +6372,9 @@
       "unjustifiedMin": 51,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5537,7 +6387,9 @@
       "unjustifiedMin": 108,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5550,7 +6402,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 410,
-      "plannedMin": 10680
+      "plannedMin": 10680,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5563,7 +6417,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 80,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5576,7 +6432,9 @@
       "unjustifiedMin": 52,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5589,7 +6447,9 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5602,7 +6462,9 @@
       "unjustifiedMin": 152,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5615,7 +6477,9 @@
       "unjustifiedMin": 197,
       "excusedMin": 0,
       "justifiedMin": 533,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5628,7 +6492,9 @@
       "unjustifiedMin": 650,
       "excusedMin": 0,
       "justifiedMin": 68,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5641,7 +6507,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5654,7 +6522,9 @@
       "unjustifiedMin": 240,
       "excusedMin": 480,
       "justifiedMin": 540,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5667,7 +6537,9 @@
       "unjustifiedMin": 1137,
       "excusedMin": 480,
       "justifiedMin": 4664,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5680,7 +6552,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5693,7 +6567,9 @@
       "unjustifiedMin": 108,
       "excusedMin": 0,
       "justifiedMin": 335,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5706,7 +6582,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5719,7 +6597,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -5732,7 +6612,9 @@
       "unjustifiedMin": 259,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5745,7 +6627,9 @@
       "unjustifiedMin": 470,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5758,7 +6642,9 @@
       "unjustifiedMin": 249,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5771,7 +6657,9 @@
       "unjustifiedMin": 38,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -5784,7 +6672,9 @@
       "unjustifiedMin": 79,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "FOLGA AUTORIZADA GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -5797,7 +6687,9 @@
       "unjustifiedMin": 39,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5810,7 +6702,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 960,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5823,7 +6717,9 @@
       "unjustifiedMin": 214,
       "excusedMin": 0,
       "justifiedMin": 6630,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5836,7 +6732,9 @@
       "unjustifiedMin": 35,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5849,7 +6747,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 127,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5862,7 +6762,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 3060,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5875,7 +6777,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1600,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5888,7 +6792,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5901,7 +6807,9 @@
       "unjustifiedMin": 130,
       "excusedMin": 0,
       "justifiedMin": 700,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5914,7 +6822,9 @@
       "unjustifiedMin": 153,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5927,7 +6837,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5940,7 +6852,9 @@
       "unjustifiedMin": 41,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5953,7 +6867,9 @@
       "unjustifiedMin": 144,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5966,7 +6882,9 @@
       "unjustifiedMin": 495,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5979,7 +6897,9 @@
       "unjustifiedMin": 58,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -5992,7 +6912,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 810,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6005,7 +6927,9 @@
       "unjustifiedMin": 503,
       "excusedMin": 0,
       "justifiedMin": 249,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6018,7 +6942,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 115,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6031,7 +6957,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6044,7 +6972,9 @@
       "unjustifiedMin": 85,
       "excusedMin": 0,
       "justifiedMin": 1320,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6057,7 +6987,9 @@
       "unjustifiedMin": 192,
       "excusedMin": 0,
       "justifiedMin": 175,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6070,7 +7002,9 @@
       "unjustifiedMin": 20,
       "excusedMin": 480,
       "justifiedMin": 640,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6083,7 +7017,9 @@
       "unjustifiedMin": 21,
       "excusedMin": 25,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "TATTINI",
@@ -6096,7 +7032,9 @@
       "unjustifiedMin": 66,
       "excusedMin": 0,
       "justifiedMin": 220,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6109,7 +7047,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1229,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6122,7 +7062,9 @@
       "unjustifiedMin": 362,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6135,7 +7077,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 9072,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": "AFASTADA",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6148,7 +7092,9 @@
       "unjustifiedMin": 110,
       "excusedMin": 0,
       "justifiedMin": 452,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6161,7 +7107,9 @@
       "unjustifiedMin": 56,
       "excusedMin": 0,
       "justifiedMin": 659,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6174,7 +7122,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6187,7 +7137,9 @@
       "unjustifiedMin": 241,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6200,7 +7152,9 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6213,7 +7167,9 @@
       "unjustifiedMin": 4480,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 4480
+      "plannedMin": 4480,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6226,7 +7182,9 @@
       "unjustifiedMin": 102,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6239,7 +7197,9 @@
       "unjustifiedMin": 316,
       "excusedMin": 0,
       "justifiedMin": 3060,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6252,7 +7212,9 @@
       "unjustifiedMin": 19,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6265,7 +7227,9 @@
       "unjustifiedMin": 595,
       "excusedMin": 0,
       "justifiedMin": 60,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6278,7 +7242,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 120,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6291,7 +7257,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6304,7 +7272,9 @@
       "unjustifiedMin": 399,
       "excusedMin": 0,
       "justifiedMin": 187,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6317,7 +7287,9 @@
       "unjustifiedMin": 721,
       "excusedMin": 0,
       "justifiedMin": 1320,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6330,7 +7302,9 @@
       "unjustifiedMin": 62,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 6120
+      "plannedMin": 6120,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6343,7 +7317,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -6356,7 +7332,9 @@
       "unjustifiedMin": 163,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6369,7 +7347,9 @@
       "unjustifiedMin": 80,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6382,7 +7362,9 @@
       "unjustifiedMin": 164,
       "excusedMin": 0,
       "justifiedMin": 208,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6395,7 +7377,9 @@
       "unjustifiedMin": 129,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6408,7 +7392,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 149,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6421,7 +7407,9 @@
       "unjustifiedMin": 88,
       "excusedMin": 100,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6434,7 +7422,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6447,7 +7437,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 40,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6460,7 +7452,9 @@
       "unjustifiedMin": 157,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6473,7 +7467,9 @@
       "unjustifiedMin": 46,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6486,7 +7482,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 80,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6499,7 +7497,9 @@
       "unjustifiedMin": 59,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -6512,7 +7512,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6525,7 +7527,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 3090,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO INTERNACAO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6538,7 +7542,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6551,7 +7557,9 @@
       "unjustifiedMin": 397,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6564,7 +7572,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -6577,7 +7587,9 @@
       "unjustifiedMin": 458,
       "excusedMin": 480,
       "justifiedMin": 2772,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6590,7 +7602,9 @@
       "unjustifiedMin": 473,
       "excusedMin": 0,
       "justifiedMin": 754,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6603,7 +7617,9 @@
       "unjustifiedMin": 692,
       "excusedMin": 0,
       "justifiedMin": 3175,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6616,7 +7632,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 960,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6629,7 +7647,9 @@
       "unjustifiedMin": 25,
       "excusedMin": 480,
       "justifiedMin": 1050,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "PARTICIPACOES",
@@ -6642,7 +7662,9 @@
       "unjustifiedMin": 177,
       "excusedMin": 0,
       "justifiedMin": 263,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6655,7 +7677,9 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6668,7 +7692,9 @@
       "unjustifiedMin": 420,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6681,7 +7707,9 @@
       "unjustifiedMin": 58,
       "excusedMin": 0,
       "justifiedMin": 1320,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6694,7 +7722,9 @@
       "unjustifiedMin": 34,
       "excusedMin": 0,
       "justifiedMin": 91,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6707,7 +7737,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6720,7 +7752,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 148,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6733,7 +7767,9 @@
       "unjustifiedMin": 158,
       "excusedMin": 0,
       "justifiedMin": 258,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6746,7 +7782,9 @@
       "unjustifiedMin": 66,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6759,7 +7797,9 @@
       "unjustifiedMin": 26,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6772,7 +7812,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 51,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6785,7 +7827,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6798,7 +7842,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 20,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "FOLGA AUTORIZADA GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6811,7 +7857,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1080,
-      "plannedMin": 11100
+      "plannedMin": 11100,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6824,7 +7872,9 @@
       "unjustifiedMin": 442,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6837,7 +7887,9 @@
       "unjustifiedMin": 455,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6850,7 +7902,9 @@
       "unjustifiedMin": 302,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6863,7 +7917,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 109,
-      "plannedMin": 11040
+      "plannedMin": 11040,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6876,7 +7932,9 @@
       "unjustifiedMin": 307,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -6889,7 +7947,9 @@
       "unjustifiedMin": 51,
       "excusedMin": 38,
       "justifiedMin": 1230,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6902,7 +7962,9 @@
       "unjustifiedMin": 287,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6915,7 +7977,9 @@
       "unjustifiedMin": 261,
       "excusedMin": 0,
       "justifiedMin": 181,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -6928,7 +7992,9 @@
       "unjustifiedMin": 533,
       "excusedMin": 0,
       "justifiedMin": 2766,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6941,7 +8007,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6954,7 +8022,9 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6967,7 +8037,9 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 1530,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6980,7 +8052,9 @@
       "unjustifiedMin": 44,
       "excusedMin": 0,
       "justifiedMin": 126,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -6993,7 +8067,9 @@
       "unjustifiedMin": 107,
       "excusedMin": 0,
       "justifiedMin": 2271,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7006,7 +8082,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7019,7 +8097,9 @@
       "unjustifiedMin": 27,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7032,7 +8112,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 81,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7045,7 +8127,9 @@
       "unjustifiedMin": 69,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7058,7 +8142,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 1420,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7071,7 +8157,9 @@
       "unjustifiedMin": 130,
       "excusedMin": 0,
       "justifiedMin": 133,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7084,7 +8172,9 @@
       "unjustifiedMin": 59,
       "excusedMin": 0,
       "justifiedMin": 185,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -7097,7 +8187,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 10710,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "LICENÇA MATERNIDADE",
+      "mainMotivoTreatment": "DESCONSIDERAR"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7110,7 +8202,9 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7123,7 +8217,9 @@
       "unjustifiedMin": 125,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7136,7 +8232,9 @@
       "unjustifiedMin": 28,
       "excusedMin": 320,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": "ATESTADO MÉDICO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7149,7 +8247,9 @@
       "unjustifiedMin": 72,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7162,7 +8262,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7175,7 +8277,9 @@
       "unjustifiedMin": 459,
       "excusedMin": 0,
       "justifiedMin": 1780,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7188,7 +8292,9 @@
       "unjustifiedMin": 37,
       "excusedMin": 0,
       "justifiedMin": 300,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7201,7 +8307,9 @@
       "unjustifiedMin": 293,
       "excusedMin": 0,
       "justifiedMin": 760,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7214,7 +8322,9 @@
       "unjustifiedMin": 448,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 9072
+      "plannedMin": 9072,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7227,7 +8337,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7240,7 +8352,9 @@
       "unjustifiedMin": 108,
       "excusedMin": 0,
       "justifiedMin": 973,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7253,7 +8367,9 @@
       "unjustifiedMin": 33,
       "excusedMin": 0,
       "justifiedMin": 247,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7266,7 +8382,9 @@
       "unjustifiedMin": 160,
       "excusedMin": 480,
       "justifiedMin": 1880,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "ABONADO PELO GESTOR",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7279,7 +8397,9 @@
       "unjustifiedMin": 194,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7292,7 +8412,9 @@
       "unjustifiedMin": 228,
       "excusedMin": 0,
       "justifiedMin": 210,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7305,7 +8427,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 2550,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7318,7 +8442,9 @@
       "unjustifiedMin": 77,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7331,7 +8457,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 158,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7344,7 +8472,9 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7357,7 +8487,9 @@
       "unjustifiedMin": 20,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7370,7 +8502,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 160,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -7383,7 +8517,9 @@
       "unjustifiedMin": 340,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7396,7 +8532,9 @@
       "unjustifiedMin": 23,
       "excusedMin": 0,
       "justifiedMin": 52,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7409,7 +8547,9 @@
       "unjustifiedMin": 635,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7422,7 +8562,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 200,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7435,7 +8577,9 @@
       "unjustifiedMin": 4291,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7448,7 +8592,9 @@
       "unjustifiedMin": 1226,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7461,7 +8607,9 @@
       "unjustifiedMin": 190,
       "excusedMin": 102,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO ODONTOLOGICA",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7474,7 +8622,9 @@
       "unjustifiedMin": 39,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7487,7 +8637,9 @@
       "unjustifiedMin": 40,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7500,7 +8652,9 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 320,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7513,7 +8667,9 @@
       "unjustifiedMin": 63,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7526,7 +8682,9 @@
       "unjustifiedMin": 127,
       "excusedMin": 0,
       "justifiedMin": 1080,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7539,7 +8697,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 679,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -7552,7 +8712,9 @@
       "unjustifiedMin": 149,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7565,7 +8727,9 @@
       "unjustifiedMin": 191,
       "excusedMin": 0,
       "justifiedMin": 202,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7578,7 +8742,9 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7591,7 +8757,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 35,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7604,7 +8772,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7617,7 +8787,9 @@
       "unjustifiedMin": 21,
       "excusedMin": 0,
       "justifiedMin": 270,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7630,7 +8802,9 @@
       "unjustifiedMin": 115,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7643,7 +8817,9 @@
       "unjustifiedMin": 83,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7656,7 +8832,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 114,
       "justifiedMin": 535,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
+      "mainMotivoTreatment": "ABONADO"
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7669,7 +8847,9 @@
       "unjustifiedMin": 55,
       "excusedMin": 0,
       "justifiedMin": 1020,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7682,7 +8862,9 @@
       "unjustifiedMin": 0,
       "excusedMin": 0,
       "justifiedMin": 510,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7695,7 +8877,9 @@
       "unjustifiedMin": 332,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7708,7 +8892,9 @@
       "unjustifiedMin": 48,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7721,7 +8907,9 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7734,7 +8922,9 @@
       "unjustifiedMin": 146,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7747,7 +8937,9 @@
       "unjustifiedMin": 31,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7760,7 +8952,9 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 1280,
-      "plannedMin": 8000
+      "plannedMin": 8000,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "EMPREENDIMENTOS",
@@ -7773,7 +8967,9 @@
       "unjustifiedMin": 90,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "PARTICIPACOES",
@@ -7786,7 +8982,9 @@
       "unjustifiedMin": 24,
       "excusedMin": 0,
       "justifiedMin": 2139,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     },
     {
       "company": "TATTINI",
@@ -7799,7 +8997,9 @@
       "unjustifiedMin": 39,
       "excusedMin": 0,
       "justifiedMin": 0,
-      "plannedMin": 10710
+      "plannedMin": 10710,
+      "mainMotivo": null,
+      "mainMotivoTreatment": null
     }
   ],
   "motivoTotals": [

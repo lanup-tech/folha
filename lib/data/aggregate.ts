@@ -99,19 +99,38 @@ export function rankedEmployees(all: EmployeeMonth[]): EmployeeRanked[] {
     .sort((a, b) => b.absPct - a.absPct);
 }
 
-/** Regra do negócio: ABS % nunca pode passar de 100% — acima disso é erro de carga. */
+/**
+ * Regra do negócio: ABS % nunca pode passar de 100% — acima disso é erro de carga.
+ *
+ * Quando o mês inteiro é ausência, o alerta explica o porquê usando o motivo
+ * predominante do Abono de Faltas (a API traz as horas abonadas, mas não o
+ * motivo) — assim o painel informa em vez de apenas sinalizar.
+ */
 export function qualityAlerts(all: EmployeeMonth[]): QualityAlert[] {
   const alerts: QualityAlert[] = [];
   for (const e of rankedEmployees(all)) {
     if (e.absPct > 1) {
       alerts.push({ employee: e, message: "ABS % acima de 100% — revisar carga de dados" });
     } else if (e.absPct === 1 && e.plannedMin > 0) {
-      alerts.push({ employee: e, message: "Ausência = 100% do planejado — possível afastamento não tratado" });
+      alerts.push({ employee: e, message: fullMonthMessage(e) });
     } else if (e.plannedMin === 0 && e.absMin > 0) {
       alerts.push({ employee: e, message: "Horas de ausência sem planejado — revisar escala" });
     }
   }
   return alerts;
+}
+
+function fullMonthMessage(e: EmployeeMonth): string {
+  if (!e.mainMotivo) {
+    return "Mês integralmente ausente — sem lançamento no Abono de Faltas, revisar";
+  }
+  const efeito =
+    e.mainMotivoTreatment === "DESCONSIDERAR"
+      ? "não conta no absenteísmo"
+      : e.mainMotivoTreatment === "ABONADO"
+        ? "abonado"
+        : "justificado";
+  return `Mês integralmente ausente — ${e.mainMotivo} (${efeito})`;
 }
 
 function sum<T>(rows: T[], f: (r: T) => number): number {
