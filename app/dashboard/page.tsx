@@ -5,6 +5,8 @@ import { AbsenceCompositionChart } from "@/components/charts/absence-composition
 import { TopMotivosChart } from "@/components/charts/top-motivos";
 import {
   companySummaries,
+  fullyExcusedEmployees,
+  ignoredTotal,
   overallKpis,
   qualityAlerts,
   rankedEmployees,
@@ -34,6 +36,8 @@ export default async function DashboardPage({
     .slice(0, 10);
   const sectors = sectorSummaries(employees, 6);
   const motivos = comp.motivoTotals.slice(0, 10);
+  const desconsideradas = ignoredTotal(employees);
+  const afastados = fullyExcusedEmployees(employees);
 
   return (
     <>
@@ -60,7 +64,11 @@ export default async function DashboardPage({
             value={formatDuration(kpis.plannedMin)}
             hint="soma do quadro ativo"
           />
-          <KpiCard label="Horas extras" value={formatDuration(kpis.heMin)} hint="extrato de horas" />
+          <KpiCard
+            label="Fora do cálculo"
+            value={formatDuration(desconsideradas)}
+            hint={`motivos DESCONSIDERAR · ${afastados.length} afastado(s) o mês todo`}
+          />
           <KpiCard
             label="Colaboradores ≥ 10%"
             value={String(kpis.critical)}

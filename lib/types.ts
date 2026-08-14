@@ -37,6 +37,8 @@ export interface EmployeeMonth {
   unjustifiedMin: number; // INJUSTIFICA
   excusedMin: number; // ABONADA
   justifiedMin: number; // JUSTIFICADA
+  /** Horas de motivos DESCONSIDERAR (afastamento, licença…) — FORA do ABS HORA */
+  ignoredMin?: number;
   plannedMin: number; // PLANEJADO (horas previstas do relatório de absenteísmo)
   /** Motivo com mais horas de abono no mês — explica afastamentos nos alertas */
   mainMotivo?: string | null;

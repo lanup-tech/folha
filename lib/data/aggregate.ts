@@ -125,12 +125,24 @@ function fullMonthMessage(e: EmployeeMonth): string {
     return "Mês integralmente ausente — sem lançamento no Abono de Faltas, revisar";
   }
   const efeito =
-    e.mainMotivoTreatment === "DESCONSIDERAR"
-      ? "não conta no absenteísmo"
-      : e.mainMotivoTreatment === "ABONADO"
-        ? "abonado"
-        : "justificado";
+    e.mainMotivoTreatment === "ABONADO"
+      ? "abonado"
+      : e.mainMotivoTreatment === "JUSTIFICADO"
+        ? "justificado"
+        : "não conta no absenteísmo";
   return `Mês integralmente ausente — ${e.mainMotivo} (${efeito})`;
+}
+
+/** Total de horas fora do cálculo (motivos DESCONSIDERAR) na competência. */
+export function ignoredTotal(all: EmployeeMonth[]): number {
+  return all.reduce((acc, e) => acc + (e.ignoredMin ?? 0), 0);
+}
+
+/** Pessoas com mês inteiro em motivo DESCONSIDERAR (afastadas/licença). */
+export function fullyExcusedEmployees(all: EmployeeMonth[]): EmployeeMonth[] {
+  return all.filter(
+    (e) => e.plannedMin > 0 && (e.ignoredMin ?? 0) >= e.plannedMin
+  );
 }
 
 function sum<T>(rows: T[], f: (r: T) => number): number {

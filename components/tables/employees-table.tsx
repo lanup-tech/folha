@@ -74,6 +74,12 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
               <th className="px-4 py-2 text-right font-medium">Injust.</th>
               <th className="px-4 py-2 text-right font-medium">Abonada</th>
               <th className="px-4 py-2 text-right font-medium">Just.</th>
+              <th
+                className="px-4 py-2 text-right font-medium"
+                title="Horas de motivos DESCONSIDERAR (afastamento, licença…) — fora do cálculo"
+              >
+                Desconsid.
+              </th>
               <th className="px-4 py-2 text-right font-medium">ABS Hora</th>
               <th className="px-4 py-2 text-right font-medium">Planejado</th>
               <th className="px-4 py-2 text-right font-medium">ABS %</th>
@@ -98,6 +104,12 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
                 </td>
                 <td className="px-4 py-2 text-right tabular">{formatDuration(e.excusedMin)}</td>
                 <td className="px-4 py-2 text-right tabular">{formatDuration(e.justifiedMin)}</td>
+                <td
+                  className="px-4 py-2 text-right tabular text-[var(--ink-muted)]"
+                  title={e.mainMotivo ?? undefined}
+                >
+                  {e.ignoredMin ? formatDuration(e.ignoredMin) : "—"}
+                </td>
                 <td className="px-4 py-2 text-right font-medium tabular">
                   {formatDuration(e.absMin)}
                 </td>

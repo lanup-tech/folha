@@ -152,7 +152,9 @@ const cHDia = abono.col("Horas Diurnas");
 const cHNot = abono.col("Horas Noturnas");
 const cPer = abono.col("Período Abonado");
 
-const excusedByName = new Map(); // ABONADO -> min por pessoa
+const excusedByName = new Map(); // ABONADO -> min por pessoa (entra em ABONADA)
+const justifiedByName = new Map(); // JUSTIFICADO -> min por pessoa (entra em JUSTIFICADA)
+const ignoredByName = new Map(); // DESCONSIDERAR -> min por pessoa (FORA do ABS)
 const motivoAgg = new Map(); // motivo -> { treatment, totalMin, occurrences }
 const unknownMotivos = new Set();
 // motivo -> minutos por pessoa (qualquer tratamento), para explicar afastamentos
@@ -181,9 +183,9 @@ for (const r of abono.rows) {
   porPessoa.set(motivoRaw, (porPessoa.get(motivoRaw) ?? 0) + minutes);
   motivosByName.set(k, porPessoa);
 
-  if (t === "ABONADO") {
-    excusedByName.set(k, (excusedByName.get(k) ?? 0) + minutes);
-  }
+  const destino =
+    t === "ABONADO" ? excusedByName : t === "JUSTIFICADO" ? justifiedByName : ignoredByName;
+  destino.set(k, (destino.get(k) ?? 0) + minutes);
 }
 
 /** Motivo com mais horas da pessoa na competência (explica afastamentos). */
@@ -244,21 +246,50 @@ for (const r of abs.rows) {
   if (!api) unmatched.push(rawName);
 
   const plannedMin = toMinutes(r[aPrev]);
-  const fjMin = toMinutes(r[aJust]);
+  const fjMin = toMinutes(r[aJust]); // Faltas Justificadas medidas pelo ponto
   const unjustifiedMin = toMinutes(r[aInj]);
 
-  // O relatório de abono valora "O dia todo" em 8h fixas e lista dias sem carga
-  // (fins de semana em afastamentos) — o que inflava ABONADA acima do que o
-  // ponto mediu e gerava ABS > 100%. Regra validada na conciliação com a API
-  // (espelhoDePontos): ABONADA não pode passar das Faltas Justificadas do
-  // ponto; o excesso vira alerta. Assim ABS HORA = FI + FJ, sempre coerente
-  // com o ponto. A valoração exata por jornada diária virá da carga via API.
+  // ---- Rateio das Faltas Justificadas conforme o TRATAMENTO DO MOTIVO ----
+  //
+  // O ponto mede o total de falta justificada (fjMin), mas não sabe o que cada
+  // motivo significa para o negócio — isso vem da base de motivos (front).
+  // Distribuímos fjMin em ABONADA / JUSTIFICADA / DESCONSIDERADA na proporção
+  // das horas lançadas no Abono de Faltas por tratamento.
+  //
+  // DESCONSIDERAR (afastamento, licença-maternidade, folga compensação…) fica
+  // FORA do ABS HORA — é a regra da base de motivos. O planejado é mantido
+  // (decisão do cliente, 14/08/2026): quem está afastado o mês inteiro aparece
+  // com ABS% = 0%, como se tivesse trabalhado sem faltas.
+  //
+  // A proporção evita o vício da valoração 8h fixas do relatório (que inflava
+  // as horas em jornadas menores e em dias sem escala) — o total continua
+  // ancorado no que o ponto mediu.
   const excusedRaw = excusedByName.get(k) ?? 0;
-  const excusedMin = Math.min(excusedRaw, fjMin);
-  const justifiedMin = fjMin - excusedMin;
-  if (excusedRaw - fjMin > 30) {
+  const justifiedRaw = justifiedByName.get(k) ?? 0;
+  const ignoredRaw = ignoredByName.get(k) ?? 0;
+  const lancadoRaw = excusedRaw + justifiedRaw + ignoredRaw;
+
+  let excusedMin = 0;
+  let justifiedMin = 0;
+  let ignoredMin = 0;
+  if (lancadoRaw > 0) {
+    excusedMin = Math.round((fjMin * excusedRaw) / lancadoRaw);
+    ignoredMin = Math.round((fjMin * ignoredRaw) / lancadoRaw);
+    justifiedMin = Math.max(0, fjMin - excusedMin - ignoredMin); // resto, sem perder minutos
+  } else {
+    // sem lançamento no Abono: o ponto marcou falta justificada mas ninguém
+    // registrou o motivo — mantém em JUSTIFICADA e sinaliza
+    justifiedMin = fjMin;
+    if (fjMin > 0) {
+      inconsistencies.push(
+        `${rawName}: ${Math.round(fjMin / 60)}h de falta justificada no ponto sem lançamento no Abono de Faltas`
+      );
+    }
+  }
+
+  if (lancadoRaw - fjMin > 60) {
     inconsistencies.push(
-      `${rawName}: abono do relatório (${Math.round(excusedRaw / 60)}h) excede as faltas justificadas do ponto (${Math.round(fjMin / 60)}h) — valoração 8h/dia corrigida pelo teto`
+      `${rawName}: abono lançado (${Math.round(lancadoRaw / 60)}h) excede a falta justificada do ponto (${Math.round(fjMin / 60)}h) — valoração 8h/dia do relatório`
     );
   }
 
@@ -274,6 +305,8 @@ for (const r of abs.rows) {
     unjustifiedMin,
     excusedMin,
     justifiedMin,
+    /** Horas de motivos DESCONSIDERAR — fora do ABS HORA, exibidas para auditoria */
+    ignoredMin,
     plannedMin,
     // motivo que responde pela maior parte das horas de abono da pessoa —
     // usado para explicar afastamentos nos alertas do painel

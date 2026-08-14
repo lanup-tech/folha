@@ -12,6 +12,7 @@
       "unjustifiedMin": 810,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "FOLGA COMPENSAÇÃO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -27,6 +28,7 @@
       "unjustifiedMin": 314,
       "excusedMin": 142,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -40,8 +42,9 @@
       "admissionDate": "18/02/2014",
       "heMin": 655,
       "unjustifiedMin": 279,
-      "excusedMin": 1979,
-      "justifiedMin": 90,
+      "excusedMin": 2069,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -57,6 +60,7 @@
       "unjustifiedMin": 700,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -72,6 +76,7 @@
       "unjustifiedMin": 1089,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -85,8 +90,9 @@
       "admissionDate": "06/01/2021",
       "heMin": 878,
       "unjustifiedMin": 930,
-      "excusedMin": 743,
-      "justifiedMin": 30,
+      "excusedMin": 773,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -102,6 +108,7 @@
       "unjustifiedMin": 313,
       "excusedMin": 689,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -117,6 +124,7 @@
       "unjustifiedMin": 2362,
       "excusedMin": 110,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -130,8 +138,9 @@
       "admissionDate": "18/11/2025",
       "heMin": 767,
       "unjustifiedMin": 521,
-      "excusedMin": 1440,
-      "justifiedMin": 270,
+      "excusedMin": 1710,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11940,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -147,6 +156,7 @@
       "unjustifiedMin": 1298,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "FOLGA COMPENSAÇÃO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -162,6 +172,7 @@
       "unjustifiedMin": 2550,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -177,6 +188,7 @@
       "unjustifiedMin": 690,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -192,6 +204,7 @@
       "unjustifiedMin": 1759,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -207,6 +220,7 @@
       "unjustifiedMin": 168,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -222,6 +236,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 480,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -237,6 +252,7 @@
       "unjustifiedMin": 1526,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -252,6 +268,7 @@
       "unjustifiedMin": 785,
       "excusedMin": 640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -265,8 +282,9 @@
       "admissionDate": "09/01/2023",
       "heMin": 359,
       "unjustifiedMin": 540,
-      "excusedMin": 1920,
-      "justifiedMin": 120,
+      "excusedMin": 2040,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -282,6 +300,7 @@
       "unjustifiedMin": 270,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -297,6 +316,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -312,6 +332,7 @@
       "unjustifiedMin": 1369,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8640,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -327,6 +348,7 @@
       "unjustifiedMin": 1920,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -342,6 +364,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 56,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -357,6 +380,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 179,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -370,8 +394,9 @@
       "admissionDate": "16/06/2025",
       "heMin": 927,
       "unjustifiedMin": 791,
-      "excusedMin": 3037,
-      "justifiedMin": 150,
+      "excusedMin": 3187,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -387,6 +412,7 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -402,6 +428,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 429,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -417,6 +444,7 @@
       "unjustifiedMin": 539,
       "excusedMin": 424,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -432,6 +460,7 @@
       "unjustifiedMin": 18,
       "excusedMin": 510,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -447,6 +476,7 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -462,6 +492,7 @@
       "unjustifiedMin": 1619,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -477,6 +508,7 @@
       "unjustifiedMin": 82,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -492,6 +524,7 @@
       "unjustifiedMin": 162,
       "excusedMin": 135,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -506,7 +539,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -522,6 +556,7 @@
       "unjustifiedMin": 744,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 1280,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -537,6 +572,7 @@
       "unjustifiedMin": 971,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -552,6 +588,7 @@
       "unjustifiedMin": 479,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -566,7 +603,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 8320,
+      "justifiedMin": 0,
+      "ignoredMin": 8320,
       "plannedMin": 8320,
       "mainMotivo": "LICENÇA MATERNIDADE",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -582,6 +620,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -595,8 +634,9 @@
       "admissionDate": "18/12/2025",
       "heMin": 482,
       "unjustifiedMin": 38,
-      "excusedMin": 109,
+      "excusedMin": 57,
       "justifiedMin": 0,
+      "ignoredMin": 52,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -612,6 +652,7 @@
       "unjustifiedMin": 2540,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 5120,
       "mainMotivo": "TREINAMENTO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -627,6 +668,7 @@
       "unjustifiedMin": 1750,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -642,6 +684,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -657,6 +700,7 @@
       "unjustifiedMin": 837,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -670,8 +714,9 @@
       "admissionDate": "22/09/2025",
       "heMin": 0,
       "unjustifiedMin": 80,
-      "excusedMin": 2664,
-      "justifiedMin": 150,
+      "excusedMin": 2814,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -687,6 +732,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -700,8 +746,9 @@
       "admissionDate": "03/06/2024",
       "heMin": 1073,
       "unjustifiedMin": 300,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -717,6 +764,7 @@
       "unjustifiedMin": 1819,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -732,6 +780,7 @@
       "unjustifiedMin": 1529,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -747,6 +796,7 @@
       "unjustifiedMin": 446,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -762,6 +812,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 76,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -775,8 +826,9 @@
       "admissionDate": "12/07/2023",
       "heMin": 0,
       "unjustifiedMin": 54,
-      "excusedMin": 1185,
-      "justifiedMin": 60,
+      "excusedMin": 1245,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -792,6 +844,7 @@
       "unjustifiedMin": 571,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -807,6 +860,7 @@
       "unjustifiedMin": 804,
       "excusedMin": 300,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ESCOLAR",
       "mainMotivoTreatment": "ABONADO"
@@ -822,6 +876,7 @@
       "unjustifiedMin": 140,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -837,6 +892,7 @@
       "unjustifiedMin": 26,
       "excusedMin": 272,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -852,6 +908,7 @@
       "unjustifiedMin": 102,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -865,8 +922,9 @@
       "admissionDate": "07/07/2026",
       "heMin": 470,
       "unjustifiedMin": 886,
-      "excusedMin": 2400,
-      "justifiedMin": 150,
+      "excusedMin": 2550,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9180,
       "mainMotivo": "ATESTADO INTERNACAO",
       "mainMotivoTreatment": "ABONADO"
@@ -882,6 +940,7 @@
       "unjustifiedMin": 903,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -897,6 +956,7 @@
       "unjustifiedMin": 49,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -912,6 +972,7 @@
       "unjustifiedMin": 59,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -927,6 +988,7 @@
       "unjustifiedMin": 480,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -941,7 +1003,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 8320,
+      "justifiedMin": 0,
+      "ignoredMin": 8320,
       "plannedMin": 8320,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -957,6 +1020,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -972,6 +1036,7 @@
       "unjustifiedMin": 538,
       "excusedMin": 7140,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -985,8 +1050,9 @@
       "admissionDate": "03/06/2026",
       "heMin": 552,
       "unjustifiedMin": 103,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 796,
+      "justifiedMin": 0,
+      "ignoredMin": 224,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1000,8 +1066,9 @@
       "admissionDate": "14/07/2026",
       "heMin": 124,
       "unjustifiedMin": 1864,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 7140,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1017,6 +1084,7 @@
       "unjustifiedMin": 1949,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1032,6 +1100,7 @@
       "unjustifiedMin": 443,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1045,8 +1114,9 @@
       "admissionDate": "24/10/2016",
       "heMin": 2824,
       "unjustifiedMin": 497,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1062,6 +1132,7 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1077,6 +1148,7 @@
       "unjustifiedMin": 2398,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1092,6 +1164,7 @@
       "unjustifiedMin": 1049,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1107,6 +1180,7 @@
       "unjustifiedMin": 432,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1122,6 +1196,7 @@
       "unjustifiedMin": 47,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1137,6 +1212,7 @@
       "unjustifiedMin": 293,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1152,6 +1228,7 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1167,6 +1244,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1182,6 +1260,7 @@
       "unjustifiedMin": 659,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1195,8 +1274,9 @@
       "admissionDate": "21/07/2026",
       "heMin": 60,
       "unjustifiedMin": 1626,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1212,6 +1292,7 @@
       "unjustifiedMin": 4290,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 7140,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1227,6 +1308,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1242,6 +1324,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 89,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1255,8 +1338,9 @@
       "admissionDate": "04/11/2025",
       "heMin": 521,
       "unjustifiedMin": 107,
-      "excusedMin": 1130,
-      "justifiedMin": 60,
+      "excusedMin": 1190,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1272,6 +1356,7 @@
       "unjustifiedMin": 5760,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1285,8 +1370,9 @@
       "admissionDate": "09/09/2021",
       "heMin": 2189,
       "unjustifiedMin": 259,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1302,6 +1388,7 @@
       "unjustifiedMin": 1907,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1315,8 +1402,9 @@
       "admissionDate": "27/05/2025",
       "heMin": 30,
       "unjustifiedMin": 817,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1332,6 +1420,7 @@
       "unjustifiedMin": 1665,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1347,6 +1436,7 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1362,6 +1452,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1377,6 +1468,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 135,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1392,6 +1484,7 @@
       "unjustifiedMin": 980,
       "excusedMin": 127,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1405,8 +1498,9 @@
       "admissionDate": "14/08/2024",
       "heMin": 449,
       "unjustifiedMin": 391,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1422,6 +1516,7 @@
       "unjustifiedMin": 161,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1437,6 +1532,7 @@
       "unjustifiedMin": 458,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1452,6 +1548,7 @@
       "unjustifiedMin": 714,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1465,8 +1562,9 @@
       "admissionDate": "03/03/2022",
       "heMin": 513,
       "unjustifiedMin": 765,
-      "excusedMin": 2496,
-      "justifiedMin": 90,
+      "excusedMin": 2586,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1482,6 +1580,7 @@
       "unjustifiedMin": 374,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1495,8 +1594,9 @@
       "admissionDate": "03/06/2025",
       "heMin": 104,
       "unjustifiedMin": 296,
-      "excusedMin": 1037,
-      "justifiedMin": 30,
+      "excusedMin": 1067,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1510,8 +1610,9 @@
       "admissionDate": "16/12/2019",
       "heMin": 517,
       "unjustifiedMin": 39,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1527,6 +1628,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 360,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1542,6 +1644,7 @@
       "unjustifiedMin": 571,
       "excusedMin": 647,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1555,8 +1658,9 @@
       "admissionDate": "16/04/2026",
       "heMin": 0,
       "unjustifiedMin": 14,
-      "excusedMin": 1775,
-      "justifiedMin": 90,
+      "excusedMin": 1865,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1572,6 +1676,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1587,6 +1692,7 @@
       "unjustifiedMin": 262,
       "excusedMin": 315,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1600,8 +1706,9 @@
       "admissionDate": "03/07/2024",
       "heMin": 3080,
       "unjustifiedMin": 0,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1617,6 +1724,7 @@
       "unjustifiedMin": 624,
       "excusedMin": 103,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1632,6 +1740,7 @@
       "unjustifiedMin": 1300,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1645,8 +1754,9 @@
       "admissionDate": "02/12/2025",
       "heMin": 1100,
       "unjustifiedMin": 1680,
-      "excusedMin": 2940,
-      "justifiedMin": 180,
+      "excusedMin": 3120,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1662,6 +1772,7 @@
       "unjustifiedMin": 487,
       "excusedMin": 300,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1677,6 +1788,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1690,8 +1802,9 @@
       "admissionDate": "01/04/2025",
       "heMin": 761,
       "unjustifiedMin": 1140,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1707,6 +1820,7 @@
       "unjustifiedMin": 1022,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1722,6 +1836,7 @@
       "unjustifiedMin": 26,
       "excusedMin": 1020,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1735,8 +1850,9 @@
       "admissionDate": "22/05/2023",
       "heMin": 0,
       "unjustifiedMin": 0,
-      "excusedMin": 778,
-      "justifiedMin": 30,
+      "excusedMin": 808,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1752,6 +1868,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1767,6 +1884,7 @@
       "unjustifiedMin": 380,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1782,6 +1900,7 @@
       "unjustifiedMin": 71,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1797,6 +1916,7 @@
       "unjustifiedMin": 179,
       "excusedMin": 103,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11580,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -1812,6 +1932,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1827,6 +1948,7 @@
       "unjustifiedMin": 215,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1842,6 +1964,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 1296,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1855,8 +1978,9 @@
       "admissionDate": "01/04/2025",
       "heMin": 1254,
       "unjustifiedMin": 545,
-      "excusedMin": 628,
-      "justifiedMin": 30,
+      "excusedMin": 658,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -1872,6 +1996,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1887,6 +2012,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 149,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1902,6 +2028,7 @@
       "unjustifiedMin": 88,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1917,6 +2044,7 @@
       "unjustifiedMin": 820,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1932,6 +2060,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 130,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -1947,6 +2076,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1962,6 +2092,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -1977,6 +2108,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 1050,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -1992,6 +2124,7 @@
       "unjustifiedMin": 667,
       "excusedMin": 712,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -2007,6 +2140,7 @@
       "unjustifiedMin": 1094,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 7140,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2022,6 +2156,7 @@
       "unjustifiedMin": 432,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2037,6 +2172,7 @@
       "unjustifiedMin": 1770,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2052,6 +2188,7 @@
       "unjustifiedMin": 228,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2067,6 +2204,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 469,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2082,6 +2220,7 @@
       "unjustifiedMin": 161,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2097,6 +2236,7 @@
       "unjustifiedMin": 1572,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2112,6 +2252,7 @@
       "unjustifiedMin": 221,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2127,6 +2268,7 @@
       "unjustifiedMin": 465,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2142,6 +2284,7 @@
       "unjustifiedMin": 286,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2157,6 +2300,7 @@
       "unjustifiedMin": 180,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2172,6 +2316,7 @@
       "unjustifiedMin": 530,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2185,8 +2330,9 @@
       "admissionDate": "21/07/2026",
       "heMin": 4,
       "unjustifiedMin": 2514,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2202,6 +2348,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2217,6 +2364,7 @@
       "unjustifiedMin": 2471,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2232,6 +2380,7 @@
       "unjustifiedMin": 1060,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 2040,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2247,6 +2396,7 @@
       "unjustifiedMin": 60,
       "excusedMin": 397,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2262,6 +2412,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 5760,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2276,7 +2427,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -2290,8 +2442,9 @@
       "admissionDate": "18/12/2025",
       "heMin": 680,
       "unjustifiedMin": 1178,
-      "excusedMin": 3043,
-      "justifiedMin": 180,
+      "excusedMin": 3223,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2307,6 +2460,7 @@
       "unjustifiedMin": 312,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2322,6 +2476,7 @@
       "unjustifiedMin": 23,
       "excusedMin": 164,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2335,8 +2490,9 @@
       "admissionDate": "18/03/2020",
       "heMin": 517,
       "unjustifiedMin": 31,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2352,6 +2508,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 354,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -2367,6 +2524,7 @@
       "unjustifiedMin": 197,
       "excusedMin": 375,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2382,6 +2540,7 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2397,6 +2556,7 @@
       "unjustifiedMin": 705,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2412,6 +2572,7 @@
       "unjustifiedMin": 527,
       "excusedMin": 44,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2427,6 +2588,7 @@
       "unjustifiedMin": 8320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2440,8 +2602,9 @@
       "admissionDate": "01/10/2020",
       "heMin": 2363,
       "unjustifiedMin": 17,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2457,6 +2620,7 @@
       "unjustifiedMin": 140,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2472,6 +2636,7 @@
       "unjustifiedMin": 700,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2487,6 +2652,7 @@
       "unjustifiedMin": 2504,
       "excusedMin": 96,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2502,6 +2668,7 @@
       "unjustifiedMin": 693,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2515,8 +2682,9 @@
       "admissionDate": "15/09/2020",
       "heMin": 1014,
       "unjustifiedMin": 293,
-      "excusedMin": 1076,
-      "justifiedMin": 30,
+      "excusedMin": 1106,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2532,6 +2700,7 @@
       "unjustifiedMin": 1967,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2547,6 +2716,7 @@
       "unjustifiedMin": 1514,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2562,6 +2732,7 @@
       "unjustifiedMin": 654,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2576,7 +2747,8 @@
       "heMin": 270,
       "unjustifiedMin": 17,
       "excusedMin": 0,
-      "justifiedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 1530,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELA EMPRESA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -2592,6 +2764,7 @@
       "unjustifiedMin": 1201,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2607,6 +2780,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 6784,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2620,8 +2794,9 @@
       "admissionDate": "29/11/2022",
       "heMin": 0,
       "unjustifiedMin": 2040,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2637,6 +2812,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 155,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2652,6 +2828,7 @@
       "unjustifiedMin": 33,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "PROBLEMA VPN",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -2665,8 +2842,9 @@
       "admissionDate": "26/06/2025",
       "heMin": 259,
       "unjustifiedMin": 872,
-      "excusedMin": 597,
-      "justifiedMin": 30,
+      "excusedMin": 627,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2682,6 +2860,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 121,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2697,6 +2876,7 @@
       "unjustifiedMin": 91,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2710,8 +2890,9 @@
       "admissionDate": "23/01/2020",
       "heMin": 1392,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2727,6 +2908,7 @@
       "unjustifiedMin": 1079,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2742,6 +2924,7 @@
       "unjustifiedMin": 847,
       "excusedMin": 153,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -2756,7 +2939,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 8320,
+      "justifiedMin": 0,
+      "ignoredMin": 8320,
       "plannedMin": 8320,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -2772,6 +2956,7 @@
       "unjustifiedMin": 8701,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2787,6 +2972,7 @@
       "unjustifiedMin": 208,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2802,6 +2988,7 @@
       "unjustifiedMin": 543,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2817,6 +3004,7 @@
       "unjustifiedMin": 153,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2832,6 +3020,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2845,8 +3034,9 @@
       "admissionDate": "23/04/2026",
       "heMin": 515,
       "unjustifiedMin": 0,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2862,6 +3052,7 @@
       "unjustifiedMin": 436,
       "excusedMin": 3200,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2877,6 +3068,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2890,8 +3082,9 @@
       "admissionDate": "02/12/2025",
       "heMin": 0,
       "unjustifiedMin": 24,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2907,6 +3100,7 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2920,8 +3114,9 @@
       "admissionDate": "10/01/2012",
       "heMin": 1446,
       "unjustifiedMin": 979,
-      "excusedMin": 1494,
-      "justifiedMin": 60,
+      "excusedMin": 1554,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2937,6 +3132,7 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2952,6 +3148,7 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -2965,8 +3162,9 @@
       "admissionDate": "24/11/2021",
       "heMin": 53,
       "unjustifiedMin": 0,
-      "excusedMin": 2644,
-      "justifiedMin": 120,
+      "excusedMin": 2764,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -2982,6 +3180,7 @@
       "unjustifiedMin": 919,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "FOLGA COMPENSAÇÃO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -2995,8 +3194,9 @@
       "admissionDate": "28/01/2019",
       "heMin": 2347,
       "unjustifiedMin": 245,
-      "excusedMin": 1535,
-      "justifiedMin": 60,
+      "excusedMin": 1595,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3011,7 +3211,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -3027,6 +3228,7 @@
       "unjustifiedMin": 1920,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3042,6 +3244,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3057,6 +3260,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3072,6 +3276,7 @@
       "unjustifiedMin": 83,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3087,6 +3292,7 @@
       "unjustifiedMin": 174,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3102,6 +3308,7 @@
       "unjustifiedMin": 7344,
       "excusedMin": 864,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3115,8 +3322,9 @@
       "admissionDate": "10/12/2025",
       "heMin": 1991,
       "unjustifiedMin": 725,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3132,6 +3340,7 @@
       "unjustifiedMin": 31,
       "excusedMin": 432,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3145,8 +3354,9 @@
       "admissionDate": "14/10/2024",
       "heMin": 516,
       "unjustifiedMin": 394,
-      "excusedMin": 1546,
-      "justifiedMin": 90,
+      "excusedMin": 1636,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3160,8 +3370,9 @@
       "admissionDate": "23/05/2024",
       "heMin": 537,
       "unjustifiedMin": 510,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3175,8 +3386,9 @@
       "admissionDate": "04/08/2025",
       "heMin": 483,
       "unjustifiedMin": 22,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3190,8 +3402,9 @@
       "admissionDate": "11/09/2024",
       "heMin": 1699,
       "unjustifiedMin": 775,
-      "excusedMin": 2291,
-      "justifiedMin": 120,
+      "excusedMin": 2411,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3207,6 +3420,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 150,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3222,6 +3436,7 @@
       "unjustifiedMin": 1075,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3237,6 +3452,7 @@
       "unjustifiedMin": 653,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "FOLGA COMPENSAÇÃO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -3252,6 +3468,7 @@
       "unjustifiedMin": 16,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3267,6 +3484,7 @@
       "unjustifiedMin": 1150,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3280,8 +3498,9 @@
       "admissionDate": "16/04/2026",
       "heMin": 0,
       "unjustifiedMin": 123,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3297,6 +3516,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3312,6 +3532,7 @@
       "unjustifiedMin": 57,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3327,6 +3548,7 @@
       "unjustifiedMin": 149,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3342,6 +3564,7 @@
       "unjustifiedMin": 231,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3355,8 +3578,9 @@
       "admissionDate": "19/06/2023",
       "heMin": 316,
       "unjustifiedMin": 238,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3372,6 +3596,7 @@
       "unjustifiedMin": 185,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3387,6 +3612,7 @@
       "unjustifiedMin": 790,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3402,6 +3628,7 @@
       "unjustifiedMin": 855,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3417,6 +3644,7 @@
       "unjustifiedMin": 334,
       "excusedMin": 640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3430,8 +3658,9 @@
       "admissionDate": "02/06/2014",
       "heMin": 6025,
       "unjustifiedMin": 240,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3447,6 +3676,7 @@
       "unjustifiedMin": 1316,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3460,8 +3690,9 @@
       "admissionDate": "01/06/2021",
       "heMin": 498,
       "unjustifiedMin": 23,
-      "excusedMin": 1586,
-      "justifiedMin": 90,
+      "excusedMin": 1676,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3477,6 +3708,7 @@
       "unjustifiedMin": 654,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3492,6 +3724,7 @@
       "unjustifiedMin": 461,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3507,6 +3740,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 210,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3522,6 +3756,7 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3537,6 +3772,7 @@
       "unjustifiedMin": 81,
       "excusedMin": 272,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3552,6 +3788,7 @@
       "unjustifiedMin": 936,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 2040,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3567,6 +3804,7 @@
       "unjustifiedMin": 110,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3582,6 +3820,7 @@
       "unjustifiedMin": 948,
       "excusedMin": 640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3597,6 +3836,7 @@
       "unjustifiedMin": 41,
       "excusedMin": 864,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3612,6 +3852,7 @@
       "unjustifiedMin": 287,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3627,6 +3868,7 @@
       "unjustifiedMin": 110,
       "excusedMin": 84,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3640,8 +3882,9 @@
       "admissionDate": "19/01/2026",
       "heMin": 579,
       "unjustifiedMin": 614,
-      "excusedMin": 756,
-      "justifiedMin": 30,
+      "excusedMin": 786,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3655,8 +3898,9 @@
       "admissionDate": "18/06/2025",
       "heMin": 0,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3672,6 +3916,7 @@
       "unjustifiedMin": 443,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3687,6 +3932,7 @@
       "unjustifiedMin": 857,
       "excusedMin": 64,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9180,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3702,6 +3948,7 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3717,6 +3964,7 @@
       "unjustifiedMin": 2215,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3732,6 +3980,7 @@
       "unjustifiedMin": 202,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3746,7 +3995,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -3762,6 +4012,7 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3777,6 +4028,7 @@
       "unjustifiedMin": 34,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3792,6 +4044,7 @@
       "unjustifiedMin": 594,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3807,6 +4060,7 @@
       "unjustifiedMin": 137,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3822,6 +4076,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 159,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3837,6 +4092,7 @@
       "unjustifiedMin": 345,
       "excusedMin": 209,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3852,6 +4108,7 @@
       "unjustifiedMin": 865,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3867,6 +4124,7 @@
       "unjustifiedMin": 270,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3880,8 +4138,9 @@
       "admissionDate": "25/08/2020",
       "heMin": 0,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -3897,6 +4156,7 @@
       "unjustifiedMin": 71,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 3888,
       "mainMotivo": "TREINAMENTO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -3910,8 +4170,9 @@
       "admissionDate": "18/11/2019",
       "heMin": 702,
       "unjustifiedMin": 0,
-      "excusedMin": 4907,
-      "justifiedMin": 300,
+      "excusedMin": 4355,
+      "justifiedMin": 0,
+      "ignoredMin": 852,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -3927,6 +4188,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3942,6 +4204,7 @@
       "unjustifiedMin": 762,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -3957,6 +4220,7 @@
       "unjustifiedMin": 340,
       "excusedMin": 387,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -3970,8 +4234,9 @@
       "admissionDate": "19/05/2026",
       "heMin": 2609,
       "unjustifiedMin": 315,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO ÓBITO FAMILIAR",
       "mainMotivoTreatment": "ABONADO"
@@ -3985,8 +4250,9 @@
       "admissionDate": "02/12/2020",
       "heMin": 1159,
       "unjustifiedMin": 288,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4002,6 +4268,7 @@
       "unjustifiedMin": 17,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4015,8 +4282,9 @@
       "admissionDate": "03/06/2025",
       "heMin": 790,
       "unjustifiedMin": 1118,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4032,6 +4300,7 @@
       "unjustifiedMin": 614,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4047,6 +4316,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4062,6 +4332,7 @@
       "unjustifiedMin": 55,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4075,8 +4346,9 @@
       "admissionDate": "07/07/2025",
       "heMin": 665,
       "unjustifiedMin": 30,
-      "excusedMin": 2040,
+      "excusedMin": 1443,
       "justifiedMin": 0,
+      "ignoredMin": 597,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4092,6 +4364,7 @@
       "unjustifiedMin": 592,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4107,6 +4380,7 @@
       "unjustifiedMin": 258,
       "excusedMin": 210,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -4120,8 +4394,9 @@
       "admissionDate": "05/12/2022",
       "heMin": 5450,
       "unjustifiedMin": 270,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4135,8 +4410,9 @@
       "admissionDate": "01/10/2025",
       "heMin": 500,
       "unjustifiedMin": 63,
-      "excusedMin": 1920,
-      "justifiedMin": 120,
+      "excusedMin": 2040,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4150,8 +4426,9 @@
       "admissionDate": "02/03/2026",
       "heMin": 73,
       "unjustifiedMin": 184,
-      "excusedMin": 628,
-      "justifiedMin": 30,
+      "excusedMin": 658,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4167,6 +4444,7 @@
       "unjustifiedMin": 115,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4182,6 +4460,7 @@
       "unjustifiedMin": 1178,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9180,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4197,6 +4476,7 @@
       "unjustifiedMin": 295,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4210,8 +4490,9 @@
       "admissionDate": "19/01/2026",
       "heMin": 2115,
       "unjustifiedMin": 1030,
-      "excusedMin": 1107,
-      "justifiedMin": 60,
+      "excusedMin": 1167,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4227,6 +4508,7 @@
       "unjustifiedMin": 192,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "PROBLEMAS TRANSPORTE PUBLICO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -4242,6 +4524,7 @@
       "unjustifiedMin": 29,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4255,8 +4538,9 @@
       "admissionDate": "05/01/2026",
       "heMin": 517,
       "unjustifiedMin": 0,
-      "excusedMin": 2055,
-      "justifiedMin": 120,
+      "excusedMin": 2175,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4272,6 +4556,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4287,6 +4572,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4302,6 +4588,7 @@
       "unjustifiedMin": 143,
       "excusedMin": 164,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -4316,7 +4603,8 @@
       "heMin": 0,
       "unjustifiedMin": 640,
       "excusedMin": 0,
-      "justifiedMin": 7680,
+      "justifiedMin": 0,
+      "ignoredMin": 7680,
       "plannedMin": 8320,
       "mainMotivo": "LICENÇA MATERNIDADE",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -4332,6 +4620,7 @@
       "unjustifiedMin": 1220,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4347,6 +4636,7 @@
       "unjustifiedMin": 158,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4362,6 +4652,7 @@
       "unjustifiedMin": 645,
       "excusedMin": 172,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -4377,6 +4668,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 480,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11580,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -4392,6 +4684,7 @@
       "unjustifiedMin": 1970,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4407,6 +4700,7 @@
       "unjustifiedMin": 153,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 5100,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4422,6 +4716,7 @@
       "unjustifiedMin": 36,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4436,7 +4731,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 8320,
+      "justifiedMin": 0,
+      "ignoredMin": 8320,
       "plannedMin": 8320,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -4452,6 +4748,7 @@
       "unjustifiedMin": 41,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4467,6 +4764,7 @@
       "unjustifiedMin": 589,
       "excusedMin": 377,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -4482,6 +4780,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 2640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11640,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4497,6 +4796,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 189,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -4512,6 +4812,7 @@
       "unjustifiedMin": 89,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4527,6 +4828,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4542,6 +4844,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 2550,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4555,8 +4858,9 @@
       "admissionDate": "02/03/2026",
       "heMin": 43,
       "unjustifiedMin": 1089,
-      "excusedMin": 2400,
-      "justifiedMin": 150,
+      "excusedMin": 2550,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4572,6 +4876,7 @@
       "unjustifiedMin": 13,
       "excusedMin": 308,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -4587,6 +4892,7 @@
       "unjustifiedMin": 529,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4600,8 +4906,9 @@
       "admissionDate": "05/02/2025",
       "heMin": 120,
       "unjustifiedMin": 5219,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4615,8 +4922,9 @@
       "admissionDate": "01/07/2026",
       "heMin": 513,
       "unjustifiedMin": 463,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4630,8 +4938,9 @@
       "admissionDate": "30/03/2026",
       "heMin": 419,
       "unjustifiedMin": 13,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4647,6 +4956,7 @@
       "unjustifiedMin": 326,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4662,6 +4972,7 @@
       "unjustifiedMin": 400,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4677,6 +4988,7 @@
       "unjustifiedMin": 423,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4692,6 +5004,7 @@
       "unjustifiedMin": 560,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4707,6 +5020,7 @@
       "unjustifiedMin": 822,
       "excusedMin": 5100,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO INTERNACAO",
       "mainMotivoTreatment": "ABONADO"
@@ -4722,6 +5036,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4737,6 +5052,7 @@
       "unjustifiedMin": 807,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4752,6 +5068,7 @@
       "unjustifiedMin": 338,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4767,6 +5084,7 @@
       "unjustifiedMin": 24,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4782,6 +5100,7 @@
       "unjustifiedMin": 247,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4797,6 +5116,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4810,8 +5130,9 @@
       "admissionDate": "13/03/2024",
       "heMin": 1537,
       "unjustifiedMin": 793,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4827,6 +5148,7 @@
       "unjustifiedMin": 33,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4840,8 +5162,9 @@
       "admissionDate": "04/02/2020",
       "heMin": 979,
       "unjustifiedMin": 257,
-      "excusedMin": 734,
-      "justifiedMin": 30,
+      "excusedMin": 764,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4855,8 +5178,9 @@
       "admissionDate": "18/06/2025",
       "heMin": 0,
       "unjustifiedMin": 1609,
-      "excusedMin": 5132,
-      "justifiedMin": 300,
+      "excusedMin": 5432,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4870,8 +5194,9 @@
       "admissionDate": "24/06/2020",
       "heMin": 1356,
       "unjustifiedMin": 0,
-      "excusedMin": 2400,
-      "justifiedMin": 150,
+      "excusedMin": 2550,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4887,6 +5212,7 @@
       "unjustifiedMin": 199,
       "excusedMin": 267,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -4902,6 +5228,7 @@
       "unjustifiedMin": 16,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8640,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4917,6 +5244,7 @@
       "unjustifiedMin": 270,
       "excusedMin": 510,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4932,6 +5260,7 @@
       "unjustifiedMin": 1230,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4947,6 +5276,7 @@
       "unjustifiedMin": 4170,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 10710,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -4960,8 +5290,9 @@
       "admissionDate": "08/06/2026",
       "heMin": 486,
       "unjustifiedMin": 128,
-      "excusedMin": 1176,
-      "justifiedMin": 60,
+      "excusedMin": 1236,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4977,6 +5308,7 @@
       "unjustifiedMin": 75,
       "excusedMin": 1567,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -4992,6 +5324,7 @@
       "unjustifiedMin": 256,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5007,6 +5340,7 @@
       "unjustifiedMin": 350,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5022,6 +5356,7 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5037,6 +5372,7 @@
       "unjustifiedMin": 2108,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "TREINAMENTO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5052,6 +5388,7 @@
       "unjustifiedMin": 1633,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5067,6 +5404,7 @@
       "unjustifiedMin": 254,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5080,8 +5418,9 @@
       "admissionDate": "19/05/2025",
       "heMin": 0,
       "unjustifiedMin": 46,
-      "excusedMin": 856,
-      "justifiedMin": 30,
+      "excusedMin": 886,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO ÓBITO FAMILIAR",
       "mainMotivoTreatment": "ABONADO"
@@ -5097,6 +5436,7 @@
       "unjustifiedMin": 705,
       "excusedMin": 485,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5112,6 +5452,7 @@
       "unjustifiedMin": 270,
       "excusedMin": 228,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5127,6 +5468,7 @@
       "unjustifiedMin": 183,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5140,8 +5482,9 @@
       "admissionDate": "19/08/2019",
       "heMin": 2186,
       "unjustifiedMin": 1861,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5157,6 +5500,7 @@
       "unjustifiedMin": 1635,
       "excusedMin": 1280,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5170,8 +5514,9 @@
       "admissionDate": "09/06/2025",
       "heMin": 0,
       "unjustifiedMin": 1200,
-      "excusedMin": 120,
-      "justifiedMin": 510,
+      "excusedMin": 126,
+      "justifiedMin": 0,
+      "ignoredMin": 504,
       "plannedMin": 11220,
       "mainMotivo": "DOAÇAO DE SANGUE",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5187,6 +5532,7 @@
       "unjustifiedMin": 7040,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5202,6 +5548,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5217,6 +5564,7 @@
       "unjustifiedMin": 76,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5232,6 +5580,7 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "PROBLEMAS TRANSPORTE PUBLICO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5247,6 +5596,7 @@
       "unjustifiedMin": 2100,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5262,6 +5612,7 @@
       "unjustifiedMin": 273,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5277,6 +5628,7 @@
       "unjustifiedMin": 2159,
       "excusedMin": 5520,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5292,6 +5644,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 75,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5307,6 +5660,7 @@
       "unjustifiedMin": 224,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5322,6 +5676,7 @@
       "unjustifiedMin": 27,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5335,8 +5690,9 @@
       "admissionDate": "13/05/2025",
       "heMin": 181,
       "unjustifiedMin": 0,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5352,6 +5708,7 @@
       "unjustifiedMin": 48,
       "excusedMin": 163,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5365,8 +5722,9 @@
       "admissionDate": "12/03/2024",
       "heMin": 506,
       "unjustifiedMin": 129,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5382,6 +5740,7 @@
       "unjustifiedMin": 714,
       "excusedMin": 432,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5395,8 +5754,9 @@
       "admissionDate": "01/10/2025",
       "heMin": 160,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5410,8 +5770,9 @@
       "admissionDate": "25/07/2024",
       "heMin": 1469,
       "unjustifiedMin": 455,
-      "excusedMin": 119,
-      "justifiedMin": 510,
+      "excusedMin": 125,
+      "justifiedMin": 0,
+      "ignoredMin": 504,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5425,8 +5786,9 @@
       "admissionDate": "10/04/2023",
       "heMin": 205,
       "unjustifiedMin": 428,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -5442,6 +5804,7 @@
       "unjustifiedMin": 116,
       "excusedMin": 114,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5457,6 +5820,7 @@
       "unjustifiedMin": 591,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5472,6 +5836,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5487,6 +5852,7 @@
       "unjustifiedMin": 736,
       "excusedMin": 324,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5501,7 +5867,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "LICENÇA MATERNIDADE",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5517,6 +5884,7 @@
       "unjustifiedMin": 1163,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5532,6 +5900,7 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5547,6 +5916,7 @@
       "unjustifiedMin": 408,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5560,8 +5930,9 @@
       "admissionDate": "22/06/2026",
       "heMin": 646,
       "unjustifiedMin": 643,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5577,6 +5948,7 @@
       "unjustifiedMin": 241,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5592,6 +5964,7 @@
       "unjustifiedMin": 99,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5607,6 +5980,7 @@
       "unjustifiedMin": 1081,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5622,6 +5996,7 @@
       "unjustifiedMin": 332,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5637,6 +6012,7 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5652,6 +6028,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5667,6 +6044,7 @@
       "unjustifiedMin": 958,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5682,6 +6060,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 836,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5697,6 +6076,7 @@
       "unjustifiedMin": 1646,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 7140,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5712,6 +6092,7 @@
       "unjustifiedMin": 39,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5727,6 +6108,7 @@
       "unjustifiedMin": 47,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -5742,6 +6124,7 @@
       "unjustifiedMin": 6630,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5756,7 +6139,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5772,6 +6156,7 @@
       "unjustifiedMin": 577,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "TREINAMENTO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5787,6 +6172,7 @@
       "unjustifiedMin": 181,
       "excusedMin": 89,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5802,6 +6188,7 @@
       "unjustifiedMin": 300,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5817,6 +6204,7 @@
       "unjustifiedMin": 39,
       "excusedMin": 146,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -5832,6 +6220,7 @@
       "unjustifiedMin": 180,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5847,6 +6236,7 @@
       "unjustifiedMin": 99,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 5100,
       "mainMotivo": "TREINAMENTO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -5860,8 +6250,9 @@
       "admissionDate": "28/04/2025",
       "heMin": 0,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5877,6 +6268,7 @@
       "unjustifiedMin": 776,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5892,6 +6284,7 @@
       "unjustifiedMin": 229,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5905,8 +6298,9 @@
       "admissionDate": "22/09/2025",
       "heMin": 977,
       "unjustifiedMin": 1020,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5922,6 +6316,7 @@
       "unjustifiedMin": 252,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5937,6 +6332,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5952,6 +6348,7 @@
       "unjustifiedMin": 1623,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -5965,8 +6362,9 @@
       "admissionDate": "18/08/2021",
       "heMin": 1301,
       "unjustifiedMin": 510,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -5980,8 +6378,9 @@
       "admissionDate": "18/06/2025",
       "heMin": 702,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -5995,8 +6394,9 @@
       "admissionDate": "16/06/2025",
       "heMin": 499,
       "unjustifiedMin": 16,
-      "excusedMin": 2880,
-      "justifiedMin": 4770,
+      "excusedMin": 2295,
+      "justifiedMin": 0,
+      "ignoredMin": 5355,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -6012,6 +6412,7 @@
       "unjustifiedMin": 84,
       "excusedMin": 2760,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6027,6 +6428,7 @@
       "unjustifiedMin": 240,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6042,6 +6444,7 @@
       "unjustifiedMin": 511,
       "excusedMin": 125,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6057,6 +6460,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 39,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6072,6 +6476,7 @@
       "unjustifiedMin": 914,
       "excusedMin": 97,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6087,6 +6492,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6102,6 +6508,7 @@
       "unjustifiedMin": 64,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6115,8 +6522,9 @@
       "admissionDate": "10/07/2024",
       "heMin": 92,
       "unjustifiedMin": 240,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6130,8 +6538,9 @@
       "admissionDate": "10/04/2023",
       "heMin": 287,
       "unjustifiedMin": 2820,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6145,8 +6554,9 @@
       "admissionDate": "02/03/2021",
       "heMin": 294,
       "unjustifiedMin": 315,
-      "excusedMin": 524,
+      "excusedMin": 263,
       "justifiedMin": 0,
+      "ignoredMin": 261,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -6161,7 +6571,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 9504,
+      "justifiedMin": 0,
+      "ignoredMin": 9504,
       "plannedMin": 9504,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -6177,6 +6588,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6190,8 +6602,9 @@
       "admissionDate": "29/01/2026",
       "heMin": 517,
       "unjustifiedMin": 914,
-      "excusedMin": 615,
-      "justifiedMin": 30,
+      "excusedMin": 645,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6207,6 +6620,7 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6222,6 +6636,7 @@
       "unjustifiedMin": 99,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6237,6 +6652,7 @@
       "unjustifiedMin": 634,
       "excusedMin": 1530,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6252,6 +6668,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6265,8 +6682,9 @@
       "admissionDate": "22/09/2025",
       "heMin": 1179,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6282,6 +6700,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 1177,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6295,8 +6714,9 @@
       "admissionDate": "28/04/2025",
       "heMin": 753,
       "unjustifiedMin": 102,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6310,8 +6730,9 @@
       "admissionDate": "06/05/2024",
       "heMin": 636,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6327,6 +6748,7 @@
       "unjustifiedMin": 170,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6342,6 +6764,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6357,6 +6780,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 179,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -6372,6 +6796,7 @@
       "unjustifiedMin": 23,
       "excusedMin": 2160,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6387,6 +6812,7 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6402,6 +6828,7 @@
       "unjustifiedMin": 462,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6417,6 +6844,7 @@
       "unjustifiedMin": 449,
       "excusedMin": 2550,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6432,6 +6860,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6447,6 +6876,7 @@
       "unjustifiedMin": 138,
       "excusedMin": 194,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6462,6 +6892,7 @@
       "unjustifiedMin": 1343,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6477,6 +6908,7 @@
       "unjustifiedMin": 125,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6492,6 +6924,7 @@
       "unjustifiedMin": 990,
       "excusedMin": 640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6507,6 +6940,7 @@
       "unjustifiedMin": 1110,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6522,6 +6956,7 @@
       "unjustifiedMin": 15,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8310,
       "mainMotivo": "FOLGA COMPENSAÇÃO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -6537,6 +6972,7 @@
       "unjustifiedMin": 91,
       "excusedMin": 169,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6552,6 +6988,7 @@
       "unjustifiedMin": 507,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6567,6 +7004,7 @@
       "unjustifiedMin": 24,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6580,8 +7018,9 @@
       "admissionDate": "16/08/2022",
       "heMin": 17,
       "unjustifiedMin": 1392,
-      "excusedMin": 782,
-      "justifiedMin": 5100,
+      "excusedMin": 576,
+      "justifiedMin": 0,
+      "ignoredMin": 5306,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -6597,6 +7036,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 2737,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6612,6 +7052,7 @@
       "unjustifiedMin": 187,
       "excusedMin": 270,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6627,6 +7068,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6642,6 +7084,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 180,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 7560,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6657,6 +7100,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 116,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11580,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6672,6 +7116,7 @@
       "unjustifiedMin": 1080,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6687,6 +7132,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 209,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6702,6 +7148,7 @@
       "unjustifiedMin": 280,
       "excusedMin": 38,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -6717,6 +7164,7 @@
       "unjustifiedMin": 714,
       "excusedMin": 640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6730,8 +7178,9 @@
       "admissionDate": "08/04/2026",
       "heMin": 538,
       "unjustifiedMin": 161,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 951,
+      "justifiedMin": 0,
+      "ignoredMin": 69,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6745,8 +7194,9 @@
       "admissionDate": "03/11/2022",
       "heMin": 0,
       "unjustifiedMin": 1530,
-      "excusedMin": 6720,
-      "justifiedMin": 2970,
+      "excusedMin": 4845,
+      "justifiedMin": 0,
+      "ignoredMin": 4845,
       "plannedMin": 11220,
       "mainMotivo": "LICENÇA MATERNIDADE",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -6762,6 +7212,7 @@
       "unjustifiedMin": 810,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6777,6 +7228,7 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6790,8 +7242,9 @@
       "admissionDate": "24/07/2017",
       "heMin": 534,
       "unjustifiedMin": 89,
-      "excusedMin": 1440,
-      "justifiedMin": 120,
+      "excusedMin": 1560,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11640,
       "mainMotivo": "ATESTADO ÓBITO FAMILIAR",
       "mainMotivoTreatment": "ABONADO"
@@ -6807,6 +7260,7 @@
       "unjustifiedMin": 68,
       "excusedMin": 136,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6822,6 +7276,7 @@
       "unjustifiedMin": 1185,
       "excusedMin": 960,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6837,6 +7292,7 @@
       "unjustifiedMin": 44,
       "excusedMin": 206,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6852,6 +7308,7 @@
       "unjustifiedMin": 210,
       "excusedMin": 1656,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11640,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6865,8 +7322,9 @@
       "admissionDate": "19/05/2026",
       "heMin": 196,
       "unjustifiedMin": 923,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6882,6 +7340,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6897,6 +7356,7 @@
       "unjustifiedMin": 256,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -6912,6 +7372,7 @@
       "unjustifiedMin": 245,
       "excusedMin": 170,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6927,6 +7388,7 @@
       "unjustifiedMin": 338,
       "excusedMin": 5483,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -6942,6 +7404,7 @@
       "unjustifiedMin": 986,
       "excusedMin": 238,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6957,6 +7420,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 546,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6972,6 +7436,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 372,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -6985,8 +7450,9 @@
       "admissionDate": "28/11/2019",
       "heMin": 521,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7002,6 +7468,7 @@
       "unjustifiedMin": 1001,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7017,6 +7484,7 @@
       "unjustifiedMin": 267,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7032,6 +7500,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 6080,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7045,8 +7514,9 @@
       "admissionDate": "20/09/2021",
       "heMin": 4804,
       "unjustifiedMin": 130,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7060,8 +7530,9 @@
       "admissionDate": "15/09/2025",
       "heMin": 504,
       "unjustifiedMin": 102,
-      "excusedMin": 1920,
-      "justifiedMin": 120,
+      "excusedMin": 2040,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7077,6 +7548,7 @@
       "unjustifiedMin": 432,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7092,6 +7564,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7107,6 +7580,7 @@
       "unjustifiedMin": 1620,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7122,6 +7596,7 @@
       "unjustifiedMin": 2642,
       "excusedMin": 3417,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7137,6 +7612,7 @@
       "unjustifiedMin": 432,
       "excusedMin": 666,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7152,6 +7628,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7167,6 +7644,7 @@
       "unjustifiedMin": 314,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7180,8 +7658,9 @@
       "admissionDate": "23/06/2021",
       "heMin": 121,
       "unjustifiedMin": 0,
-      "excusedMin": 7200,
-      "justifiedMin": 1470,
+      "excusedMin": 5419,
+      "justifiedMin": 0,
+      "ignoredMin": 3251,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7197,6 +7676,7 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7212,6 +7692,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7225,8 +7706,9 @@
       "admissionDate": "21/07/2026",
       "heMin": 30,
       "unjustifiedMin": 51,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 170,
+      "justifiedMin": 0,
+      "ignoredMin": 340,
       "plannedMin": 4590,
       "mainMotivo": "TREINAMENTO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -7242,6 +7724,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 76,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7257,6 +7740,7 @@
       "unjustifiedMin": 812,
       "excusedMin": 147,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -7272,6 +7756,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7285,8 +7770,9 @@
       "admissionDate": "22/05/2019",
       "heMin": 2294,
       "unjustifiedMin": 326,
-      "excusedMin": 1680,
-      "justifiedMin": 60,
+      "excusedMin": 1740,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7302,6 +7788,7 @@
       "unjustifiedMin": 3840,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7317,6 +7804,7 @@
       "unjustifiedMin": 1331,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7332,6 +7820,7 @@
       "unjustifiedMin": 380,
       "excusedMin": 1280,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7345,8 +7834,9 @@
       "admissionDate": "01/06/2021",
       "heMin": 1451,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7362,6 +7852,7 @@
       "unjustifiedMin": 42,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7375,8 +7866,9 @@
       "admissionDate": "27/01/2025",
       "heMin": 501,
       "unjustifiedMin": 310,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7392,6 +7884,7 @@
       "unjustifiedMin": 92,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7407,6 +7900,7 @@
       "unjustifiedMin": 105,
       "excusedMin": 163,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7422,6 +7916,7 @@
       "unjustifiedMin": 1152,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7437,6 +7932,7 @@
       "unjustifiedMin": 252,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7452,6 +7948,7 @@
       "unjustifiedMin": 20,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7465,8 +7962,9 @@
       "admissionDate": "29/04/2026",
       "heMin": 650,
       "unjustifiedMin": 59,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7482,6 +7980,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 72,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7495,8 +7994,9 @@
       "admissionDate": "16/04/2026",
       "heMin": 1599,
       "unjustifiedMin": 877,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7510,8 +8010,9 @@
       "admissionDate": "23/07/2025",
       "heMin": 0,
       "unjustifiedMin": 15,
-      "excusedMin": 1015,
-      "justifiedMin": 60,
+      "excusedMin": 1075,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7527,6 +8028,7 @@
       "unjustifiedMin": 300,
       "excusedMin": 321,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7540,8 +8042,9 @@
       "admissionDate": "18/06/2024",
       "heMin": 2237,
       "unjustifiedMin": 364,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7557,6 +8060,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7572,6 +8076,7 @@
       "unjustifiedMin": 917,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7587,6 +8092,7 @@
       "unjustifiedMin": 213,
       "excusedMin": 207,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7602,6 +8108,7 @@
       "unjustifiedMin": 426,
       "excusedMin": 531,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7617,6 +8124,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 247,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7630,8 +8138,9 @@
       "admissionDate": "12/05/2025",
       "heMin": 577,
       "unjustifiedMin": 109,
-      "excusedMin": 1650,
-      "justifiedMin": 90,
+      "excusedMin": 1740,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7645,8 +8154,9 @@
       "admissionDate": "30/03/2026",
       "heMin": 405,
       "unjustifiedMin": 2166,
-      "excusedMin": 4536,
-      "justifiedMin": 270,
+      "excusedMin": 4806,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7662,6 +8172,7 @@
       "unjustifiedMin": 3900,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7677,6 +8188,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 3570,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7692,6 +8204,7 @@
       "unjustifiedMin": 1180,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 3888,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7707,6 +8220,7 @@
       "unjustifiedMin": 972,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7722,6 +8236,7 @@
       "unjustifiedMin": 857,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7737,6 +8252,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7750,8 +8266,9 @@
       "admissionDate": "02/01/2019",
       "heMin": 0,
       "unjustifiedMin": 870,
-      "excusedMin": 749,
-      "justifiedMin": 30,
+      "excusedMin": 779,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -7767,6 +8284,7 @@
       "unjustifiedMin": 69,
       "excusedMin": 20,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11248,
       "mainMotivo": "FOLGA AUTORIZADA GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -7782,6 +8300,7 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7797,6 +8316,7 @@
       "unjustifiedMin": 659,
       "excusedMin": 1388,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7811,7 +8331,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -7827,6 +8348,7 @@
       "unjustifiedMin": 252,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7842,6 +8364,7 @@
       "unjustifiedMin": 1350,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -7857,6 +8380,7 @@
       "unjustifiedMin": 30,
       "excusedMin": 134,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7870,8 +8394,9 @@
       "admissionDate": "17/03/2025",
       "heMin": 677,
       "unjustifiedMin": 300,
-      "excusedMin": 1915,
-      "justifiedMin": 90,
+      "excusedMin": 2005,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7887,6 +8412,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 210,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7902,6 +8428,7 @@
       "unjustifiedMin": 337,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7915,8 +8442,9 @@
       "admissionDate": "15/06/2026",
       "heMin": 0,
       "unjustifiedMin": 322,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7932,6 +8460,7 @@
       "unjustifiedMin": 974,
       "excusedMin": 162,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -7947,6 +8476,7 @@
       "unjustifiedMin": 1549,
       "excusedMin": 960,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7960,8 +8490,9 @@
       "admissionDate": "17/03/2025",
       "heMin": 296,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7977,6 +8508,7 @@
       "unjustifiedMin": 1530,
       "excusedMin": 1530,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -7992,6 +8524,7 @@
       "unjustifiedMin": 80,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8007,6 +8540,7 @@
       "unjustifiedMin": 634,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "FOLGA COMPENSAÇÃO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -8022,6 +8556,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8035,8 +8570,9 @@
       "admissionDate": "10/04/2023",
       "heMin": 689,
       "unjustifiedMin": 17,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8052,6 +8588,7 @@
       "unjustifiedMin": 39,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8067,6 +8604,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8080,8 +8618,9 @@
       "admissionDate": "21/08/2024",
       "heMin": 2476,
       "unjustifiedMin": 0,
-      "excusedMin": 671,
-      "justifiedMin": 30,
+      "excusedMin": 701,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8097,6 +8636,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 315,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8110,8 +8650,9 @@
       "admissionDate": "12/05/2026",
       "heMin": 1029,
       "unjustifiedMin": 12,
-      "excusedMin": 1087,
-      "justifiedMin": 60,
+      "excusedMin": 1147,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8127,6 +8668,7 @@
       "unjustifiedMin": 1003,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9180,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8142,6 +8684,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8157,6 +8700,7 @@
       "unjustifiedMin": 70,
       "excusedMin": 78,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8170,8 +8714,9 @@
       "admissionDate": "16/04/2026",
       "heMin": 77,
       "unjustifiedMin": 400,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8187,6 +8732,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4590,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8200,8 +8746,9 @@
       "admissionDate": "11/02/2026",
       "heMin": 604,
       "unjustifiedMin": 0,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8215,8 +8762,9 @@
       "admissionDate": "21/07/2025",
       "heMin": 464,
       "unjustifiedMin": 156,
-      "excusedMin": 2172,
-      "justifiedMin": 1536,
+      "excusedMin": 1594,
+      "justifiedMin": 0,
+      "ignoredMin": 2114,
       "plannedMin": 9504,
       "mainMotivo": "AFASTADA",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -8232,6 +8780,7 @@
       "unjustifiedMin": 744,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 1280,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8247,6 +8796,7 @@
       "unjustifiedMin": 121,
       "excusedMin": 319,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8260,8 +8810,9 @@
       "admissionDate": "02/03/2026",
       "heMin": 646,
       "unjustifiedMin": 864,
-      "excusedMin": 2068,
-      "justifiedMin": 120,
+      "excusedMin": 2188,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8275,8 +8826,9 @@
       "admissionDate": "19/02/2026",
       "heMin": 0,
       "unjustifiedMin": 0,
-      "excusedMin": 621,
-      "justifiedMin": 30,
+      "excusedMin": 651,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8290,8 +8842,9 @@
       "admissionDate": "28/06/2018",
       "heMin": 835,
       "unjustifiedMin": 851,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1447,
+      "justifiedMin": 0,
+      "ignoredMin": 83,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -8307,6 +8860,7 @@
       "unjustifiedMin": 210,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8322,6 +8876,7 @@
       "unjustifiedMin": 8000,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8335,8 +8890,9 @@
       "admissionDate": "16/09/2024",
       "heMin": 487,
       "unjustifiedMin": 1045,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8350,8 +8906,9 @@
       "admissionDate": "11/11/2025",
       "heMin": 519,
       "unjustifiedMin": 67,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8367,6 +8924,7 @@
       "unjustifiedMin": 1646,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8382,6 +8940,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 234,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8397,6 +8956,7 @@
       "unjustifiedMin": 627,
       "excusedMin": 256,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -8411,7 +8971,8 @@
       "heMin": 0,
       "unjustifiedMin": 0,
       "excusedMin": 0,
-      "justifiedMin": 11220,
+      "justifiedMin": 0,
+      "ignoredMin": 11220,
       "plannedMin": 11220,
       "mainMotivo": "LICENÇA MATERNIDADE",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -8427,6 +8988,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8640,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8442,6 +9004,7 @@
       "unjustifiedMin": 198,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8457,6 +9020,7 @@
       "unjustifiedMin": 797,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8472,6 +9036,7 @@
       "unjustifiedMin": 76,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8487,6 +9052,7 @@
       "unjustifiedMin": 4218,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8502,6 +9068,7 @@
       "unjustifiedMin": 395,
       "excusedMin": 349,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8517,6 +9084,7 @@
       "unjustifiedMin": 389,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8532,6 +9100,7 @@
       "unjustifiedMin": 67,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8547,6 +9116,7 @@
       "unjustifiedMin": 346,
       "excusedMin": 207,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -8562,6 +9132,7 @@
       "unjustifiedMin": 47,
       "excusedMin": 94,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8577,6 +9148,7 @@
       "unjustifiedMin": 339,
       "excusedMin": 126,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -8592,6 +9164,7 @@
       "unjustifiedMin": 300,
       "excusedMin": 673,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8607,6 +9180,7 @@
       "unjustifiedMin": 167,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8622,6 +9196,7 @@
       "unjustifiedMin": 62,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8637,6 +9212,7 @@
       "unjustifiedMin": 210,
       "excusedMin": 389,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8652,6 +9228,7 @@
       "unjustifiedMin": 446,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8667,6 +9244,7 @@
       "unjustifiedMin": 5610,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8682,6 +9260,7 @@
       "unjustifiedMin": 1920,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8697,6 +9276,7 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8712,6 +9292,7 @@
       "unjustifiedMin": 1530,
       "excusedMin": 117,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8725,8 +9306,9 @@
       "admissionDate": "09/11/2024",
       "heMin": 1300,
       "unjustifiedMin": 0,
-      "excusedMin": 1068,
-      "justifiedMin": 60,
+      "excusedMin": 1128,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8742,6 +9324,7 @@
       "unjustifiedMin": 192,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8757,6 +9340,7 @@
       "unjustifiedMin": 877,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8772,6 +9356,7 @@
       "unjustifiedMin": 640,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8787,6 +9372,7 @@
       "unjustifiedMin": 324,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8800,8 +9386,9 @@
       "admissionDate": "19/05/2021",
       "heMin": 2447,
       "unjustifiedMin": 221,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8815,8 +9402,9 @@
       "admissionDate": "24/07/2023",
       "heMin": 513,
       "unjustifiedMin": 329,
-      "excusedMin": 1097,
-      "justifiedMin": 30,
+      "excusedMin": 1127,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -8830,8 +9418,9 @@
       "admissionDate": "01/07/2025",
       "heMin": 630,
       "unjustifiedMin": 745,
-      "excusedMin": 1328,
-      "justifiedMin": 30,
+      "excusedMin": 1358,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8847,6 +9436,7 @@
       "unjustifiedMin": 347,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8862,6 +9452,7 @@
       "unjustifiedMin": 25,
       "excusedMin": 1600,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8877,6 +9468,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 141,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8892,6 +9484,7 @@
       "unjustifiedMin": 18,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 2040,
       "mainMotivo": "TREINAMENTO",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -8907,6 +9500,7 @@
       "unjustifiedMin": 551,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8922,6 +9516,7 @@
       "unjustifiedMin": 265,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8937,6 +9532,7 @@
       "unjustifiedMin": 51,
       "excusedMin": 130,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8950,8 +9546,9 @@
       "admissionDate": "30/03/2026",
       "heMin": 1523,
       "unjustifiedMin": 595,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -8967,6 +9564,7 @@
       "unjustifiedMin": 12,
       "excusedMin": 876,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -8982,6 +9580,7 @@
       "unjustifiedMin": 1083,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -8997,6 +9596,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9012,6 +9612,7 @@
       "unjustifiedMin": 28,
       "excusedMin": 103,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9027,6 +9628,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9040,8 +9642,9 @@
       "admissionDate": "05/06/2025",
       "heMin": 967,
       "unjustifiedMin": 43,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9055,8 +9658,9 @@
       "admissionDate": "02/05/2023",
       "heMin": 0,
       "unjustifiedMin": 299,
-      "excusedMin": 240,
-      "justifiedMin": 30,
+      "excusedMin": 270,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE ACOMPANHAMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9072,6 +9676,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9087,6 +9692,7 @@
       "unjustifiedMin": 960,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9102,6 +9708,7 @@
       "unjustifiedMin": 420,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9117,6 +9724,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 180,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9130,8 +9738,9 @@
       "admissionDate": "22/05/2023",
       "heMin": 569,
       "unjustifiedMin": 0,
-      "excusedMin": 480,
-      "justifiedMin": 60,
+      "excusedMin": 540,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11580,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -9147,6 +9756,7 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9162,6 +9772,7 @@
       "unjustifiedMin": 600,
       "excusedMin": 153,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9177,6 +9788,7 @@
       "unjustifiedMin": 238,
       "excusedMin": 640,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9192,6 +9804,7 @@
       "unjustifiedMin": 1600,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9207,6 +9820,7 @@
       "unjustifiedMin": 942,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 7140,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9222,6 +9836,7 @@
       "unjustifiedMin": 1360,
       "excusedMin": 156,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -9237,6 +9852,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9252,6 +9868,7 @@
       "unjustifiedMin": 396,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9265,8 +9882,9 @@
       "admissionDate": "21/10/2025",
       "heMin": 794,
       "unjustifiedMin": 0,
-      "excusedMin": 117,
+      "excusedMin": 77,
       "justifiedMin": 0,
+      "ignoredMin": 40,
       "plannedMin": 11580,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9282,6 +9900,7 @@
       "unjustifiedMin": 1174,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9297,6 +9916,7 @@
       "unjustifiedMin": 700,
       "excusedMin": 320,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9312,6 +9932,7 @@
       "unjustifiedMin": 300,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9325,8 +9946,9 @@
       "admissionDate": "11/04/2019",
       "heMin": 1121,
       "unjustifiedMin": 317,
-      "excusedMin": 2400,
-      "justifiedMin": 150,
+      "excusedMin": 2550,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9342,6 +9964,7 @@
       "unjustifiedMin": 13,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9355,8 +9978,9 @@
       "admissionDate": "16/07/2026",
       "heMin": 71,
       "unjustifiedMin": 560,
-      "excusedMin": 960,
-      "justifiedMin": 60,
+      "excusedMin": 1020,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 6120,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9372,6 +9996,7 @@
       "unjustifiedMin": 491,
       "excusedMin": 114,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9387,6 +10012,7 @@
       "unjustifiedMin": 18,
       "excusedMin": 1280,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9402,6 +10028,7 @@
       "unjustifiedMin": 375,
       "excusedMin": 5352,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9417,6 +10044,7 @@
       "unjustifiedMin": 51,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9432,6 +10060,7 @@
       "unjustifiedMin": 724,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 1728,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9447,6 +10076,7 @@
       "unjustifiedMin": 97,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9460,8 +10090,9 @@
       "admissionDate": "18/02/2025",
       "heMin": 1425,
       "unjustifiedMin": 0,
-      "excusedMin": 2400,
-      "justifiedMin": 150,
+      "excusedMin": 2550,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9477,6 +10108,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 165,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9492,6 +10124,7 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9505,8 +10138,9 @@
       "admissionDate": "27/01/2026",
       "heMin": 849,
       "unjustifiedMin": 524,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9522,6 +10156,7 @@
       "unjustifiedMin": 282,
       "excusedMin": 667,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9537,6 +10172,7 @@
       "unjustifiedMin": 600,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9552,6 +10188,7 @@
       "unjustifiedMin": 832,
       "excusedMin": 298,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9566,7 +10203,8 @@
       "heMin": 0,
       "unjustifiedMin": 7140,
       "excusedMin": 0,
-      "justifiedMin": 4080,
+      "justifiedMin": 0,
+      "ignoredMin": 4080,
       "plannedMin": 11220,
       "mainMotivo": "LICENÇA MATERNIDADE",
       "mainMotivoTreatment": "DESCONSIDERAR"
@@ -9582,6 +10220,7 @@
       "unjustifiedMin": 1052,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9597,6 +10236,7 @@
       "unjustifiedMin": 2468,
       "excusedMin": 432,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9612,6 +10252,7 @@
       "unjustifiedMin": 1902,
       "excusedMin": 225,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 4080,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9627,6 +10268,7 @@
       "unjustifiedMin": 28,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9642,6 +10284,7 @@
       "unjustifiedMin": 44,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9657,6 +10300,7 @@
       "unjustifiedMin": 94,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9672,6 +10316,7 @@
       "unjustifiedMin": 12,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9687,6 +10332,7 @@
       "unjustifiedMin": 636,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9504,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9702,6 +10348,7 @@
       "unjustifiedMin": 300,
       "excusedMin": 124,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9717,6 +10364,7 @@
       "unjustifiedMin": 101,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9732,6 +10380,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9747,6 +10396,7 @@
       "unjustifiedMin": 620,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 9180,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9760,8 +10410,9 @@
       "admissionDate": "13/08/2025",
       "heMin": 515,
       "unjustifiedMin": 510,
-      "excusedMin": 480,
-      "justifiedMin": 30,
+      "excusedMin": 510,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9777,6 +10428,7 @@
       "unjustifiedMin": 517,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9790,8 +10442,9 @@
       "admissionDate": "06/03/2024",
       "heMin": 522,
       "unjustifiedMin": 649,
-      "excusedMin": 1380,
-      "justifiedMin": 60,
+      "excusedMin": 1440,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9807,6 +10460,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 239,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9822,6 +10476,7 @@
       "unjustifiedMin": 35,
       "excusedMin": 3060,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9837,6 +10492,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 519,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9852,6 +10508,7 @@
       "unjustifiedMin": 300,
       "excusedMin": 126,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9867,6 +10524,7 @@
       "unjustifiedMin": 580,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9880,8 +10538,9 @@
       "admissionDate": "10/12/2025",
       "heMin": 858,
       "unjustifiedMin": 391,
-      "excusedMin": 905,
-      "justifiedMin": 30,
+      "excusedMin": 935,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -9897,6 +10556,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9912,6 +10572,7 @@
       "unjustifiedMin": 714,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9927,6 +10588,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 209,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9942,6 +10604,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 94,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9957,6 +10620,7 @@
       "unjustifiedMin": 534,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -9972,6 +10636,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 506,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -9987,6 +10652,7 @@
       "unjustifiedMin": 77,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10002,6 +10668,7 @@
       "unjustifiedMin": 187,
       "excusedMin": 1213,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -10017,6 +10684,7 @@
       "unjustifiedMin": 1530,
       "excusedMin": 48,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -10032,6 +10700,7 @@
       "unjustifiedMin": 320,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10047,6 +10716,7 @@
       "unjustifiedMin": 1338,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10062,6 +10732,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 190,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -10077,6 +10748,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10092,6 +10764,7 @@
       "unjustifiedMin": 7564,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10107,6 +10780,7 @@
       "unjustifiedMin": 1530,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10122,6 +10796,7 @@
       "unjustifiedMin": 780,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10137,6 +10812,7 @@
       "unjustifiedMin": 14,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10152,6 +10828,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10167,6 +10844,7 @@
       "unjustifiedMin": 668,
       "excusedMin": 510,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -10180,8 +10858,9 @@
       "admissionDate": "16/04/2026",
       "heMin": 516,
       "unjustifiedMin": 229,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -10197,6 +10876,7 @@
       "unjustifiedMin": 11,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10212,6 +10892,7 @@
       "unjustifiedMin": 1280,
       "excusedMin": 554,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -10225,8 +10906,9 @@
       "admissionDate": "22/06/2026",
       "heMin": 515,
       "unjustifiedMin": 810,
-      "excusedMin": 660,
-      "justifiedMin": 30,
+      "excusedMin": 690,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ABONADO PELO GESTOR",
       "mainMotivoTreatment": "ABONADO"
@@ -10242,6 +10924,7 @@
       "unjustifiedMin": 519,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10257,6 +10940,7 @@
       "unjustifiedMin": 1020,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10272,6 +10956,7 @@
       "unjustifiedMin": 668,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10285,8 +10970,9 @@
       "admissionDate": "23/07/2013",
       "heMin": 1206,
       "unjustifiedMin": 86,
-      "excusedMin": 2123,
-      "justifiedMin": 120,
+      "excusedMin": 2243,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -10302,6 +10988,7 @@
       "unjustifiedMin": 823,
       "excusedMin": 531,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -10317,6 +11004,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 100,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -10332,6 +11020,7 @@
       "unjustifiedMin": 1029,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10347,6 +11036,7 @@
       "unjustifiedMin": 30,
       "excusedMin": 55,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO ODONTOLOGICA",
       "mainMotivoTreatment": "ABONADO"
@@ -10362,6 +11052,7 @@
       "unjustifiedMin": 985,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10377,6 +11068,7 @@
       "unjustifiedMin": 0,
       "excusedMin": 210,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -10392,6 +11084,7 @@
       "unjustifiedMin": 682,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10405,8 +11098,9 @@
       "admissionDate": "02/12/2025",
       "heMin": 69,
       "unjustifiedMin": 0,
-      "excusedMin": 1440,
-      "justifiedMin": 90,
+      "excusedMin": 1530,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -10422,6 +11116,7 @@
       "unjustifiedMin": 510,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10437,6 +11132,7 @@
       "unjustifiedMin": 59,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10452,6 +11148,7 @@
       "unjustifiedMin": 76,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10467,6 +11164,7 @@
       "unjustifiedMin": 470,
       "excusedMin": 1055,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -10482,6 +11180,7 @@
       "unjustifiedMin": 220,
       "excusedMin": 0,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 8320,
       "mainMotivo": null,
       "mainMotivoTreatment": null
@@ -10495,8 +11194,9 @@
       "admissionDate": "11/09/2023",
       "heMin": 861,
       "unjustifiedMin": 73,
-      "excusedMin": 1920,
-      "justifiedMin": 120,
+      "excusedMin": 2040,
+      "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "ATESTADO MÉDICO",
       "mainMotivoTreatment": "ABONADO"
@@ -10512,6 +11212,7 @@
       "unjustifiedMin": 25,
       "excusedMin": 98,
       "justifiedMin": 0,
+      "ignoredMin": 0,
       "plannedMin": 11220,
       "mainMotivo": "DECLARACAO DE COMPARECIMENTO",
       "mainMotivoTreatment": "ABONADO"
@@ -10655,68 +11356,104 @@
     "unmatchedFromApi": [],
     "unknownMotivos": [],
     "inconsistencies": [
-      "ALICE LIMA ARAUJO: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "ALICE VITORIA DOS SANTOS DE ABREU: abono do relatório (16h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "ANDREZA REGINA RAYMUNDO SANTOS: abono do relatório (168h) excede as faltas justificadas do ponto (119h) — valoração 8h/dia corrigida pelo teto",
-      "BARBARA ANDRADE DE ALMEIDA: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "CAROLINE CRISTINE MOREIRA SANTOS DA SILVA: abono do relatório (24h) excede as faltas justificadas do ponto (17h) — valoração 8h/dia corrigida pelo teto",
-      "CHRISTIAN FELIPE DA SILVA BARROS GALINDO: abono do relatório (24h) excede as faltas justificadas do ponto (22h) — valoração 8h/dia corrigida pelo teto",
-      "DAYANA TAVARES BARBOZA VIEIRA: abono do relatório (144h) excede as faltas justificadas do ponto (96h) — valoração 8h/dia corrigida pelo teto",
-      "ELIANE APARECIDA SILVA DE MORAIS: abono do relatório (123h) excede as faltas justificadas do ponto (113h) — valoração 8h/dia corrigida pelo teto",
-      "ERIKA DE ARAUJO ROCHA: abono do relatório (88h) excede as faltas justificadas do ponto (53h) — valoração 8h/dia corrigida pelo teto",
-      "FABIANA THOMAZELLI: abono do relatório (24h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "FELIPE LOPES PEREIRA PATEZ: abono do relatório (24h) excede as faltas justificadas do ponto (14h) — valoração 8h/dia corrigida pelo teto",
-      "FERNANDA CAMILO SANTOS: abono do relatório (8h) excede as faltas justificadas do ponto (7h) — valoração 8h/dia corrigida pelo teto",
-      "GABRIELI GOMES ROSA: abono do relatório (24h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "GEOVANNA SILVA SOUZA: abono do relatório (16h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "GHEOVANNE CANDIDO DE JESUS SILVA: abono do relatório (16h) excede as faltas justificadas do ponto (14h) — valoração 8h/dia corrigida pelo teto",
-      "HOZANA MARIA JOSE DA SILVA: abono do relatório (58h) excede as faltas justificadas do ponto (34h) — valoração 8h/dia corrigida pelo teto",
-      "ISABELLA CARVALHO DE OLIVEIRA: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "JAQUELINE DE ANDRADE CELES: abono do relatório (64h) excede as faltas justificadas do ponto (44h) — valoração 8h/dia corrigida pelo teto",
-      "JEFFERSON CINTRA DA SILVA: abono do relatório (56h) excede as faltas justificadas do ponto (43h) — valoração 8h/dia corrigida pelo teto",
-      "JOAO VICTOR FERREIRA DE CASTRO: abono do relatório (112h) excede as faltas justificadas do ponto (85h) — valoração 8h/dia corrigida pelo teto",
-      "JULIANA FERREIRA DA PAZ: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "JULIANA MARTINS LOPES: abono do relatório (16h) excede as faltas justificadas do ponto (9h) — valoração 8h/dia corrigida pelo teto",
-      "JULIA TARSITANO PONTES: abono do relatório (42h) excede as faltas justificadas do ponto (26h) — valoração 8h/dia corrigida pelo teto",
-      "KAROLINA VICTORIA DA SILVA VICENTE: abono do relatório (40h) excede as faltas justificadas do ponto (21h) — valoração 8h/dia corrigida pelo teto",
-      "KAUA LINHARES AOYAMA: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "KETELLEN CRISTINA SILVA COUTINHO: abono do relatório (119h) excede as faltas justificadas do ponto (92h) — valoração 8h/dia corrigida pelo teto",
-      "LARISSA DE JESUS LEITE: abono do relatório (8h) excede as faltas justificadas do ponto (7h) — valoração 8h/dia corrigida pelo teto",
-      "LAURA LEME BRASILINO: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "LAURA SANTOS LEAO: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "LUCAS DE OLIVEIRA DIAS: abono do relatório (52h) excede as faltas justificadas do ponto (46h) — valoração 8h/dia corrigida pelo teto",
-      "LUIZ GUSTAVO TAVARES DA CRUZ: abono do relatório (32h) excede as faltas justificadas do ponto (26h) — valoração 8h/dia corrigida pelo teto",
-      "LUIZ LEONARDO CUNHA NASCIMENTO: abono do relatório (27h) excede as faltas justificadas do ponto (20h) — valoração 8h/dia corrigida pelo teto",
-      "MAISA SANTOS SILVA: abono do relatório (48h) excede as faltas justificadas do ponto (36h) — valoração 8h/dia corrigida pelo teto",
-      "MANUELA SILVA ARAUJO: abono do relatório (48h) excede as faltas justificadas do ponto (43h) — valoração 8h/dia corrigida pelo teto",
-      "MARCOS GOMES DOS SANTOS: abono do relatório (16h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "MARIA ARIANE RODRIGUES SILVA: abono do relatório (52h) excede as faltas justificadas do ponto (46h) — valoração 8h/dia corrigida pelo teto",
-      "MARIA EDUARDA PEREIRA DE CASTRO: abono do relatório (16h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "MARIA JESUS NASCIMENTO: abono do relatório (24h) excede as faltas justificadas do ponto (16h) — valoração 8h/dia corrigida pelo teto",
-      "MARIA LOPES DA SILVA: abono do relatório (33h) excede as faltas justificadas do ponto (28h) — valoração 8h/dia corrigida pelo teto",
-      "MARIA SIMONE MERCES DOS SANTOS: abono do relatório (118h) excede as faltas justificadas do ponto (91h) — valoração 8h/dia corrigida pelo teto",
-      "MATHEUS HENRICK RIBEIRO NUNES: abono do relatório (152h) excede as faltas justificadas do ponto (101h) — valoração 8h/dia corrigida pelo teto",
-      "MELISSA ARAUJO DE JESUS: abono do relatório (92h) excede as faltas justificadas do ponto (57h) — valoração 8h/dia corrigida pelo teto",
-      "MELISSA SILVA DOS SANTOS: abono do relatório (19h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "MIQUEIAS JOHNNES SANTOS DA SILVA: abono do relatório (32h) excede as faltas justificadas do ponto (21h) — valoração 8h/dia corrigida pelo teto",
-      "NATHALY NOVAES DIAS: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "NOEMI DA SILVA CONSTANTINO: abono do relatório (96h) excede as faltas justificadas do ponto (60h) — valoração 8h/dia corrigida pelo teto",
-      "PALOMA TINO DA SILVA: abono do relatório (128h) excede as faltas justificadas do ponto (0h) — valoração 8h/dia corrigida pelo teto",
-      "PAMELA EDUARDA DA SILVA VIANA: abono do relatório (28h) excede as faltas justificadas do ponto (23h) — valoração 8h/dia corrigida pelo teto",
-      "PAULO EDUARDO VIANA GOMES: abono do relatório (24h) excede as faltas justificadas do ponto (16h) — valoração 8h/dia corrigida pelo teto",
-      "PAULO HENRIQUE DE JESUS SILVA: abono do relatório (40h) excede as faltas justificadas do ponto (26h) — valoração 8h/dia corrigida pelo teto",
-      "ROBSON DOS REIS SILVA: abono do relatório (19h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "SAMARA BORGES DE ARAUJO: abono do relatório (40h) excede as faltas justificadas do ponto (27h) — valoração 8h/dia corrigida pelo teto",
-      "SOPHIA SOUZA SANTOS: abono do relatório (16h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "SUZIANE CIRILO RODRIGUES: abono do relatório (8h) excede as faltas justificadas do ponto (5h) — valoração 8h/dia corrigida pelo teto",
-      "TAMIRIS DE OLIVEIRA CRUZ: abono do relatório (48h) excede as faltas justificadas do ponto (21h) — valoração 8h/dia corrigida pelo teto",
-      "TAMIRIS DOS SANTOS: abono do relatório (100h) excede as faltas justificadas do ponto (89h) — valoração 8h/dia corrigida pelo teto",
-      "TEREZA CRISTINA PEREIRA DOS SANTOS: abono do relatório (27h) excede as faltas justificadas do ponto (11h) — valoração 8h/dia corrigida pelo teto",
-      "THAIS PEREIRA DA SILVA: abono do relatório (8h) excede as faltas justificadas do ponto (7h) — valoração 8h/dia corrigida pelo teto",
-      "VANESSA CAMILLY SANTOS DE LISBOA: abono do relatório (64h) excede as faltas justificadas do ponto (51h) — valoração 8h/dia corrigida pelo teto",
-      "VITORIA CRISTINA OLIVEIRA DOS SANTOS: abono do relatório (24h) excede as faltas justificadas do ponto (9h) — valoração 8h/dia corrigida pelo teto",
-      "VITORIA MARINHEIRO GOMES: abono do relatório (12h) excede as faltas justificadas do ponto (9h) — valoração 8h/dia corrigida pelo teto",
-      "YARA SILVA DE BARROS: abono do relatório (34h) excede as faltas justificadas do ponto (18h) — valoração 8h/dia corrigida pelo teto"
+      "ADENILTON DE ALMEIDA SANTOS: abono lançado (8h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "ALESSANDRA DOS SANTOS CARMO: abono lançado (24h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "ALICE LIMA ARAUJO: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "ALICE VITORIA DOS SANTOS DE ABREU: abono lançado (16h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "ANA CAROLINA RODRIGUES SILVA SANTANA: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "ANA CLARA BARBOZA DE SOUSA: abono lançado (248h) excede a falta justificada do ponto (139h) — valoração 8h/dia do relatório",
+      "ANA CLARA RIBEIRO LIMA CAVALCANTE: abono lançado (3h) excede a falta justificada do ponto (2h) — valoração 8h/dia do relatório",
+      "ANA CLAUDIA DA SILVA AMORIM FREIRE: abono lançado (8h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "ANDRESSA VIANA ALMEIDA: abono lançado (248h) excede a falta justificada do ponto (139h) — valoração 8h/dia do relatório",
+      "ANDREZA REGINA RAYMUNDO SANTOS: abono lançado (168h) excede a falta justificada do ponto (119h) — valoração 8h/dia do relatório",
+      "ANDREZA SUELLEN LIMA CARVALHO: abono lançado (21h) excede a falta justificada do ponto (17h) — valoração 8h/dia do relatório",
+      "BARBARA ANDRADE DE ALMEIDA: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "CAROLINE CRISTINE MOREIRA SANTOS DA SILVA: abono lançado (24h) excede a falta justificada do ponto (17h) — valoração 8h/dia do relatório",
+      "CHRISTIAN FELIPE DA SILVA BARROS GALINDO: abono lançado (24h) excede a falta justificada do ponto (22h) — valoração 8h/dia do relatório",
+      "DAYANA TAVARES BARBOZA VIEIRA: abono lançado (144h) excede a falta justificada do ponto (96h) — valoração 8h/dia do relatório",
+      "DAYANE DOS REIS SANTOS: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "ELIANE APARECIDA SILVA DE MORAIS: abono lançado (123h) excede a falta justificada do ponto (113h) — valoração 8h/dia do relatório",
+      "EMANUELLE THOMAZ DA SILVA: abono lançado (248h) excede a falta justificada do ponto (139h) — valoração 8h/dia do relatório",
+      "ERIKA DE ARAUJO ROCHA: abono lançado (88h) excede a falta justificada do ponto (53h) — valoração 8h/dia do relatório",
+      "FABIANA CLEMENTINO BORGES DE OLIVEIRA: abono lançado (32h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "FABIANA DOS SANTOS DE OLIVEIRA: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "FABIANA THOMAZELLI: abono lançado (24h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "FELIPE LOPES PEREIRA PATEZ: abono lançado (24h) excede a falta justificada do ponto (14h) — valoração 8h/dia do relatório",
+      "FRANCILENE APARECIDA SOUSA DE ANDRADE: abono lançado (8h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "GABRIELI GOMES ROSA: abono lançado (24h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "GEOVANNA SILVA SOUZA: abono lançado (16h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "GHEOVANNE CANDIDO DE JESUS SILVA: abono lançado (16h) excede a falta justificada do ponto (14h) — valoração 8h/dia do relatório",
+      "GISELE REIS DOS SANTOS: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "GUILHERMY EMANUELE CORREA SANTOS: abono lançado (16h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "GUSTAVO DE BARROS FATORELLI: abono lançado (98h) excede a falta justificada do ponto (87h) — valoração 8h/dia do relatório",
+      "HOZANA MARIA JOSE DA SILVA: abono lançado (82h) excede a falta justificada do ponto (34h) — valoração 8h/dia do relatório",
+      "ISAAK PRATA GUSMAO: abono lançado (2h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "ISABELLA CARVALHO DE OLIVEIRA: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "ISADORA VITORIA DOS SANTOS OLIVEIRA: abono lançado (232h) excede a falta justificada do ponto (128h) — valoração 8h/dia do relatório",
+      "JAINE DEMETRIO DOS SANTOS: abono lançado (248h) excede a falta justificada do ponto (139h) — valoração 8h/dia do relatório",
+      "JAQUELINE DE ANDRADE CELES: abono lançado (64h) excede a falta justificada do ponto (44h) — valoração 8h/dia do relatório",
+      "JEFFERSON CINTRA DA SILVA: abono lançado (56h) excede a falta justificada do ponto (43h) — valoração 8h/dia do relatório",
+      "JOAO VICTOR FERREIRA DE CASTRO: abono lançado (112h) excede a falta justificada do ponto (85h) — valoração 8h/dia do relatório",
+      "JULIANA FERREIRA DA PAZ: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "JULIANA MARTINS LOPES: abono lançado (16h) excede a falta justificada do ponto (9h) — valoração 8h/dia do relatório",
+      "JULIA TARSITANO PONTES: abono lançado (42h) excede a falta justificada do ponto (26h) — valoração 8h/dia do relatório",
+      "KAIC MIRANDA DE HOLANDA: abono lançado (8h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "KAROLINA VICTORIA DA SILVA VICENTE: abono lançado (40h) excede a falta justificada do ponto (21h) — valoração 8h/dia do relatório",
+      "KAUA LINHARES AOYAMA: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "KETELLEN CRISTINA SILVA COUTINHO: abono lançado (119h) excede a falta justificada do ponto (92h) — valoração 8h/dia do relatório",
+      "LAURA LEME BRASILINO: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "LAURA SANTOS LEAO: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "LAURA TANE DA SILVA: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "LUANA DA SILVA PACHECO: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "LUANA DOS SANTOS: abono lançado (16h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "LUANA SANTOS DE SOUZA: abono lançado (40h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "LUCAS BARROS DA SILVA CRUZ: abono lançado (160h) excede a falta justificada do ponto (128h) — valoração 8h/dia do relatório",
+      "LUCAS DE OLIVEIRA DIAS: abono lançado (52h) excede a falta justificada do ponto (46h) — valoração 8h/dia do relatório",
+      "LUCIANO GONCALVES FORCIN: abono lançado (17h) excede a falta justificada do ponto (9h) — valoração 8h/dia do relatório",
+      "LUCILENE APARECIDA DO NASCIMENTO: abono lançado (248h) excede a falta justificada do ponto (158h) — valoração 8h/dia do relatório",
+      "LUIZ GUSTAVO TAVARES DA CRUZ: abono lançado (32h) excede a falta justificada do ponto (26h) — valoração 8h/dia do relatório",
+      "LUIZ LEONARDO CUNHA NASCIMENTO: abono lançado (27h) excede a falta justificada do ponto (20h) — valoração 8h/dia do relatório",
+      "MAISA SANTOS SILVA: abono lançado (48h) excede a falta justificada do ponto (36h) — valoração 8h/dia do relatório",
+      "MANUELA SILVA ARAUJO: abono lançado (48h) excede a falta justificada do ponto (43h) — valoração 8h/dia do relatório",
+      "MARCOS GOMES DOS SANTOS: abono lançado (16h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "MARCOS REIS DE OLIVEIRA: abono lançado (24h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "MARIA APARECIDA GUIMARAES DE CASTRO MEIRA: abono lançado (133h) excede a falta justificada do ponto (98h) — valoração 8h/dia do relatório",
+      "MARIA ARIANE RODRIGUES SILVA: abono lançado (52h) excede a falta justificada do ponto (46h) — valoração 8h/dia do relatório",
+      "MARIA EDUARDA PEREIRA DE CASTRO: abono lançado (16h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "MARIA EDUARDA ROSENDO ARAUJO SANT ANA: abono lançado (224h) excede a falta justificada do ponto (162h) — valoração 8h/dia do relatório",
+      "MARIA JESUS NASCIMENTO: abono lançado (24h) excede a falta justificada do ponto (16h) — valoração 8h/dia do relatório",
+      "MARIA LOPES DA SILVA: abono lançado (33h) excede a falta justificada do ponto (28h) — valoração 8h/dia do relatório",
+      "MARIA SIMONE MERCES DOS SANTOS: abono lançado (118h) excede a falta justificada do ponto (91h) — valoração 8h/dia do relatório",
+      "MATHEUS HENRICK RIBEIRO NUNES: abono lançado (152h) excede a falta justificada do ponto (101h) — valoração 8h/dia do relatório",
+      "MELISSA ARAUJO DE JESUS: abono lançado (92h) excede a falta justificada do ponto (57h) — valoração 8h/dia do relatório",
+      "MELISSA SILVA DOS SANTOS: abono lançado (19h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "MICHELE ALVES RAMOS DA SILVA: abono lançado (192h) excede a falta justificada do ponto (145h) — valoração 8h/dia do relatório",
+      "MIKAELY SILVA PEREIRA: abono lançado (24h) excede a falta justificada do ponto (9h) — valoração 8h/dia do relatório",
+      "MIQUEIAS JOHNNES SANTOS DA SILVA: abono lançado (32h) excede a falta justificada do ponto (21h) — valoração 8h/dia do relatório",
+      "NATHALY NOVAES DIAS: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "NOEMI DA SILVA CONSTANTINO: abono lançado (96h) excede a falta justificada do ponto (60h) — valoração 8h/dia do relatório",
+      "PALOMA TINO DA SILVA: abono lançado (128h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "PAMELA EDUARDA DA SILVA VIANA: abono lançado (28h) excede a falta justificada do ponto (23h) — valoração 8h/dia do relatório",
+      "PATRICIA ARAUJO SOUZA DOS SANTOS: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "PAULO EDUARDO VIANA GOMES: abono lançado (24h) excede a falta justificada do ponto (16h) — valoração 8h/dia do relatório",
+      "PAULO HENRIQUE DE JESUS SILVA: abono lançado (40h) excede a falta justificada do ponto (26h) — valoração 8h/dia do relatório",
+      "PEDRO HENRIQUE MACIEL FREIRES: abono lançado (8h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "RAFAELA SILVA SILVEIRA: abono lançado (84h) excede a falta justificada do ponto (62h) — valoração 8h/dia do relatório",
+      "RAQUEL SANTOS CLEMENTINO: abono lançado (248h) excede a falta justificada do ponto (187h) — valoração 8h/dia do relatório",
+      "ROBSON DOS REIS SILVA: abono lançado (19h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "SAMARA BORGES DE ARAUJO: abono lançado (40h) excede a falta justificada do ponto (27h) — valoração 8h/dia do relatório",
+      "SAMARAH MENEZES MAIA: abono lançado (11h) excede a falta justificada do ponto (0h) — valoração 8h/dia do relatório",
+      "SOPHIA SOUZA SANTOS: abono lançado (16h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "SUELENE PEREIRA RODRIGUES: abono lançado (3h) excede a falta justificada do ponto (2h) — valoração 8h/dia do relatório",
+      "SUZIANE CIRILO RODRIGUES: abono lançado (8h) excede a falta justificada do ponto (5h) — valoração 8h/dia do relatório",
+      "TAMIRIS DE OLIVEIRA CRUZ: abono lançado (48h) excede a falta justificada do ponto (21h) — valoração 8h/dia do relatório",
+      "TAMIRIS DOS SANTOS: abono lançado (100h) excede a falta justificada do ponto (89h) — valoração 8h/dia do relatório",
+      "TEREZA CRISTINA PEREIRA DOS SANTOS: abono lançado (27h) excede a falta justificada do ponto (11h) — valoração 8h/dia do relatório",
+      "THAIS OLIVEIRA DA SILVA: abono lançado (104h) excede a falta justificada do ponto (68h) — valoração 8h/dia do relatório",
+      "VANESSA CAMILLY SANTOS DE LISBOA: abono lançado (64h) excede a falta justificada do ponto (51h) — valoração 8h/dia do relatório",
+      "VITORIA CRISTINA OLIVEIRA DOS SANTOS: abono lançado (24h) excede a falta justificada do ponto (9h) — valoração 8h/dia do relatório",
+      "VITORIA MARINHEIRO GOMES: abono lançado (12h) excede a falta justificada do ponto (9h) — valoração 8h/dia do relatório",
+      "YARA SILVA DE BARROS: abono lançado (34h) excede a falta justificada do ponto (18h) — valoração 8h/dia do relatório"
     ],
     "periodIssues": []
   }

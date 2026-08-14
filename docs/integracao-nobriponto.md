@@ -55,6 +55,7 @@ VPS (RPA cron) ──► Abono de Faltas ────► absence_records ──�
 ## Regras de negócio (reproduzidas do fluxo Excel)
 
 1. **ABS HORA** = INJUSTIFICADA + ABONADA + JUSTIFICADA
+   (**DESCONSIDERAR fica de fora** — ver regra 7)
    - ABONADA / JUSTIFICADA: lançamentos do Abono de Faltas classificados pelo
      **tratamento do motivo** em `absence_reasons` (editável na página Motivos)
    - Conciliação jul/2026: Horas Previstas = `cargaHoraria` e Horas Realizadas
@@ -81,3 +82,24 @@ VPS (RPA cron) ──► Abono de Faltas ────► absence_records ──�
    alerta de qualidade no dashboard (nunca correção silenciosa)
 6. PLANEJADO = 0 (admitido após fechamento, afastado sem escala) fica fora do
    denominador
+
+7. **Rateio das Faltas Justificadas pelo tratamento do motivo**
+   (regra corrigida em 14/08/2026):
+
+   O ponto mede o total de falta justificada, mas não sabe o significado de
+   cada motivo — isso vem da base de motivos. O total medido é rateado em
+   ABONADA / JUSTIFICADA / DESCONSIDERADA na proporção das horas lançadas no
+   Abono de Faltas por tratamento.
+
+   - **DESCONSIDERAR** (AFASTADA, LICENÇA MATERNIDADE, FOLGA COMPENSAÇÃO…)
+     **não entra no ABS HORA**. Antes disso, essas horas caíam em JUSTIFICADA
+     e 16 pessoas afastadas apareciam com ABS 100% — furo encontrado pelo
+     cliente em 14/08/2026.
+   - **O PLANEJADO é mantido** (decisão do cliente): quem ficou afastado o mês
+     inteiro segue no cálculo com **ABS% = 0%**, como se tivesse trabalhado sem
+     faltas. Não é removido do quadro nem do denominador.
+   - As horas desconsideradas continuam visíveis (coluna "Desconsid." na tabela
+     e KPI "Fora do cálculo") — saem do indicador, não da auditoria.
+
+   Efeito em jul/2026: ABS% geral caiu de 13,06% para **10,70%**, com 2.837h
+   corretamente fora do cálculo.
