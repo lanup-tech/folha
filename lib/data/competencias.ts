@@ -35,7 +35,7 @@ const june2026: CompetenciaData = {
   label: "Junho 2026",
   employees: june2026Json.employees as EmployeeMonth[],
   motivoTotals: june2026Json.motivoTotals as MotivoMonthTotal[],
-  source: "Abono coletado pelo RPA (mês cheio) + API de funcionários · HE pendente do extrato de junho",
+  source: "Abono coletado pelo RPA (mês cheio) + HE e cadastro via API EzPoint",
 };
 
 const july2026: CompetenciaData = {
