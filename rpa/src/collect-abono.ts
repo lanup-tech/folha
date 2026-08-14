@@ -11,10 +11,15 @@
  *   #inicio / #fim              período (dd/mm/aaaa)
  *   #motivoTodos                select multiple — 34 motivos
  *   #empTodas                   select multiple — 3 empresas
- *   #extensao                   PDF(0) | XLS(1) | XLSX(2)
+ *   #extensao                   PDF | XLS | XLSX  (trocar ANTES de baixar)
  *   #ocultarFuncDemitidos       checkbox (vem marcado)
  *   #autoAgrupar                "Agrupar Motivos por Funcionário" — manter DESmarcado
- *   Manage.okDownload()         dispara a geração/download
+ *   botão "Baixar"              gera e baixa o arquivo (o "Visualizar" só abre na tela)
+ *
+ * Os motivos e empresas ficam em listas duplas ("Adicionar todos" move da lista
+ * da esquerda para a de selecionados à direita). Como os selects nativos
+ * (#motivoTodos / #empTodas) alimentam o POST, marcá-los por JS é equivalente
+ * e mais robusto que clicar item a item.
  *
  * O roteiro segue docs/processos-relatorios.md: período do mês cheio, TODOS os
  * motivos, TODAS as empresas, exportar XLSX.
@@ -65,7 +70,18 @@ try {
     { ini: dataInicio, fim: dataFim }
   );
 
-  // ---- todos os motivos e todas as empresas (selects multiple ocultos) ----
+  // ---- todos os motivos e todas as empresas ----
+  // A tela usa listas duplas com botão "Adicionar todos"; clicar nele é o
+  // caminho que o próprio sistema espera (dispara os handlers dele).
+  const btnAdicionarTodos = page.locator(':text("Adicionar todos")');
+  const qtdBotoes = await btnAdicionarTodos.count();
+  for (let i = 0; i < qtdBotoes; i += 1) {
+    await btnAdicionarTodos.nth(i).click().catch(() => {});
+    await page.waitForTimeout(400);
+  }
+
+  // Garantia: marca os selects nativos que alimentam o POST (o clique acima
+  // pode não cobrir listas que exigem rolagem).
   const selecionados = await page.evaluate(() => {
     const contagem: Record<string, number> = { motivos: 0, empresas: 0 };
     for (const [chave, id] of [
@@ -85,24 +101,25 @@ try {
     throw new Error("não foi possível selecionar motivos/empresas — tela pode ter mudado");
   }
 
-  // ---- opções: XLSX, sem agrupar, ocultando demitidos (padrão da tela) ----
+  // ---- extensão XLSX (trocar ANTES de clicar em Baixar) ----
   await page.selectOption("#extensao", { label: "XLSX" }).catch(async () => {
     await page.selectOption("#extensao", "2");
   });
+  const extensaoEscolhida = await page.locator("#extensao").inputValue();
+  console.log(`[rpa] extensão selecionada: ${extensaoEscolhida}`);
+
+  // sem agrupar motivos: queremos o relatório linha a linha (processo manual)
   await page.evaluate(() => {
     const agrupar = document.getElementById("autoAgrupar") as HTMLInputElement | null;
-    if (agrupar?.checked) agrupar.click(); // relatório linha a linha, como no processo manual
+    if (agrupar?.checked) agrupar.click();
   });
 
-  // ---- gerar e capturar o download ----
-  console.log("[rpa] gerando relatório…");
+  // ---- botão "Baixar" (o "Visualizar" apenas abre o relatório na tela) ----
+  console.log("[rpa] clicando em Baixar…");
+  const btnBaixar = page.locator('button:has-text("Baixar"), a:has-text("Baixar"), input[value*="Baixar" i]').first();
   const [download] = await Promise.all([
-    page.waitForEvent("download", { timeout: 180000 }),
-    page.evaluate(() => {
-      const w = window as unknown as { Manage?: { okDownload?: () => void } };
-      if (w.Manage?.okDownload) w.Manage.okDownload();
-      else document.querySelector<HTMLInputElement>('input[onclick*="okDownload"]')?.click();
-    }),
+    page.waitForEvent("download", { timeout: 300000 }),
+    btnBaixar.click(),
   ]);
 
   const arquivo = join(destino, "AbonoDeFaltas.xlsx");

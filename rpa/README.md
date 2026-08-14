@@ -17,6 +17,20 @@ bash setup-vps.sh
 Ele termina imprimindo o **hardening de SSH** (chave, desabilitar senha, firewall)
 para você executar na ordem segura — sem risco de se trancar fora do servidor.
 
+## Status
+
+**Funcionando de ponta a ponta** (validado em 14/08/2026 com junho): login →
+Relatórios/Abono → período do mês → todos os motivos e empresas → XLSX → download.
+Baixou 2.284 lançamentos de junho contra 65 da exportação manual incompleta.
+
+```bash
+npx tsx src/collect-abono.ts 2026-06            # headless
+npx tsx src/collect-abono.ts 2026-06 --visivel  # acompanhando o navegador
+```
+
+O arquivo cai em `data/raw/<AAAA-MM>/AbonoDeFaltas.xlsx`, pronto para
+`node scripts/ingest-competencia.mjs`.
+
 ## Rodando o robô
 
 ```bash
