@@ -26,6 +26,10 @@ export interface CompetenciaData {
   motivoTotals: MotivoMonthTotal[];
   /** origem da carga, exibida no painel */
   source: string;
+  /** visão só com os dias já decorridos (existe apenas no mês em curso) */
+  employeesParcial?: EmployeeMonth[];
+  mesEmCurso?: boolean;
+  diaCorte?: number | null;
 }
 
 const may2026: CompetenciaData = {
@@ -56,6 +60,9 @@ const august2026: CompetenciaData = {
   key: "2026-08",
   label: "Agosto 2026",
   employees: august2026Json.employees as EmployeeMonth[],
+  employeesParcial: (august2026Json as { employeesParcial?: EmployeeMonth[] }).employeesParcial,
+  mesEmCurso: (august2026Json.meta as { mesEmCurso?: boolean })?.mesEmCurso,
+  diaCorte: (august2026Json.meta as { diaCorte?: number | null })?.diaCorte ?? null,
   motivoTotals: august2026Json.motivoTotals as MotivoMonthTotal[],
   source: "mês corrente · API EzPoint + Abono coletado pelo RPA na VPS",
 };
@@ -80,4 +87,13 @@ export function getCompetencia(key?: string): CompetenciaData {
 
 export function competenciaOptions() {
   return competencias.map((c) => ({ key: c.key, label: c.label }));
+}
+
+/**
+ * Lista de colaboradores conforme a visão escolhida.
+ * `parcial` só tem efeito no mês em curso, onde existe a visão até ontem.
+ */
+export function employeesDaVisao(c: CompetenciaData, parcial: boolean): EmployeeMonth[] {
+  if (parcial && c.employeesParcial?.length) return c.employeesParcial;
+  return c.employees;
 }

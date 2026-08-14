@@ -24,18 +24,19 @@ const rawDir = process.argv[3] ?? `data/raw/${competencia}`;
 
 /**
  * MÊS EM CURSO: a API devolve a cargaHoraria do mês INTEIRO, e os dias que
- * ainda não aconteceram entram como "falta". Sem tratar isso, o ABS% explode
- * (agosto até o dia 14 dava 56% contra 10,7% de julho).
+ * ainda não aconteceram entram como "falta" — o que infla o ABS% (agosto até
+ * o dia 14 dava 57,9% contra 11,8% no cálculo parcial).
  *
- * Solução: para a competência corrente, o corte é ONTEM (o dia de hoje ainda
- * está em andamento) — usamos apenas os dias já decorridos do espelho, somando
- * dia a dia em vez de usar os totais do mês.
+ * Por isso a competência corrente é gravada com DUAS visões:
+ *   - `employees`        → mês cheio (padrão, como o ponto reporta)
+ *   - `employeesParcial` → apenas os dias 1..corte (ontem)
+ * O painel alterna entre elas pela flag "Parcial" (ver components/partial-toggle).
  */
 const hoje = new Date();
 const competenciaCorrente = competencia === hoje.toISOString().slice(0, 7);
-const diaCorte = competenciaCorrente ? hoje.getDate() - 1 : 31;
+const diaCorte = hoje.getDate() - 1;
 if (competenciaCorrente) {
-  console.log(`[montar] mês em curso: considerando apenas os dias 1 a ${diaCorte}`);
+  console.log(`[montar] mês em curso: gerando visão cheia + parcial (dias 1 a ${diaCorte})`);
 }
 
 const env = {};
@@ -101,12 +102,7 @@ if (existsSync(abonoPath)) {
   for (const r of rows.slice(headerIdx + 1)) {
     if (!r?.length || !String(r[cFunc] ?? "").trim()) continue;
     if (["TOTAIS", "TOTAL", "TOTAL GERAL"].includes(nameKey(r[cFunc]))) continue;
-    // no mês em curso, ignora lançamentos posteriores ao corte (afastamentos
-    // são lançados para o mês todo antecipadamente)
-    if (competenciaCorrente && cData >= 0) {
-      const dia = parseInt(String(r[cData] ?? "").split("/")[0], 10);
-      if (Number.isFinite(dia) && dia > diaCorte) continue;
-    }
+    void cData; // o rateio usa proporção, não o total absoluto — data não corta
     lancamentos += 1;
     const motivoRaw = fixEncoding(String(r[cMot] ?? "").trim());
     const treatment = treatmentByMotivo.get(nameKey(motivoRaw));
@@ -147,40 +143,45 @@ function motivoPredominante(k) {
 const db = new pg.Client({ connectionString: env.SUPABASE_DB_URL, ssl: { rejectUnauthorized: false } });
 await db.connect();
 
-// No mês em curso somamos o dia a dia até o corte; no mês fechado usamos os
-// totais do espelho (equivalentes e mais baratos).
-const { rows: base } = competenciaCorrente
-  ? await db.query(
-      `select e.name, e.registration, e.role, e.admission_date, e.external_id,
-              c.cnpj, s.name as sector,
-              coalesce(sum(d.planned_min), 0)  as planned_min,
-              coalesce(sum(d.worked_min), 0)   as worked_min,
-              coalesce(sum(d.absence_min), 0)  as unjustified_min,
-              coalesce(sum(d.excused_min), 0)  as justified_min,
-              coalesce(sum(d.late_min), 0)     as tolerance_min,
-              coalesce(sum(d.extra_min), 0)    as he_min
-       from espelho_dias d
-       join employees e on e.id = d.employee_id
-       join companies c on c.id = e.company_id
-       left join sectors s on s.id = e.sector_id
-       where d.competencia = $1 and extract(day from d.dia) <= $2
-       group by e.name, e.registration, e.role, e.admission_date, e.external_id, c.cnpj, s.name`,
-      [competencia, diaCorte]
-    )
-  : await db.query(
-      `select e.name, e.registration, e.role, e.admission_date, e.external_id,
-              c.cnpj, s.name as sector,
-              a.planned_min, a.worked_min, a.unjustified_min, a.justified_min, a.tolerance_min,
-              coalesce(h.total_min, 0) as he_min
-       from absenteeism_monthly a
-       join employees e on e.id = a.employee_id
-       join companies c on c.id = e.company_id
-       left join sectors s on s.id = e.sector_id
-       left join hour_extract_monthly h
-         on h.employee_id = a.employee_id and h.competencia = a.competencia
-       where a.competencia = $1`,
-      [competencia]
-    );
+// Mês cheio: totais do espelho (é como o ponto reporta).
+const { rows: base } = await db.query(
+  `select e.name, e.registration, e.role, e.admission_date, e.external_id,
+          c.cnpj, s.name as sector,
+          a.planned_min, a.worked_min, a.unjustified_min, a.justified_min, a.tolerance_min,
+          coalesce(h.total_min, 0) as he_min
+   from absenteeism_monthly a
+   join employees e on e.id = a.employee_id
+   join companies c on c.id = e.company_id
+   left join sectors s on s.id = e.sector_id
+   left join hour_extract_monthly h
+     on h.employee_id = a.employee_id and h.competencia = a.competencia
+   where a.competencia = $1`,
+  [competencia]
+);
+
+// Visão parcial (só na competência corrente): soma o espelho dia a dia até o
+// corte, de modo que dias futuros não contem como falta.
+const baseParcial = competenciaCorrente
+  ? (
+      await db.query(
+        `select e.name, e.registration, e.role, e.admission_date, e.external_id,
+                c.cnpj, s.name as sector,
+                coalesce(sum(d.planned_min), 0)  as planned_min,
+                coalesce(sum(d.worked_min), 0)   as worked_min,
+                coalesce(sum(d.absence_min), 0)  as unjustified_min,
+                coalesce(sum(d.excused_min), 0)  as justified_min,
+                coalesce(sum(d.late_min), 0)     as tolerance_min,
+                coalesce(sum(d.extra_min), 0)    as he_min
+         from espelho_dias d
+         join employees e on e.id = d.employee_id
+         join companies c on c.id = e.company_id
+         left join sectors s on s.id = e.sector_id
+         where d.competencia = $1 and extract(day from d.dia) <= $2
+         group by e.name, e.registration, e.role, e.admission_date, e.external_id, c.cnpj, s.name`,
+        [competencia, diaCorte]
+      )
+    ).rows
+  : [];
 await db.end();
 console.log(`[montar] banco: ${base.length} registros da API`);
 if (!base.length) {
@@ -189,54 +190,62 @@ if (!base.length) {
 }
 
 // ---------- consolidação ----------
-const employees = [];
 const inconsistencies = [];
-for (const r of base) {
-  const k = nameKey(r.name);
-  const plannedMin = r.planned_min ?? 0;
-  // FI do relatório = falta + atraso (opção "Considerar Atraso")
-  const unjustifiedMin = (r.unjustified_min ?? 0) + (r.tolerance_min ?? 0);
-  const fjMin = r.justified_min ?? 0; // horasAbonadas do espelho
 
-  const excusedRaw = excusedByName.get(k) ?? 0;
-  const justifiedRaw = justifiedByName.get(k) ?? 0;
-  const ignoredRaw = ignoredByName.get(k) ?? 0;
-  const lancadoRaw = excusedRaw + justifiedRaw + ignoredRaw;
+/** Aplica as regras de cálculo sobre um conjunto de linhas do banco. */
+function consolidar(linhas, registrarInconsistencias) {
+  return linhas.map((r) => {
+    const k = nameKey(r.name);
+    const plannedMin = Number(r.planned_min ?? 0);
+    // FI do relatório = falta + atraso (opção "Considerar Atraso")
+    const unjustifiedMin = Number(r.unjustified_min ?? 0) + Number(r.tolerance_min ?? 0);
+    const fjMin = Number(r.justified_min ?? 0); // horasAbonadas do espelho
 
-  let excusedMin = 0;
-  let justifiedMin = 0;
-  let ignoredMin = 0;
-  if (lancadoRaw > 0) {
-    excusedMin = Math.round((fjMin * excusedRaw) / lancadoRaw);
-    ignoredMin = Math.round((fjMin * ignoredRaw) / lancadoRaw);
-    justifiedMin = Math.max(0, fjMin - excusedMin - ignoredMin);
-  } else {
-    justifiedMin = fjMin;
-    if (fjMin > 0) {
-      inconsistencies.push(
-        `${r.name}: ${Math.round(fjMin / 60)}h abonadas no ponto sem lançamento no Abono de Faltas`
-      );
+    const excusedRaw = excusedByName.get(k) ?? 0;
+    const justifiedRaw = justifiedByName.get(k) ?? 0;
+    const ignoredRaw = ignoredByName.get(k) ?? 0;
+    const lancadoRaw = excusedRaw + justifiedRaw + ignoredRaw;
+
+    let excusedMin = 0;
+    let justifiedMin = 0;
+    let ignoredMin = 0;
+    if (lancadoRaw > 0) {
+      excusedMin = Math.round((fjMin * excusedRaw) / lancadoRaw);
+      ignoredMin = Math.round((fjMin * ignoredRaw) / lancadoRaw);
+      justifiedMin = Math.max(0, fjMin - excusedMin - ignoredMin);
+    } else {
+      justifiedMin = fjMin;
+      if (fjMin > 0 && registrarInconsistencias) {
+        inconsistencies.push(
+          `${r.name}: ${Math.round(fjMin / 60)}h abonadas no ponto sem lançamento no Abono de Faltas`
+        );
+      }
     }
-  }
 
-  const pred = motivoPredominante(k);
-  employees.push({
-    company: companyByCnpj[String(r.cnpj ?? "").replace(/\D/g, "")] ?? "EMPREENDIMENTOS",
-    sector: r.sector ?? "",
-    registration: r.registration ?? "",
-    name: r.name,
-    role: r.role ?? "",
-    admissionDate: r.admission_date ? r.admission_date.toISOString().slice(0, 10).split("-").reverse().join("/") : "",
-    heMin: r.he_min ?? 0,
-    unjustifiedMin,
-    excusedMin,
-    justifiedMin,
-    ignoredMin,
-    plannedMin,
-    mainMotivo: pred?.motivo ?? null,
-    mainMotivoTreatment: pred?.treatment ?? null,
+    const pred = motivoPredominante(k);
+    return {
+      company: companyByCnpj[String(r.cnpj ?? "").replace(/\D/g, "")] ?? "EMPREENDIMENTOS",
+      sector: r.sector ?? "",
+      registration: r.registration ?? "",
+      name: r.name,
+      role: r.role ?? "",
+      admissionDate: r.admission_date
+        ? r.admission_date.toISOString().slice(0, 10).split("-").reverse().join("/")
+        : "",
+      heMin: Number(r.he_min ?? 0),
+      unjustifiedMin,
+      excusedMin,
+      justifiedMin,
+      ignoredMin,
+      plannedMin,
+      mainMotivo: pred?.motivo ?? null,
+      mainMotivoTreatment: pred?.treatment ?? null,
+    };
   });
 }
+
+const employees = consolidar(base, true);
+const employeesParcial = consolidar(baseParcial, false);
 
 const motivoTotals = [...motivoAgg.entries()]
   .map(([motivo, agg]) => ({ motivo, ...agg }))
@@ -250,14 +259,14 @@ writeFileSync(
     {
       competencia,
       employees,
+      employeesParcial,
       motivoTotals,
       meta: {
-        origem: competenciaCorrente
-          ? `API EzPoint (espelho) + Abono via RPA — PARCIAL: dias 1 a ${diaCorte}`
-          : "API EzPoint (espelho) + Abono de Faltas via RPA",
-        parcial: competenciaCorrente,
+        origem: "API EzPoint (espelho) + Abono de Faltas via RPA",
+        mesEmCurso: competenciaCorrente,
         diaCorte: competenciaCorrente ? diaCorte : null,
         registrosApi: base.length,
+        registrosParcial: baseParcial.length,
         lancamentosAbono: lancamentos,
         unknownMotivos: [...unknownMotivos],
         inconsistencies,
@@ -269,10 +278,22 @@ writeFileSync(
   "utf8"
 );
 
-const soma = (f) => employees.reduce((a, e) => a + f(e), 0);
-const absMin = soma((e) => e.unjustifiedMin + e.excusedMin + e.justifiedMin);
-const planMin = soma((e) => e.plannedMin);
+const resumo = (lista) => {
+  const soma = (f) => lista.reduce((a, e) => a + f(e), 0);
+  const abs = soma((e) => e.unjustifiedMin + e.excusedMin + e.justifiedMin);
+  const plan = soma((e) => e.plannedMin);
+  return {
+    pessoas: lista.length,
+    absPct: plan ? ((abs / plan) * 100).toFixed(2) : "0.00",
+    fora: Math.round(soma((e) => e.ignoredMin) / 60),
+    he: Math.round(soma((e) => e.heMin) / 60),
+  };
+};
 console.log(`[montar] ${outPath}`);
-console.log(`  colaboradores: ${employees.length} · ABS%: ${((absMin / planMin) * 100).toFixed(2)}%`);
-console.log(`  fora do cálculo: ${Math.round(soma((e) => e.ignoredMin) / 60)}h · HE: ${Math.round(soma((e) => e.heMin) / 60)}h`);
+const rc = resumo(employees);
+console.log(`  MÊS CHEIO — colaboradores: ${rc.pessoas} · ABS%: ${rc.absPct}% · fora do cálculo: ${rc.fora}h · HE: ${rc.he}h`);
+if (employeesParcial.length) {
+  const rp = resumo(employeesParcial);
+  console.log(`  PARCIAL (1 a ${diaCorte}) — colaboradores: ${rp.pessoas} · ABS%: ${rp.absPct}% · fora do cálculo: ${rp.fora}h · HE: ${rp.he}h`);
+}
 if (unknownMotivos.size) console.log(`  MOTIVOS FORA DA BASE: ${[...unknownMotivos].join(" | ")}`);

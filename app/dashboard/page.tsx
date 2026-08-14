@@ -12,7 +12,7 @@ import {
   rankedEmployees,
   sectorSummaries,
 } from "@/lib/data/aggregate";
-import { getCompetencia } from "@/lib/data/competencias";
+import { employeesDaVisao, getCompetencia } from "@/lib/data/competencias";
 import { companyLabel } from "@/lib/data/companies";
 import { formatDuration, formatPercent } from "@/lib/format";
 import { AlertTriangle } from "lucide-react";
@@ -22,11 +22,12 @@ const MAX_ALERTS_SHOWN = 8;
 export default async function DashboardPage({
   searchParams,
 }: {
-  searchParams: Promise<{ competencia?: string }>;
+  searchParams: Promise<{ competencia?: string; parcial?: string }>;
 }) {
   const params = await searchParams;
   const comp = getCompetencia(params.competencia);
-  const employees = comp.employees;
+  const parcial = params.parcial === "1";
+  const employees = employeesDaVisao(comp, parcial);
 
   const kpis = overallKpis(employees);
   const byCompany = companySummaries(employees);
@@ -41,10 +42,23 @@ export default async function DashboardPage({
 
   return (
     <>
-      <Topbar title="Visão geral do absenteísmo" competencia={comp.key} />
+      <Topbar
+        title="Visão geral do absenteísmo"
+        competencia={comp.key}
+        mesEmCurso={comp.mesEmCurso}
+        diaCorte={comp.diaCorte}
+        parcial={parcial}
+      />
       <main className="flex flex-col gap-4 p-6">
         <p className="text-xs text-[var(--ink-muted)]">
           Competência {comp.label} · fonte: {comp.source}
+          {comp.mesEmCurso && (
+            <span className="ml-2 font-medium text-[var(--brand-primary)]">
+              {parcial
+                ? `· análise parcial: dias 1 a ${comp.diaCorte}`
+                : "· mês cheio (inclui dias que ainda não ocorreram)"}
+            </span>
+          )}
         </p>
 
         {/* KPIs */}
