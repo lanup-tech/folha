@@ -56,10 +56,12 @@ const { rows } = await db.query(
 await db.end();
 
 const fmt = (min) => `${Math.floor(min / 60)}:${String(min % 60).padStart(2, "0")}`;
+// Faltas Injustificadas do relatório = falta + atraso do espelho (a emissão usa
+// "Considerar Atraso"). Confirmado com a carga completa de jul/2026.
 const fields = [
   ["planejado", (d) => d.planned_min, (j) => j.plannedMin],
   ["HE", (d) => d.he_min, (j) => j.heMin],
-  ["injustificada(falta API × FI)", (d) => d.unjustified_min, (j) => j.unjustifiedMin],
+  ["injustificada(falta+atraso × FI)", (d) => d.unjustified_min + d.tolerance_min, (j) => j.unjustifiedMin],
   ["abonos(API × FJ planilha)", (d) => d.justified_min, (j) => j.excusedMin + j.justifiedMin],
 ];
 

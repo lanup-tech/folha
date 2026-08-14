@@ -57,13 +57,15 @@ VPS (RPA cron) ──► Abono de Faltas ────► absence_records ──�
 1. **ABS HORA** = INJUSTIFICADA + ABONADA + JUSTIFICADA
    - ABONADA / JUSTIFICADA: lançamentos do Abono de Faltas classificados pelo
      **tratamento do motivo** em `absence_reasons` (editável na página Motivos)
-   - Conciliação jul/2026 (30 amostras): Horas Previstas = `cargaHoraria`
-     (30/30) e Horas Realizadas = `horasTrabalhadas` (30/30) — API é fonte
-     confiável. O `falta` da API coincide com FI em ~metade dos casos; a fonte
-     de FI/FJ segue sendo o relatório de Absenteísmo até mapearmos a diferença.
-     Hipótese (dos processos de emissão): o relatório é gerado com
-     "Considerar Atraso" + "Considerar Tolerância de Atraso/Falta", e o
-     espelho da API não aplica essas opções — ver docs/processos-relatorios.md.
+   - Conciliação jul/2026: Horas Previstas = `cargaHoraria` e Horas Realizadas
+     = `horasTrabalhadas` batem 100% — API é fonte confiável.
+   - **Faltas Injustificadas = `falta` + `atraso` da API** (confirmado em
+     14/08/2026 com a carga completa). Exemplo: VINICIUS FERREIRA DA CONCEICAO
+     — falta 59:30 + atraso 66:34 = 126:04 = FI da planilha, exato. É o efeito
+     da opção "Considerar Atraso" usada na emissão do relatório
+     (docs/processos-relatorios.md): o espelho cru separa os dois campos, o
+     relatório soma. Por isso o `falta` sozinho batia com FI em só ~1/5 dos
+     casos — justamente os de quem não teve atraso no mês.
 2. **PLANEJADO** = `cargaHoraria` do espelho (era "Horas Previstas")
 3. **ABS %** = ABS HORA ÷ PLANEJADO
 4. Período abonado → horas: `O dia todo.` = 8:00 · `1º/2º período.` = 4:00

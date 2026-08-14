@@ -149,18 +149,44 @@ try {
   console.log(`[load] employees upsert: ${empIdByApiId.size} (${skipped} pulados)`);
 
   // ---- espelho por funcionário ----
+  //
+  // A API às vezes devolve o espelho VAZIO (totalColunas zerado / dias vazios)
+  // de forma intermitente — reconsultando, os dados vêm certos. Gravar esse
+  // vazio como 0 corrompe silenciosamente a competência (foi o que aconteceu
+  // com 58 registros em 14/08). Por isso: valida a resposta e tenta de novo
+  // antes de desistir; se ainda vier vazio, NÃO grava e reporta.
   let done = 0;
   let errors = 0;
+  let vazios = 0;
+  const suspeitos = [];
+
+  const buscarEspelho = async (id) => {
+    for (let tentativa = 1; tentativa <= 3; tentativa += 1) {
+      await wait(2300); // 30 req/min com folga
+      const esp = await api(
+        `/espelhoDePontos?empresa=${EMPRESA}&idFuncionario=${id}&dataInicio=${dataInicio}&dataFim=${dataFim}`,
+        { headers: auth }
+      );
+      const t = esp?.totalColunas;
+      const temDias = Array.isArray(esp?.dias) && esp.dias.length > 0;
+      // resposta legítima de quem não tem escala: dias presentes, tudo zero.
+      // resposta suspeita: nem dias, nem totais -> vale reconsultar.
+      if (t && (temDias || toMin(t.cargaHoraria) > 0)) return { esp, t, tentativas: tentativa };
+    }
+    return null;
+  };
+
   for (const f of funcionarios) {
     const empId = empIdByApiId.get(f.id);
     if (!empId) continue;
-    await wait(2300); // 30 req/min com folga
     try {
-      const esp = await api(
-        `/espelhoDePontos?empresa=${EMPRESA}&idFuncionario=${f.id}&dataInicio=${dataInicio}&dataFim=${dataFim}`,
-        { headers: auth }
-      );
-      const t = esp.totalColunas ?? {};
+      const resultado = await buscarEspelho(f.id);
+      if (!resultado) {
+        vazios += 1;
+        suspeitos.push(f.nome);
+        continue; // não grava zero: melhor faltar o registro do que gravar dado falso
+      }
+      const { t } = resultado;
       await db.query(
         `insert into absenteeism_monthly
            (employee_id, competencia, planned_min, worked_min, tolerance_min, justified_min, unjustified_min)
@@ -199,11 +225,16 @@ try {
     }
   }
 
+  const resumo = `${done} gravados, ${vazios} sem dados na API, ${errors} erros`;
   await db.query(
-    "update import_runs set status = 'OK', rows_imported = $1, finished_at = now() where id = $2",
-    [done, run.id]
+    "update import_runs set status = $3, rows_imported = $1, error_message = $4, finished_at = now() where id = $2",
+    [done, run.id, vazios || errors ? "OK" : "OK", vazios || errors ? resumo : null]
   );
-  console.log(`[load] CONCLUÍDO ${competencia}: ${done} espelhos gravados, ${errors} erros`);
+  console.log(`[load] CONCLUÍDO ${competencia}: ${resumo}`);
+  if (suspeitos.length) {
+    console.log(`[load] sem dados após 3 tentativas (${suspeitos.length}): ${suspeitos.slice(0, 15).join(", ")}${suspeitos.length > 15 ? "…" : ""}`);
+    console.log("[load] rode novamente para completar — a carga é idempotente");
+  }
 } catch (e) {
   await db.query(
     "update import_runs set status = 'ERROR', error_message = $1, finished_at = now() where id = $2",
