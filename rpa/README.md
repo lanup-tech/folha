@@ -4,6 +4,34 @@ Robô Playwright que loga na interface web do ponto (Nobriponto/Lanup), exporta 
 relatórios que a API não entrega (hoje: **Abono de Faltas**) e grava direto no
 Supabase via `service_role`.
 
+## Subindo para a VPS (passo a passo)
+
+O repositório é privado e o `.env` nunca vai para o git — por isso o deploy tem
+uma etapa manual de credenciais. Na sua máquina:
+
+```bash
+# 1. provisiona (Node, usuário de serviço, cron)
+scp rpa/setup-vps.sh root@13.140.175.124:/root/
+ssh root@13.140.175.124 "bash /root/setup-vps.sh"
+
+# 2. envia as credenciais (fora do git)
+ssh root@13.140.175.124 "install -d -o nobri -g nobri /opt/nobri-ponto/rpa"
+scp .env.local root@13.140.175.124:/opt/nobri-ponto/rpa/.env
+
+# 3. clona o repo, instala o robô e agenda
+scp rpa/deploy-vps.sh root@13.140.175.124:/root/
+ssh root@13.140.175.124 "bash /root/deploy-vps.sh"
+
+# 4. teste real na VPS
+ssh root@13.140.175.124 "sudo -u nobri bash -c 'cd /opt/nobri-ponto/rpa && npx tsx src/collect-abono.ts 2026-08'"
+```
+
+Repositório privado: o clone pedirá autenticação. Use uma **deploy key** (chave
+SSH só-leitura cadastrada no repo) ou um token de acesso pessoal.
+
+Depois de validar, faça o hardening que está em `docs/backlog.md` (chave SSH,
+desabilitar senha, firewall) — hoje a VPS aceita login de root por senha.
+
 ## Provisionando a VPS
 
 `setup-vps.sh` instala Node 22, cria o usuário de serviço `nobri` (o robô **não**

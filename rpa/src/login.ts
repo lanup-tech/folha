@@ -42,7 +42,8 @@ export async function login(opts: { headless?: boolean } = {}): Promise<Session>
 
   const browser = await chromium.launch({ headless: opts.headless ?? true });
   const context = await browser.newContext({
-    viewport: { width: 1440, height: 900 },
+    // janela alta: nas telas de relatório os botões ficam no rodapé da página
+    viewport: { width: 1600, height: 1400 },
     acceptDownloads: true,
     // a tela pede geolocalização para registro de ponto; negar evita travas
     permissions: [],
