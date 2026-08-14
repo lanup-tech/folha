@@ -4,21 +4,31 @@ Robô Playwright que loga na interface web do ponto (Nobriponto/Lanup), exporta 
 relatórios que a API não entrega (hoje: **Abono de Faltas**) e grava direto no
 Supabase via `service_role`.
 
-## Rodando na VPS
+## Provisionando a VPS
+
+`setup-vps.sh` instala Node 22, cria o usuário de serviço `nobri` (o robô **não**
+roda como root), prepara `/opt/nobri-ponto` e agenda a coleta diária:
 
 ```bash
-cd rpa
+# na VPS, como root, uma vez:
+bash setup-vps.sh
+```
+
+Ele termina imprimindo o **hardening de SSH** (chave, desabilitar senha, firewall)
+para você executar na ordem segura — sem risco de se trancar fora do servidor.
+
+## Rodando o robô
+
+```bash
+cd /opt/nobri-ponto/rpa
 npm install
 npx playwright install chromium --with-deps
-cp ../.env.example .env   # preencher RPA_* e SUPABASE_*
-npm run collect           # executa uma coleta da competência corrente
+cp ../.env.example .env   # preencher NOBRIPONTO_FRONT_* e SUPABASE_*
+chmod 600 .env
+npm run collect           # coleta da competência corrente
 ```
 
-Agendamento (crontab, diário às 06:00):
-
-```cron
-0 6 * * * cd /opt/nobri-ponto/rpa && npm run collect >> /var/log/nobri-rpa.log 2>&1
-```
+Agendamento já criado por `setup-vps.sh` em `/etc/cron.d/nobri-rpa` (06:00 diário).
 
 ## O que o robô faz
 
