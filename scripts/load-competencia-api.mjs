@@ -215,6 +215,34 @@ try {
            total_min = excluded.total_min, imported_at = now()`,
         [empId, competencia, toMin(t.extraDiurna), toMin(t.extraNoturna), toMin(t.extraDiurna) + toMin(t.extraNoturna)]
       );
+
+      // Detalhe diário: essencial para o mês em curso (a API marca como falta
+      // os dias que ainda não aconteceram) e útil para auditoria.
+      for (const d of resultado.esp.dias ?? []) {
+        const [dd, mm, aaaa] = String(d.data ?? "").split("/");
+        if (!aaaa) continue;
+        await db.query(
+          `insert into espelho_dias
+             (employee_id, competencia, dia, planned_min, worked_min, absence_min, late_min, excused_min, extra_min)
+           values ($1, $2, $3::date, $4, $5, $6, $7, $8, $9)
+           on conflict (employee_id, dia) do update set
+             planned_min = excluded.planned_min, worked_min = excluded.worked_min,
+             absence_min = excluded.absence_min, late_min = excluded.late_min,
+             excused_min = excluded.excused_min, extra_min = excluded.extra_min,
+             imported_at = now()`,
+          [
+            empId,
+            competencia,
+            `${aaaa}-${mm}-${dd}`,
+            toMin(d.cargaHoraria),
+            toMin(d.horasTrabalhadasDiurnas) + toMin(d.horasTrabalhadasNoturnas),
+            toMin(d.falta),
+            toMin(d.atraso),
+            toMin(d.horasAbonadas),
+            toMin(d.extraDiurna) + toMin(d.extraNoturna),
+          ]
+        );
+      }
       done += 1;
     } catch (e) {
       errors += 1;

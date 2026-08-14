@@ -22,6 +22,22 @@ import pg from "pg";
 const competencia = process.argv[2] ?? new Date().toISOString().slice(0, 7);
 const rawDir = process.argv[3] ?? `data/raw/${competencia}`;
 
+/**
+ * MÊS EM CURSO: a API devolve a cargaHoraria do mês INTEIRO, e os dias que
+ * ainda não aconteceram entram como "falta". Sem tratar isso, o ABS% explode
+ * (agosto até o dia 14 dava 56% contra 10,7% de julho).
+ *
+ * Solução: para a competência corrente, o corte é ONTEM (o dia de hoje ainda
+ * está em andamento) — usamos apenas os dias já decorridos do espelho, somando
+ * dia a dia em vez de usar os totais do mês.
+ */
+const hoje = new Date();
+const competenciaCorrente = competencia === hoje.toISOString().slice(0, 7);
+const diaCorte = competenciaCorrente ? hoje.getDate() - 1 : 31;
+if (competenciaCorrente) {
+  console.log(`[montar] mês em curso: considerando apenas os dias 1 a ${diaCorte}`);
+}
+
 const env = {};
 for (const l of readFileSync(".env.local", "utf8").split(/\r?\n/)) {
   const m = l.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
@@ -80,10 +96,17 @@ if (existsSync(abonoPath)) {
   const cHDia = col("Horas Diurnas");
   const cHNot = col("Horas Noturnas");
   const cPer = col("Período Abonado");
+  const cData = col("Data");
 
   for (const r of rows.slice(headerIdx + 1)) {
     if (!r?.length || !String(r[cFunc] ?? "").trim()) continue;
     if (["TOTAIS", "TOTAL", "TOTAL GERAL"].includes(nameKey(r[cFunc]))) continue;
+    // no mês em curso, ignora lançamentos posteriores ao corte (afastamentos
+    // são lançados para o mês todo antecipadamente)
+    if (competenciaCorrente && cData >= 0) {
+      const dia = parseInt(String(r[cData] ?? "").split("/")[0], 10);
+      if (Number.isFinite(dia) && dia > diaCorte) continue;
+    }
     lancamentos += 1;
     const motivoRaw = fixEncoding(String(r[cMot] ?? "").trim());
     const treatment = treatmentByMotivo.get(nameKey(motivoRaw));
@@ -123,20 +146,41 @@ function motivoPredominante(k) {
 // ---------- banco (API) ----------
 const db = new pg.Client({ connectionString: env.SUPABASE_DB_URL, ssl: { rejectUnauthorized: false } });
 await db.connect();
-const { rows: base } = await db.query(
-  `select e.name, e.registration, e.role, e.admission_date, e.external_id,
-          c.cnpj, s.name as sector,
-          a.planned_min, a.worked_min, a.unjustified_min, a.justified_min, a.tolerance_min,
-          coalesce(h.total_min, 0) as he_min
-   from absenteeism_monthly a
-   join employees e on e.id = a.employee_id
-   join companies c on c.id = e.company_id
-   left join sectors s on s.id = e.sector_id
-   left join hour_extract_monthly h
-     on h.employee_id = a.employee_id and h.competencia = a.competencia
-   where a.competencia = $1`,
-  [competencia]
-);
+
+// No mês em curso somamos o dia a dia até o corte; no mês fechado usamos os
+// totais do espelho (equivalentes e mais baratos).
+const { rows: base } = competenciaCorrente
+  ? await db.query(
+      `select e.name, e.registration, e.role, e.admission_date, e.external_id,
+              c.cnpj, s.name as sector,
+              coalesce(sum(d.planned_min), 0)  as planned_min,
+              coalesce(sum(d.worked_min), 0)   as worked_min,
+              coalesce(sum(d.absence_min), 0)  as unjustified_min,
+              coalesce(sum(d.excused_min), 0)  as justified_min,
+              coalesce(sum(d.late_min), 0)     as tolerance_min,
+              coalesce(sum(d.extra_min), 0)    as he_min
+       from espelho_dias d
+       join employees e on e.id = d.employee_id
+       join companies c on c.id = e.company_id
+       left join sectors s on s.id = e.sector_id
+       where d.competencia = $1 and extract(day from d.dia) <= $2
+       group by e.name, e.registration, e.role, e.admission_date, e.external_id, c.cnpj, s.name`,
+      [competencia, diaCorte]
+    )
+  : await db.query(
+      `select e.name, e.registration, e.role, e.admission_date, e.external_id,
+              c.cnpj, s.name as sector,
+              a.planned_min, a.worked_min, a.unjustified_min, a.justified_min, a.tolerance_min,
+              coalesce(h.total_min, 0) as he_min
+       from absenteeism_monthly a
+       join employees e on e.id = a.employee_id
+       join companies c on c.id = e.company_id
+       left join sectors s on s.id = e.sector_id
+       left join hour_extract_monthly h
+         on h.employee_id = a.employee_id and h.competencia = a.competencia
+       where a.competencia = $1`,
+      [competencia]
+    );
 await db.end();
 console.log(`[montar] banco: ${base.length} registros da API`);
 if (!base.length) {
@@ -208,7 +252,11 @@ writeFileSync(
       employees,
       motivoTotals,
       meta: {
-        origem: "API EzPoint (espelho) + Abono de Faltas via RPA",
+        origem: competenciaCorrente
+          ? `API EzPoint (espelho) + Abono via RPA — PARCIAL: dias 1 a ${diaCorte}`
+          : "API EzPoint (espelho) + Abono de Faltas via RPA",
+        parcial: competenciaCorrente,
+        diaCorte: competenciaCorrente ? diaCorte : null,
         registrosApi: base.length,
         lancamentosAbono: lancamentos,
         unknownMotivos: [...unknownMotivos],
