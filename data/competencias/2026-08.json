@@ -1,0 +1,9 @@
+{
+  "competencia": "2026-08",
+  "employees": [],
+  "motivoTotals": [],
+  "meta": {
+    "origem": "aguardando a carga da API (scripts/load-competencia-api.mjs 2026-08)",
+    "placeholder": true
+  }
+}
