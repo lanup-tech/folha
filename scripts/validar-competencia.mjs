@@ -17,7 +17,17 @@ if (!existsSync(caminho)) {
 }
 
 const d = JSON.parse(readFileSync(caminho, "utf8").replace(/^﻿/, ""));
-const emp = d.employees ?? [];
+
+/*
+ * No mês em curso a visão que representa a realidade é a PARCIAL — na cheia os
+ * dias que ainda não ocorreram entram como falta e todo mundo parece ausente.
+ * Validar a cheia aqui geraria alarme falso todo dia.
+ */
+const usarParcial = d.meta?.mesEmCurso && d.employeesParcial?.length;
+const emp = usarParcial ? d.employeesParcial : (d.employees ?? []);
+if (usarParcial) {
+  console.log(`(mês em curso: validando a visão parcial, dias 1 a ${d.meta.diaCorte})`);
+}
 const fmt = (m) => `${Math.floor(m / 60)}:${String(m % 60).padStart(2, "0")}`;
 const soma = (f) => emp.reduce((a, e) => a + f(e), 0);
 const absDe = (e) => e.unjustifiedMin + e.excusedMin + e.justifiedMin;
