@@ -57,6 +57,30 @@ function fixEncoding(s) {
   const r = Buffer.from(s, "latin1").toString("utf8");
   return r.includes("�") ? s : r;
 }
+
+/**
+ * Alguns nomes de setor chegam da API já corrompidos NA ORIGEM: os bytes do
+ * caractere acentuado se perderam ("JURIDICO AÇÕES" chega como sequência
+ * inválida) e não há como deduzir a letra original do que sobrou.
+ *
+ * Por isso mapeamos os casos conhecidos pela forma SEM acento. O que não
+ * estiver no mapa fica como veio — inventar acento seria pior que mostrar o
+ * dado cru.
+ */
+const SETORES_CORRIGIDOS = new Map([
+  ["JURIDICO AOES ATIVAS BRADESCO", "JURIDICO ACOES ATIVAS BRADESCO"],
+  ["JURIDICO AES ATIVAS ITAU", "JURIDICO ACOES ATIVAS ITAU"],
+  ["FORMALIZAO CONS CAIXA IMOVEL", "FORMALIZACAO CONS CAIXA IMOVEL"],
+  ["FORMALIZAO BANRISUL", "FORMALIZACAO BANRISUL"],
+  ["FORMALIZAO CONS BRADESCO AUTO", "FORMALIZACAO CONS BRADESCO AUTO"],
+]);
+
+function limparTexto(s) {
+  const t = fixEncoding(String(s ?? '')).trim();
+  if (!/[\u00C3\u00C2\uFFFD]/.test(t)) return t;
+  const chave = t.replace(/[\u00C3\u00C2\uFFFD]+/g, '').replace(/\s{2,}/g, ' ').trim();
+  return SETORES_CORRIGIDOS.get(chave) ?? chave;
+}
 function nameKey(s) {
   return fixEncoding(String(s ?? ""))
     .normalize("NFD")
@@ -225,10 +249,10 @@ function consolidar(linhas, registrarInconsistencias) {
     const pred = motivoPredominante(k);
     return {
       company: companyByCnpj[String(r.cnpj ?? "").replace(/\D/g, "")] ?? "EMPREENDIMENTOS",
-      sector: r.sector ?? "",
+      sector: limparTexto(r.sector),
       registration: r.registration ?? "",
-      name: r.name,
-      role: r.role ?? "",
+      name: limparTexto(r.name),
+      role: limparTexto(r.role),
       admissionDate: r.admission_date
         ? r.admission_date.toISOString().slice(0, 10).split("-").reverse().join("/")
         : "",

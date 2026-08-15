@@ -1,50 +1,121 @@
 @import "tailwindcss";
 
 /*
- * NobriPonto Analytics — tema whitelabel.
- * As cores de MARCA (chrome da UI) vêm do tenant e são injetadas como
- * CSS vars pelo layout. As cores de DADOS (séries dos gráficos) usam a
- * paleta categórica validada (CVD-safe) e não mudam com a marca.
+ * NobriPonto Analytics — sistema visual.
+ *
+ * Referência: painéis financeiros de alto padrão. Neutros com viés azul frio
+ * (nunca cinza puro), superfícies elevadas por sombra sutil em vez de bordas
+ * pesadas, e o laranja da marca reservado para ação — nunca como decoração.
+ *
+ * As cores de MARCA vêm do tenant (whitelabel, injetadas no layout).
+ * As cores de DADOS (séries dos gráficos) seguem paleta categórica validada
+ * para daltonismo e não mudam com a marca.
  */
 :root {
-  /* marca (default: Funchal — sobrescrito por tenant via layout) */
+  /* marca (default: Funchal — sobrescrito por tenant) */
   --brand-primary: #ff6600;
-  --brand-dark: #010066;
+  --brand-dark: #0c1b2a;
 
-  /* superfícies e tinta */
-  --surface-1: #fcfcfb;
-  --page: #f6f6f4;
-  --ink-primary: #17171c;
-  --ink-secondary: #52514e;
-  --ink-muted: #898781;
-  --gridline: #e1e0d9;
-  --baseline: #c3c2b7;
-  --hairline: rgba(11, 11, 11, 0.1);
+  /* superfícies */
+  --page: #f4f6f8;
+  --surface-1: #ffffff;
+  --surface-2: #fafbfc;
+  --surface-sunken: #eef1f5;
 
-  /* séries categóricas (ordem fixa, validada) */
+  /* chrome escuro (sidebar) */
+  --chrome: #0c1b2a;
+  --chrome-hover: #16293b;
+  --chrome-active: #1d3a52;
+  --chrome-ink: #e8edf2;
+  --chrome-ink-dim: #8fa3b5;
+
+  /* tinta */
+  --ink-primary: #101922;
+  --ink-secondary: #5a6b7b;
+  --ink-muted: #8b9aa8;
+
+  /* linhas e sombras */
+  --line: #e3e8ee;
+  --line-strong: #d2dae3;
+  --hairline: rgba(16, 25, 34, 0.08);
+  --shadow-sm: 0 1px 2px rgba(16, 25, 34, 0.04), 0 1px 3px rgba(16, 25, 34, 0.06);
+  --shadow-md: 0 2px 4px rgba(16, 25, 34, 0.04), 0 4px 12px rgba(16, 25, 34, 0.08);
+  --shadow-lg: 0 8px 24px rgba(16, 25, 34, 0.12), 0 2px 8px rgba(16, 25, 34, 0.06);
+
+  /* séries categóricas (ordem fixa, validada para CVD) */
   --series-1: #2a78d6;
   --series-2: #eb6834;
   --series-3: #1baf7a;
 
-  /* status (reservadas — nunca usadas como série) */
-  --status-good: #0ca30c;
-  --status-warning: #fab219;
-  --status-serious: #ec835a;
-  --status-critical: #d03b3b;
+  /* status — semânticas, separadas do acento de marca */
+  --status-good: #0f9d58;
+  --status-good-bg: #e8f5ee;
+  --status-warning: #d98b0a;
+  --status-warning-bg: #fdf3e2;
+  --status-critical: #d0342c;
+  --status-critical-bg: #fbeceb;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+
+* {
+  border-color: var(--line);
 }
 
 body {
   background: var(--page);
   color: var(--ink-primary);
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
+/* dígitos alinhados em colunas — leitura financeira */
 .tabular {
   font-variant-numeric: tabular-nums;
 }
 
 .card {
   background: var(--surface-1);
-  border: 1px solid var(--hairline);
-  border-radius: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+/* rótulo de seção: caixa alta com tracking, peso discreto */
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+/* foco visível e consistente (acessibilidade) */
+:where(a, button, input, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* barra de rolagem discreta nas áreas de conteúdo */
+.scroll-slim::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-slim::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 4px;
+}
+.scroll-slim::-webkit-scrollbar-track {
+  background: transparent;
 }

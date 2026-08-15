@@ -19,3 +19,5 @@ data/raw/
 .DS_Store
 *.tsbuildinfo
 .vercel
+
+rpa/screens/
