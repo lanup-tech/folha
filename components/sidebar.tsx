@@ -72,27 +72,42 @@ export function Sidebar() {
         recolhida ? "w-[68px]" : "w-60"
       )}
     >
-      {/* marca do cliente */}
+      {/* marca do cliente + controle de recolhimento */}
       <div
         className={clsx(
-          "flex h-16 items-center border-b border-white/8",
-          recolhida ? "justify-center px-2" : "px-5"
+          "flex h-16 items-center gap-2 border-b border-white/8",
+          recolhida ? "justify-center px-2" : "pl-5 pr-2"
         )}
       >
         {recolhida ? (
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-[var(--brand-primary)] text-sm font-bold text-white">
-            {activeClientBranding.name.charAt(0)}
-          </span>
+          <button
+            onClick={alternarRecolhida}
+            title="Expandir menu"
+            aria-label="Expandir menu"
+            className="grid h-9 w-9 place-items-center rounded-lg text-[var(--chrome-ink-dim)] transition-colors hover:bg-[var(--chrome-hover)] hover:text-white"
+          >
+            <PanelLeft size={18} />
+          </button>
         ) : (
-          <div className="rounded-md bg-white/95 px-2.5 py-1.5">
-            <Image
-              src={activeClientBranding.logoUrl}
-              alt={activeClientBranding.name}
-              width={104}
-              height={30}
-              priority
-            />
-          </div>
+          <>
+            <div className="rounded-md bg-white/95 px-2.5 py-1.5">
+              <Image
+                src={activeClientBranding.logoUrl}
+                alt={activeClientBranding.name}
+                width={104}
+                height={30}
+                priority
+              />
+            </div>
+            <button
+              onClick={alternarRecolhida}
+              title="Recolher menu"
+              aria-label="Recolher menu"
+              className="ml-auto grid h-8 w-8 place-items-center rounded-lg text-[var(--chrome-ink-dim)] transition-colors hover:bg-[var(--chrome-hover)] hover:text-white"
+            >
+              <PanelLeftClose size={17} />
+            </button>
+          </>
         )}
       </div>
 
@@ -136,18 +151,6 @@ export function Sidebar() {
           <LogOut size={17} />
           {!recolhida && "Sair"}
         </Link>
-        <button
-          onClick={alternarRecolhida}
-          className={clsx(
-            "mt-1 flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-[var(--chrome-ink-dim)] transition-colors hover:bg-[var(--chrome-hover)] hover:text-[var(--chrome-ink)]",
-            recolhida && "justify-center px-0"
-          )}
-          title={recolhida ? "Expandir menu" : "Recolher menu"}
-          aria-label={recolhida ? "Expandir menu" : "Recolher menu"}
-        >
-          {recolhida ? <PanelLeft size={17} /> : <PanelLeftClose size={17} />}
-          {!recolhida && "Recolher"}
-        </button>
       </div>
     </aside>
   );

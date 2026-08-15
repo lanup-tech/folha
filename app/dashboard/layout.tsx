@@ -8,9 +8,14 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   return (
     <div className="flex h-screen overflow-hidden">
       <Sidebar />
+      {/*
+        O container de scroll NÃO pode ser flex: com `flex-col`, o header
+        `sticky` fica preso ao fluxo do flex e rola junto. Um bloco simples
+        dá ao sticky a referência correta de posicionamento.
+      */}
       <div
         data-scroll-container
-        className="scroll-slim flex min-w-0 flex-1 flex-col overflow-y-auto"
+        className="scroll-slim min-w-0 flex-1 overflow-y-auto"
       >
         {children}
       </div>
