@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Search, ChevronRight } from "lucide-react";
 import type { EmployeeRanked } from "@/lib/data/aggregate";
 import type { CompanyKey } from "@/lib/types";
@@ -15,6 +15,22 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
   // primeira pintura lenta. "Todas" continua a um clique.
   const [company, setCompany] = useState<CompanyKey | "TODAS">("EMPREENDIMENTOS");
   const [selecionado, setSelecionado] = useState<EmployeeRanked | null>(null);
+
+  // A barra de filtros muda de altura conforme a largura da janela (os
+  // controles quebram em duas linhas). Medimos para posicionar o cabeçalho das
+  // colunas exatamente abaixo dela, sem sobreposição nem folga.
+  const barraFiltrosRef = useRef<HTMLDivElement>(null);
+  const [topoColunas, setTopoColunas] = useState(64 + 63);
+
+  useEffect(() => {
+    const el = barraFiltrosRef.current;
+    if (!el) return;
+    const medir = () => setTopoColunas(64 + el.offsetHeight);
+    medir();
+    const ro = new ResizeObserver(medir);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   const totaisPorEmpresa = useMemo(() => {
     const m: Record<string, number> = { TODAS: rows.length };
@@ -40,8 +56,13 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
       {/* sem overflow-hidden: ele criaria contexto de rolagem e quebraria o
           `sticky` do cabeçalho da tabela */}
       <div className="card">
-        {/* filtros — também fixos, logo abaixo da barra superior */}
-        <div className="glass sticky top-16 z-30 flex flex-wrap items-center gap-3 rounded-t-[var(--radius)] border-b border-[var(--line)] px-4 py-3">
+        {/* Filtros fixos logo abaixo da barra superior (64px). A altura real
+            desta barra é medida e repassada ao cabeçalho das colunas, para os
+            dois encostarem sem sobrepor. */}
+        <div
+          ref={barraFiltrosRef}
+          className="glass sticky top-16 z-30 flex flex-wrap items-center gap-3 rounded-t-[var(--radius)] border-b border-[var(--line)] px-4 py-3"
+        >
           <div className="relative">
             <Search
               size={15}
@@ -121,8 +142,9 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
                         ? "Horas de motivos DESCONSIDERAR — fora do cálculo"
                         : undefined
                     }
+                    style={{ top: topoColunas }}
                     className={clsx(
-                      "glass sticky top-[121px] z-20 border-b border-[var(--line)] px-4 py-2.5",
+                      "glass sticky z-20 border-b border-[var(--line)] px-4 py-2.5",
                       extra
                     )}
                   >
@@ -145,22 +167,24 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
                   }}
                   className="group cursor-pointer border-b border-[var(--line)] transition-colors last:border-0 hover:bg-[var(--surface-2)]"
                 >
-                  <td className="px-4 py-2.5 text-[var(--ink-secondary)] tabular">
+                  <td className="whitespace-nowrap px-4 py-2.5 text-[var(--ink-secondary)] tabular">
                     {e.registration || "—"}
                   </td>
-                  <td className="px-4 py-2.5 font-medium">{e.name}</td>
+                  <td className="max-w-[260px] truncate px-4 py-2.5 font-medium" title={e.name}>
+                    {e.name}
+                  </td>
                   <td className="px-4 py-2.5 text-[var(--ink-secondary)]">
                     {companyLabel[e.company]}
                   </td>
                   <td className="max-w-[220px] truncate px-4 py-2.5 text-[var(--ink-secondary)]">
                     {e.sector || "—"}
                   </td>
-                  <td className="px-4 py-2.5 text-right tabular">{formatDuration(e.heMin)}</td>
-                  <td className="px-4 py-2.5 text-right tabular">
+                  <td className="whitespace-nowrap px-4 py-2.5 text-right tabular">{formatDuration(e.heMin)}</td>
+                  <td className="whitespace-nowrap px-4 py-2.5 text-right tabular">
                     {formatDuration(e.unjustifiedMin)}
                   </td>
-                  <td className="px-4 py-2.5 text-right tabular">{formatDuration(e.excusedMin)}</td>
-                  <td className="px-4 py-2.5 text-right tabular">
+                  <td className="whitespace-nowrap px-4 py-2.5 text-right tabular">{formatDuration(e.excusedMin)}</td>
+                  <td className="whitespace-nowrap px-4 py-2.5 text-right tabular">
                     {formatDuration(e.justifiedMin)}
                   </td>
                   <td
