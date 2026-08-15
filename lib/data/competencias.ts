@@ -89,11 +89,25 @@ export function competenciaOptions() {
   return competencias.map((c) => ({ key: c.key, label: c.label }));
 }
 
+/** Competência corrente no fuso local (AAAA-MM). */
+function competenciaCorrente(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+}
+
+/**
+ * A análise parcial só faz sentido no mês em curso: em meses fechados todos os
+ * dias já ocorreram, então "parcial" seria apenas um recorte arbitrário.
+ */
+export function permiteParcial(c: CompetenciaData): boolean {
+  return c.key === competenciaCorrente() && !!c.employeesParcial?.length;
+}
+
 /**
  * Lista de colaboradores conforme a visão escolhida.
- * `parcial` só tem efeito no mês em curso, onde existe a visão até ontem.
+ * `parcial` só tem efeito onde a visão parcial é permitida.
  */
 export function employeesDaVisao(c: CompetenciaData, parcial: boolean): EmployeeMonth[] {
-  if (parcial && c.employeesParcial?.length) return c.employeesParcial;
+  if (parcial && permiteParcial(c)) return c.employeesParcial!;
   return c.employees;
 }

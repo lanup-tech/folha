@@ -68,7 +68,9 @@ export function Sidebar() {
   return (
     <aside
       className={clsx(
-        "flex shrink-0 flex-col bg-[var(--chrome)] transition-[width] duration-200",
+        "relative z-50 flex shrink-0 flex-col bg-[var(--chrome)] transition-[width] duration-200",
+        // realce interno na borda direita: sugere a espessura do vidro
+        "shadow-[inset_-1px_0_0_rgba(255,255,255,0.06)]",
         recolhida ? "w-[68px]" : "w-60"
       )}
     >

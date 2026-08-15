@@ -12,7 +12,7 @@ import {
   rankedEmployees,
   sectorSummaries,
 } from "@/lib/data/aggregate";
-import { employeesDaVisao, getCompetencia } from "@/lib/data/competencias";
+import { employeesDaVisao, getCompetencia, permiteParcial } from "@/lib/data/competencias";
 import { companyLabel } from "@/lib/data/companies";
 import { formatDuration, formatPercent } from "@/lib/format";
 import { AlertTriangle } from "lucide-react";
@@ -45,14 +45,14 @@ export default async function DashboardPage({
       <Topbar
         title="Visão geral do absenteísmo"
         competencia={comp.key}
-        mesEmCurso={comp.mesEmCurso}
+        mesEmCurso={permiteParcial(comp)}
         diaCorte={comp.diaCorte}
         parcial={parcial}
       />
       <main className="flex flex-col gap-4 p-6">
         <p className="text-xs text-[var(--ink-muted)]">
           Competência {comp.label} · fonte: {comp.source}
-          {comp.mesEmCurso && (
+          {permiteParcial(comp) && (
             <span className="ml-2 font-medium text-[var(--brand-primary)]">
               {parcial
                 ? `· análise parcial: dias 1 a ${comp.diaCorte}`

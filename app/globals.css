@@ -42,6 +42,18 @@
   --shadow-md: 0 2px 4px rgba(16, 25, 34, 0.04), 0 4px 12px rgba(16, 25, 34, 0.08);
   --shadow-lg: 0 8px 24px rgba(16, 25, 34, 0.12), 0 2px 8px rgba(16, 25, 34, 0.06);
 
+  /*
+   * Camadas de vidro: superfícies que FLUTUAM sobre conteúdo (barra superior,
+   * cabeçalho fixo, drawer) usam fundo translúcido + desfoque, de modo que o
+   * conteúdo por baixo continua sugerido enquanto rola. O realce interno na
+   * borda superior imita a refração da luz na quina do vidro.
+   */
+  --surface-glass: rgba(255, 255, 255, 0.72);
+  --surface-glass-strong: rgba(255, 255, 255, 0.86);
+  --glass-border: rgba(255, 255, 255, 0.7);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --chrome-glass: rgba(12, 27, 42, 0.82);
+
   /* séries categóricas (ordem fixa, validada para CVD) */
   --series-1: #2a78d6;
   --series-2: #eb6834;
@@ -80,6 +92,33 @@ body {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
+}
+
+/*
+ * Superfície de vidro. Aplicada só a camadas que se sobrepõem ao conteúdo —
+ * usar em tudo tiraria o contraste que os números precisam.
+ */
+.glass {
+  background: var(--surface-glass);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: var(--glass-highlight);
+}
+
+.glass-strong {
+  background: var(--surface-glass-strong);
+  backdrop-filter: saturate(180%) blur(28px);
+  -webkit-backdrop-filter: saturate(180%) blur(28px);
+  box-shadow: var(--glass-highlight);
+}
+
+/* navegador sem backdrop-filter: cai para superfície sólida, sem transparência
+   que prejudicaria a leitura */
+@supports not (backdrop-filter: blur(1px)) {
+  .glass,
+  .glass-strong {
+    background: var(--surface-1);
+  }
 }
 
 /* rótulo de seção: caixa alta com tracking, peso discreto */

@@ -1,7 +1,7 @@
 import { Topbar } from "@/components/topbar";
 import { EmployeesTable } from "@/components/tables/employees-table";
 import { rankedEmployees } from "@/lib/data/aggregate";
-import { employeesDaVisao, getCompetencia } from "@/lib/data/competencias";
+import { employeesDaVisao, getCompetencia, permiteParcial } from "@/lib/data/competencias";
 
 export default async function ColaboradoresPage({
   searchParams,
@@ -17,7 +17,7 @@ export default async function ColaboradoresPage({
       <Topbar
         title="Colaboradores"
         competencia={comp.key}
-        mesEmCurso={comp.mesEmCurso}
+        mesEmCurso={permiteParcial(comp)}
         diaCorte={comp.diaCorte}
         parcial={parcial}
       />

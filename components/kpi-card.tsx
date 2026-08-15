@@ -17,7 +17,7 @@ export function KpiCard({
   tone?: "neutral" | "critical" | "good";
 }) {
   return (
-    <div className="card flex flex-col gap-1.5 p-4">
+    <div className="card flex flex-col gap-1.5 p-4 shadow-[var(--shadow-sm),var(--glass-highlight)]">
       <span className="eyebrow">{label}</span>
       <span
         className={clsx(

@@ -44,8 +44,8 @@ export function Topbar({
   return (
     <header
       className={clsx(
-        "sticky top-0 z-30 flex h-16 items-center justify-between gap-4 border-b bg-[var(--surface-1)] px-6 transition-shadow",
-        rolou ? "border-transparent shadow-[var(--shadow-md)]" : "border-[var(--line)]"
+        "glass-strong sticky top-0 z-40 flex h-16 items-center justify-between gap-4 border-b px-6 transition-shadow",
+        rolou ? "border-[var(--glass-border)] shadow-[var(--shadow-md)]" : "border-[var(--line)]"
       )}
     >
       <div className="min-w-0">

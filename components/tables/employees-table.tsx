@@ -11,8 +11,16 @@ import clsx from "clsx";
 
 export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
   const [query, setQuery] = useState("");
-  const [company, setCompany] = useState<CompanyKey | "TODAS">("TODAS");
+  // Abre filtrado por uma empresa: renderizar ~880 linhas de uma vez deixa a
+  // primeira pintura lenta. "Todas" continua a um clique.
+  const [company, setCompany] = useState<CompanyKey | "TODAS">("EMPREENDIMENTOS");
   const [selecionado, setSelecionado] = useState<EmployeeRanked | null>(null);
+
+  const totaisPorEmpresa = useMemo(() => {
+    const m: Record<string, number> = { TODAS: rows.length };
+    for (const r of rows) m[r.company] = (m[r.company] ?? 0) + 1;
+    return m;
+  }, [rows]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -29,9 +37,11 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
 
   return (
     <>
-      <div className="card overflow-hidden">
-        {/* filtros */}
-        <div className="flex flex-wrap items-center gap-3 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3">
+      {/* sem overflow-hidden: ele criaria contexto de rolagem e quebraria o
+          `sticky` do cabeçalho da tabela */}
+      <div className="card">
+        {/* filtros — também fixos, logo abaixo da barra superior */}
+        <div className="glass sticky top-16 z-30 flex flex-wrap items-center gap-3 rounded-t-[var(--radius)] border-b border-[var(--line)] px-4 py-3">
           <div className="relative">
             <Search
               size={15}
@@ -45,18 +55,26 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
             />
           </div>
           <div className="flex gap-0.5 rounded-lg border border-[var(--line-strong)] bg-[var(--surface-1)] p-0.5">
-            {(["TODAS", "EMPREENDIMENTOS", "PARTICIPACOES", "TATTINI"] as const).map((c) => (
+            {(["EMPREENDIMENTOS", "PARTICIPACOES", "TATTINI", "TODAS"] as const).map((c) => (
               <button
                 key={c}
                 onClick={() => setCompany(c)}
                 className={clsx(
-                  "rounded-md px-3 py-1.5 text-xs font-medium transition-colors",
+                  "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors",
                   company === c
                     ? "bg-[var(--chrome)] text-white"
                     : "text-[var(--ink-secondary)] hover:bg-[var(--surface-sunken)]"
                 )}
               >
                 {c === "TODAS" ? "Todas" : companyLabel[c]}
+                <span
+                  className={clsx(
+                    "tabular text-[10px]",
+                    company === c ? "text-white/60" : "text-[var(--ink-muted)]"
+                  )}
+                >
+                  {totaisPorEmpresa[c] ?? 0}
+                </span>
               </button>
             ))}
           </div>
@@ -65,28 +83,52 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
           </span>
         </div>
 
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[1000px] text-sm">
+        {/* sem overflow-x aqui: qualquer overflow cria contexto de rolagem e
+            anula o `sticky` das colunas. A tabela cabe na largura útil. */}
+        <div>
+          <table className="w-full text-sm">
+            {/*
+              Cabeçalho fixo logo abaixo da barra superior (64px): ao rolar a
+              lista, os rótulos das colunas continuam visíveis — sem eles os
+              números perdem significado.
+            */}
+            {/*
+              O `position: sticky` precisa estar em CADA <th> — aplicá-lo no
+              <thead> ou <tr> não funciona de forma confiável nos navegadores.
+              O topo (121px) = barra superior (64) + barra de filtros (57).
+            */}
             <thead>
-              <tr className="border-b border-[var(--line)] text-left text-[11px] font-semibold uppercase tracking-[0.04em] text-[var(--ink-muted)]">
-                <th className="px-4 py-2.5">Matrícula</th>
-                <th className="px-4 py-2.5">Colaborador</th>
-                <th className="px-4 py-2.5">Empresa</th>
-                <th className="px-4 py-2.5">Setor</th>
-                <th className="px-4 py-2.5 text-right">HE</th>
-                <th className="px-4 py-2.5 text-right">Injust.</th>
-                <th className="px-4 py-2.5 text-right">Abonada</th>
-                <th className="px-4 py-2.5 text-right">Just.</th>
-                <th
-                  className="px-4 py-2.5 text-right"
-                  title="Horas de motivos DESCONSIDERAR — fora do cálculo"
-                >
-                  Desconsid.
-                </th>
-                <th className="px-4 py-2.5 text-right">ABS Hora</th>
-                <th className="px-4 py-2.5 text-right">Planejado</th>
-                <th className="px-4 py-2.5 text-right">ABS %</th>
-                <th className="w-8 px-2 py-2.5" />
+              <tr className="text-left text-[11px] font-semibold uppercase tracking-[0.04em] text-[var(--ink-secondary)]">
+                {[
+                  ["Matrícula", ""],
+                  ["Colaborador", ""],
+                  ["Empresa", ""],
+                  ["Setor", ""],
+                  ["HE", "text-right"],
+                  ["Injust.", "text-right"],
+                  ["Abonada", "text-right"],
+                  ["Just.", "text-right"],
+                  ["Desconsid.", "text-right"],
+                  ["ABS Hora", "text-right"],
+                  ["Planejado", "text-right"],
+                  ["ABS %", "text-right"],
+                  ["", "w-8"],
+                ].map(([rotulo, extra], i) => (
+                  <th
+                    key={i}
+                    title={
+                      rotulo === "Desconsid."
+                        ? "Horas de motivos DESCONSIDERAR — fora do cálculo"
+                        : undefined
+                    }
+                    className={clsx(
+                      "glass sticky top-[121px] z-20 border-b border-[var(--line)] px-4 py-2.5",
+                      extra
+                    )}
+                  >
+                    {rotulo}
+                  </th>
+                ))}
               </tr>
             </thead>
             <tbody>

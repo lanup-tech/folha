@@ -35,7 +35,7 @@ export function EmployeeDrawer({
         onClick={onClose}
         aria-hidden
         className={clsx(
-          "fixed inset-0 z-40 bg-[rgba(12,27,42,0.35)] transition-opacity duration-200",
+          "fixed inset-0 z-40 bg-[rgba(12,27,42,0.28)] backdrop-blur-[2px] transition-opacity duration-200",
           aberto ? "opacity-100" : "pointer-events-none opacity-0"
         )}
       />
@@ -44,7 +44,7 @@ export function EmployeeDrawer({
         aria-modal="true"
         aria-label={employee ? `Detalhes de ${employee.name}` : undefined}
         className={clsx(
-          "fixed right-0 top-0 z-50 flex h-full w-full max-w-[460px] flex-col bg-[var(--surface-1)] shadow-[var(--shadow-lg)] transition-transform duration-250",
+          "glass-strong fixed right-0 top-0 z-50 flex h-full w-full max-w-[460px] flex-col border-l border-[var(--glass-border)] shadow-[var(--shadow-lg)] transition-transform duration-300",
           aberto ? "translate-x-0" : "translate-x-full"
         )}
       >
