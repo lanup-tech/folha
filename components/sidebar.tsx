@@ -12,6 +12,7 @@ import {
   FolderPlus,
   Settings,
   UserCog,
+  CircleHelp,
   PanelLeftClose,
   PanelLeft,
   ChevronDown,
@@ -30,6 +31,7 @@ const icones: Record<string, LucideIcon> = {
   FolderPlus,
   Settings,
   UserCog,
+  CircleHelp,
 };
 
 const CHAVE_ESTADO = "nobri:sidebar-recolhida";

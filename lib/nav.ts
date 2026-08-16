@@ -40,6 +40,7 @@ export const navGroups: { label: string; items: NavItem[] }[] = [
           { href: "/dashboard/importacoes", label: "Importações", icon: "RefreshCcw" },
         ],
       },
+      { href: "/dashboard/ajuda", label: "Ajuda", icon: "CircleHelp" },
     ],
   },
 ];
