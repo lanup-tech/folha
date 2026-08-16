@@ -1,0 +1,8 @@
+# Não enviar para o build do Vercel — nada disso serve ao painel publicado
+# e algumas pastas são pesadas ou contêm dados pessoais.
+
+rpa/
+scripts/
+supabase/
+docs/
+data/raw/

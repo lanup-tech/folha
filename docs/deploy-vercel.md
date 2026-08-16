@@ -3,11 +3,24 @@
 O painel é um app Next.js — o Vercel detecta e configura sozinho. O que exige
 atenção são as variáveis de ambiente e o que **não** deve rodar lá.
 
-## Conectando (uma vez)
+## Estado atual
 
-1. https://vercel.com/new → importar `lanup-tech/folha`
-2. Framework: **Next.js** (detectado automaticamente)
-3. Em **Environment Variables**, adicionar:
+O projeto **`nobri-ponto-analytics`** já existe no time `millerlanup's projects`
+e está **vinculado ao repositório `lanup-tech/folha`**
+(id `prj_fWLIFZ1612SDGObV5acM0IqvdnQx`).
+
+Falta apenas **autorizar a primeira publicação**, que exige permissão de deploy
+na conta:
+
+1. Abrir https://vercel.com/millerlanups-projects/nobri-ponto-analytics
+2. Cadastrar as variáveis da tabela abaixo (Settings → Environment Variables)
+3. Deployments → **Redeploy** (ou dar um push qualquer no `main`)
+
+Depois disso todo push na branch `main` publica automaticamente.
+
+## Variáveis de ambiente
+
+Em **Environment Variables**, adicionar:
 
 | Variável | Onde usar | Observação |
 |---|---|---|
