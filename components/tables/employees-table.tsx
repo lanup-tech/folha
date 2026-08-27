@@ -1,20 +1,38 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Search, ChevronRight } from "lucide-react";
+import { ChevronRight, Download, ArrowUpDown } from "lucide-react";
 import type { EmployeeRanked } from "@/lib/data/aggregate";
-import type { CompanyKey } from "@/lib/types";
 import { companyLabel } from "@/lib/data/companies";
+import { nivelDoCargo, nivelLabel } from "@/lib/data/dimensoes";
 import { formatDuration, formatPercent } from "@/lib/format";
 import { EmployeeDrawer } from "@/components/employee-drawer";
 import clsx from "clsx";
 
-export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
-  const [query, setQuery] = useState("");
-  // Abre filtrado por uma empresa: renderizar ~880 linhas de uma vez deixa a
-  // primeira pintura lenta. "Todas" continua a um clique.
-  const [company, setCompany] = useState<CompanyKey | "TODAS">("EMPREENDIMENTOS");
+type Coluna =
+  | "name"
+  | "sector"
+  | "heMin"
+  | "unjustifiedMin"
+  | "excusedMin"
+  | "justifiedMin"
+  | "absMin"
+  | "plannedMin"
+  | "absPct";
+
+export function EmployeesTable({
+  rows,
+  competencia,
+}: {
+  rows: EmployeeRanked[];
+  competencia?: string;
+}) {
   const [selecionado, setSelecionado] = useState<EmployeeRanked | null>(null);
+  // ordenação por qualquer coluna — parte do "explorar" que o cliente pediu
+  const [ordem, setOrdem] = useState<{ col: Coluna; desc: boolean }>({
+    col: "absPct",
+    desc: true,
+  });
 
   // A barra de filtros muda de altura conforme a largura da janela (os
   // controles quebram em duas linhas). Medimos para posicionar o cabeçalho das
@@ -32,24 +50,72 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
     return () => ro.disconnect();
   }, []);
 
-  const totaisPorEmpresa = useMemo(() => {
-    const m: Record<string, number> = { TODAS: rows.length };
-    for (const r of rows) m[r.company] = (m[r.company] ?? 0) + 1;
-    return m;
-  }, [rows]);
-
+  // A filtragem agora é global (barra acima da tabela); aqui só ordenamos.
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return rows.filter(
-      (r) =>
-        (company === "TODAS" || r.company === company) &&
-        (q === "" ||
-          r.name.toLowerCase().includes(q) ||
-          r.sector.toLowerCase().includes(q) ||
-          r.role.toLowerCase().includes(q) ||
-          r.registration.includes(q))
+    const dir = ordem.desc ? -1 : 1;
+    return [...rows].sort((a, b) => {
+      const va = a[ordem.col];
+      const vb = b[ordem.col];
+      if (typeof va === "string" && typeof vb === "string") {
+        return va.localeCompare(vb, "pt-BR") * dir;
+      }
+      return ((va as number) - (vb as number)) * dir;
+    });
+  }, [rows, ordem]);
+
+  function ordenarPor(col: Coluna) {
+    setOrdem((o) => (o.col === col ? { col, desc: !o.desc } : { col, desc: true }));
+  }
+
+  /** Exporta exatamente o que está na tela — o recorte investigado. */
+  function exportarCsv() {
+    const cab = [
+      "Matrícula",
+      "Colaborador",
+      "Empresa",
+      "Setor",
+      "Cargo",
+      "Nível",
+      "HE",
+      "Injustificada",
+      "Abonada",
+      "Justificada",
+      "Desconsiderada",
+      "ABS Hora",
+      "Planejado",
+      "ABS %",
+      "Motivo predominante",
+    ];
+    const linhas = filtered.map((e) =>
+      [
+        e.registration,
+        e.name,
+        companyLabel[e.company],
+        e.sector,
+        e.role,
+        nivelLabel[nivelDoCargo(e.role)],
+        formatDuration(e.heMin),
+        formatDuration(e.unjustifiedMin),
+        formatDuration(e.excusedMin),
+        formatDuration(e.justifiedMin),
+        formatDuration(e.ignoredMin ?? 0),
+        formatDuration(e.absMin),
+        formatDuration(e.plannedMin),
+        formatPercent(e.absPct),
+        e.mainMotivo ?? "",
+      ]
+        .map((c) => `"${String(c).replace(/"/g, '""')}"`)
+        .join(";")
     );
-  }, [rows, query, company]);
+    // BOM para o Excel abrir os acentos corretamente
+    const csv = "﻿" + [cab.join(";"), ...linhas].join("\r\n");
+    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `colaboradores-${(competencia ?? "").replace(/\s+/g, "-").toLowerCase() || "recorte"}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
 
   return (
     <>
@@ -63,45 +129,20 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
           ref={barraFiltrosRef}
           className="glass sticky top-16 z-30 flex flex-wrap items-center gap-3 rounded-t-[var(--radius)] border-b border-[var(--line)] px-4 py-3"
         >
-          <div className="relative">
-            <Search
-              size={15}
-              className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-[var(--ink-muted)]"
-            />
-            <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Buscar por nome, matrícula, setor ou cargo…"
-              className="w-80 rounded-lg border border-[var(--line-strong)] bg-[var(--surface-1)] py-2 pr-3 pl-9 text-sm outline-none transition-colors placeholder:text-[var(--ink-muted)] focus:border-[var(--brand-primary)]"
-            />
-          </div>
-          <div className="flex gap-0.5 rounded-lg border border-[var(--line-strong)] bg-[var(--surface-1)] p-0.5">
-            {(["EMPREENDIMENTOS", "PARTICIPACOES", "TATTINI", "TODAS"] as const).map((c) => (
-              <button
-                key={c}
-                onClick={() => setCompany(c)}
-                className={clsx(
-                  "flex items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-medium transition-colors",
-                  company === c
-                    ? "bg-[var(--chrome)] text-white"
-                    : "text-[var(--ink-secondary)] hover:bg-[var(--surface-sunken)]"
-                )}
-              >
-                {c === "TODAS" ? "Todas" : companyLabel[c]}
-                <span
-                  className={clsx(
-                    "tabular text-[10px]",
-                    company === c ? "text-white/60" : "text-[var(--ink-muted)]"
-                  )}
-                >
-                  {totaisPorEmpresa[c] ?? 0}
-                </span>
-              </button>
-            ))}
-          </div>
-          <span className="ml-auto text-xs text-[var(--ink-muted)] tabular">
-            {filtered.length} colaborador{filtered.length === 1 ? "" : "es"}
+          <span className="text-xs text-[var(--ink-secondary)]">
+            <strong className="tabular font-semibold text-[var(--ink-primary)]">
+              {filtered.length}
+            </strong>{" "}
+            colaborador{filtered.length === 1 ? "" : "es"} · clique numa linha para o detalhe
           </span>
+          <button
+            onClick={exportarCsv}
+            className="ml-auto flex items-center gap-1.5 rounded-lg border border-[var(--line-strong)] bg-[var(--surface-1)] px-3 py-1.5 text-xs font-medium text-[var(--ink-secondary)] transition-colors hover:border-[var(--brand-primary)] hover:text-[var(--ink-primary)]"
+            title="Baixar o recorte atual em CSV"
+          >
+            <Download size={13} />
+            Exportar CSV
+          </button>
         </div>
 
         {/* sem overflow-x aqui: qualquer overflow cria contexto de rolagem e
@@ -120,35 +161,52 @@ export function EmployeesTable({ rows }: { rows: EmployeeRanked[] }) {
             */}
             <thead>
               <tr className="text-left text-[11px] font-semibold uppercase tracking-[0.04em] text-[var(--ink-secondary)]">
-                {[
-                  ["Matrícula", ""],
-                  ["Colaborador", ""],
-                  ["Empresa", ""],
-                  ["Setor", ""],
-                  ["HE", "text-right"],
-                  ["Injust.", "text-right"],
-                  ["Abonada", "text-right"],
-                  ["Just.", "text-right"],
-                  ["Desconsid.", "text-right"],
-                  ["ABS Hora", "text-right"],
-                  ["Planejado", "text-right"],
-                  ["ABS %", "text-right"],
-                  ["", "w-8"],
-                ].map(([rotulo, extra], i) => (
+                {(
+                  [
+                    ["Matrícula", "", null],
+                    ["Colaborador", "", "name"],
+                    ["Empresa", "", null],
+                    ["Setor", "", "sector"],
+                    ["HE", "text-right", "heMin"],
+                    ["Injust.", "text-right", "unjustifiedMin"],
+                    ["Abonada", "text-right", "excusedMin"],
+                    ["Just.", "text-right", "justifiedMin"],
+                    ["Desconsid.", "text-right", null],
+                    ["ABS Hora", "text-right", "absMin"],
+                    ["Planejado", "text-right", "plannedMin"],
+                    ["ABS %", "text-right", "absPct"],
+                    ["", "w-8", null],
+                  ] as [string, string, Coluna | null][]
+                ).map(([rotulo, extra, col], i) => (
                   <th
                     key={i}
                     title={
                       rotulo === "Desconsid."
                         ? "Horas de motivos DESCONSIDERAR — fora do cálculo"
-                        : undefined
+                        : col
+                          ? `Ordenar por ${rotulo}`
+                          : undefined
                     }
+                    onClick={() => col && ordenarPor(col)}
                     style={{ top: topoColunas }}
                     className={clsx(
                       "glass sticky z-20 border-b border-[var(--line)] px-4 py-2.5",
-                      extra
+                      extra,
+                      col && "cursor-pointer select-none hover:text-[var(--ink-primary)]",
+                      ordem.col === col && "text-[var(--brand-primary)]"
                     )}
                   >
-                    {rotulo}
+                    <span
+                      className={clsx(
+                        "inline-flex items-center gap-1",
+                        extra === "text-right" && "flex-row-reverse"
+                      )}
+                    >
+                      {rotulo}
+                      {col && ordem.col === col && (
+                        <ArrowUpDown size={11} className="shrink-0" />
+                      )}
+                    </span>
                   </th>
                 ))}
               </tr>
