@@ -52,7 +52,7 @@ export default async function ColaboradoresPage({
           </Suspense>
         </div>
 
-        <EmployeesTable rows={rows} competencia={comp.label} />
+        <EmployeesTable rows={rows} competencia={comp.label} competenciaKey={comp.key} />
       </main>
     </>
   );

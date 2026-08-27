@@ -207,7 +207,7 @@ export default async function DashboardPage({
               </div>
 
               <Suspense fallback={<div className="card" />}>
-                <TopColaboradores rows={top} />
+                <TopColaboradores rows={top} competenciaKey={comp.key} />
               </Suspense>
             </section>
           </>

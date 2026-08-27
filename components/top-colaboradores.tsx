@@ -13,7 +13,13 @@ import { EmployeeDrawer } from "@/components/employee-drawer";
  * Ranking de colaboradores do recorte atual. Cada linha abre o detalhe — é o
  * último nível do aprofundamento: consolidado → dimensão → pessoa.
  */
-export function TopColaboradores({ rows }: { rows: EmployeeRanked[] }) {
+export function TopColaboradores({
+  rows,
+  competenciaKey,
+}: {
+  rows: EmployeeRanked[];
+  competenciaKey?: string;
+}) {
   const [selecionado, setSelecionado] = useState<EmployeeRanked | null>(null);
 
   return (
@@ -82,7 +88,11 @@ export function TopColaboradores({ rows }: { rows: EmployeeRanked[] }) {
         </div>
       </div>
 
-      <EmployeeDrawer employee={selecionado} onClose={() => setSelecionado(null)} />
+      <EmployeeDrawer
+        employee={selecionado}
+        onClose={() => setSelecionado(null)}
+        competencia={competenciaKey}
+      />
     </>
   );
 }

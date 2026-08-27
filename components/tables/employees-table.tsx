@@ -23,9 +23,13 @@ type Coluna =
 export function EmployeesTable({
   rows,
   competencia,
+  competenciaKey,
 }: {
   rows: EmployeeRanked[];
+  /** rótulo legível, usado no nome do arquivo exportado (ex.: "Julho 2026") */
   competencia?: string;
+  /** chave da competência (ex.: "2026-07"), para buscar o detalhe diário */
+  competenciaKey?: string;
 }) {
   const [selecionado, setSelecionado] = useState<EmployeeRanked | null>(null);
   // ordenação por qualquer coluna — parte do "explorar" que o cliente pediu
@@ -273,7 +277,11 @@ export function EmployeesTable({
         </div>
       </div>
 
-      <EmployeeDrawer employee={selecionado} onClose={() => setSelecionado(null)} />
+      <EmployeeDrawer
+        employee={selecionado}
+        onClose={() => setSelecionado(null)}
+        competencia={competenciaKey}
+      />
     </>
   );
 }

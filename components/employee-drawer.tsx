@@ -6,6 +6,8 @@ import clsx from "clsx";
 import type { EmployeeRanked } from "@/lib/data/aggregate";
 import { companyLabel } from "@/lib/data/companies";
 import { formatDuration, formatPercent } from "@/lib/format";
+import { diasDoColaborador } from "@/lib/data/dias";
+import { DiasColaborador } from "@/components/charts/dias-colaborador";
 
 /**
  * Painel lateral com o detalhe do colaborador.
@@ -16,10 +18,14 @@ import { formatDuration, formatPercent } from "@/lib/format";
 export function EmployeeDrawer({
   employee,
   onClose,
+  competencia,
 }: {
   employee: EmployeeRanked | null;
   onClose: () => void;
+  /** competência corrente, para buscar o dia a dia da pessoa */
+  competencia?: string;
 }) {
+  const dias = diasDoColaborador(competencia, employee?.registration);
   useEffect(() => {
     if (!employee) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -134,6 +140,16 @@ export function EmployeeDrawer({
                         : "Contabilizado como falta justificada"}
                   </p>
                 </div>
+              )}
+
+              {/* dia a dia — último nível do aprofundamento */}
+              {dias.length > 0 && (
+                <>
+                  <p className="eyebrow mb-2 mt-6">
+                    Dia a dia · {dias.length} dia{dias.length === 1 ? "" : "s"} com jornada
+                  </p>
+                  <DiasColaborador dias={dias} />
+                </>
               )}
 
               {/* cadastro */}
