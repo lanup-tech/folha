@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import {
   LayoutDashboard,
@@ -160,6 +160,13 @@ export function Sidebar() {
   );
 }
 
+/**
+ * Parâmetros que descrevem o recorte em análise. Navegar entre Visão geral e
+ * Colaboradores deve manter o contexto — perder o filtro ao trocar de tela
+ * quebra a investigação no meio.
+ */
+const PARAMS_DE_ANALISE = ["competencia", "parcial", "emp", "set", "car", "niv", "fx", "q"];
+
 function ItemLink({
   item,
   recolhida,
@@ -172,9 +179,25 @@ function ItemLink({
   filho?: boolean;
 }) {
   const Icone = icones[item.icon] ?? LayoutDashboard;
+  const params = useSearchParams();
+
+  // só as telas de análise compartilham o recorte; cadastros e ajuda, não
+  const preservaContexto =
+    item.href === "/dashboard" || item.href === "/dashboard/colaboradores";
+  let href = item.href;
+  if (preservaContexto) {
+    const q = new URLSearchParams();
+    for (const k of PARAMS_DE_ANALISE) {
+      const v = params.get(k);
+      if (v) q.set(k, v);
+    }
+    const s = q.toString();
+    if (s) href = `${item.href}?${s}`;
+  }
+
   return (
     <Link
-      href={item.href}
+      href={href}
       title={recolhida ? item.label : undefined}
       className={clsx(
         "relative flex items-center gap-3 rounded-lg py-2 text-sm transition-colors",

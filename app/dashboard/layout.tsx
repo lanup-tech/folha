@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Sidebar } from "@/components/sidebar";
 
 /**
@@ -7,7 +8,9 @@ import { Sidebar } from "@/components/sidebar";
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen overflow-hidden">
-      <Sidebar />
+      <Suspense fallback={<div className="w-60 shrink-0 bg-[var(--chrome)]" />}>
+        <Sidebar />
+      </Suspense>
       {/*
         O container de scroll NÃO pode ser flex: com `flex-col`, o header
         `sticky` fica preso ao fluxo do flex e rola junto. Um bloco simples
