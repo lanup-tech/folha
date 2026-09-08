@@ -21,3 +21,4 @@ data/raw/
 .vercel
 
 rpa/screens/
+scripts/_*.mjs
