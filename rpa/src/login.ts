@@ -50,17 +50,28 @@ export async function login(opts: { headless?: boolean } = {}): Promise<Session>
   });
   const page = await context.newPage();
 
-  await page.goto(url, { waitUntil: "networkidle", timeout: 60000 });
-  await page.waitForSelector("#loginEmpresa", { state: "visible", timeout: 30000 });
+  // Esperar por `networkidle` exige 500ms de silêncio TOTAL na rede — um
+  // critério que o site do ponto não alcança quando está lento (medimos 6 a
+  // 21s por requisição em 08/09/2026). Esperar pelo ELEMENTO que precisamos é
+  // mais robusto e igualmente correto: se o campo de login apareceu, a página
+  // está utilizável, independentemente de haver requisições pendentes.
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 120000 });
+  await page.waitForSelector("#loginEmpresa", { state: "visible", timeout: 120000 });
 
   await page.fill("#loginEmpresa", empresa);
   await page.fill("#loginUsuario", usuario);
   await page.fill("#loginSenha", senha);
   await page.click("#btnSubmit");
 
-  // o app troca de tela via POST /LoginAction.do
-  await page.waitForLoadState("networkidle", { timeout: 60000 });
-  await page.waitForTimeout(3000);
+  // O app troca de tela via POST /LoginAction.do. O sinal de sucesso é o campo
+  // de senha desaparecer — esperar por isso é mais confiável que aguardar a
+  // rede silenciar.
+  await page
+    .waitForSelector("#loginSenha", { state: "hidden", timeout: 120000 })
+    .catch(() => {
+      /* segue: a verificação abaixo confirma se o login passou */
+    });
+  await page.waitForTimeout(2000);
 
   const aindaNoLogin = await page.locator("#loginSenha").isVisible().catch(() => false);
   if (aindaNoLogin) {

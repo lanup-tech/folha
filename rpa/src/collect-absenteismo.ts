@@ -32,10 +32,10 @@ const { browser, page } = await login({ headless: !visivel });
 
 try {
   await page.goto("https://www.nobriponto.com.br/relAbsenteismo.do", {
-    waitUntil: "networkidle",
-    timeout: 60000,
+    waitUntil: "domcontentloaded",
+    timeout: 120000,
   });
-  await page.waitForSelector("#inicio", { state: "visible", timeout: 30000 });
+  await page.waitForSelector("#inicio", { state: "visible", timeout: 120000 });
 
   await page.evaluate(
     ({ ini, fim }) => {

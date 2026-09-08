@@ -1,0 +1,4 @@
+[load] login EzPoint (funchal)
+[load] GET /funcionario
+[load] 923 funcionários ativos
+[load] employees upsert: 923 (0 pulados)
