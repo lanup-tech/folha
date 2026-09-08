@@ -3,12 +3,19 @@
 Itens que **não** são esquecimento: foram avaliados e adiados por estarmos em
 fase de validação. Revisar antes de colocar o painel em produção.
 
-## Segurança da VPS (adiado em 14/08/2026)
+## Segurança da VPS (verificado em 08/09/2026 — pronto para aplicar)
 
 Estado atual: VPS `13.140.175.124` com SSH aberto e login de **root por senha**
 (`Lanup2026` — senha fraca, que circulou em texto claro no chat do projeto).
 
-Antes de produção, executar o roteiro já pronto no fim de `rpa/setup-vps.sh`:
+**Verificação feita em 08/09**: root já tem **4 chaves SSH** instaladas, então
+fechar o acesso por senha NÃO trancaria ninguém fora. O script
+`rpa/hardening-vps.sh` faz a checagem, backup e validação da config antes de
+aplicar (`--verificar` diagnostica sem alterar; `--aplicar` executa).
+
+**Por que ainda não foi aplicado**: a VPS hospeda outros projetos (Lanup,
+Licitai) que podem depender de acesso por senha. A decisão é do responsável
+pelo servidor. Roteiro manual equivalente:
 
 1. `passwd` — trocar a senha do root por uma longa e aleatória
 2. `ssh-copy-id nobri@13.140.175.124` — chave SSH para o usuário de serviço
