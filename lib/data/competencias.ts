@@ -1,19 +1,20 @@
 import type { EmployeeMonth, MotivoMonthTotal } from "../types";
-import { employeesMay2026, motivoTotalsMay2026 } from "./may-2026";
-import june2026Json from "@/data/competencias/2026-06.json";
-import july2026Json from "@/data/competencias/2026-07.json";
-import august2026Json from "@/data/competencias/2026-08.json";
+import jan2026 from "@/data/competencias/2026-01.json";
+import fev2026 from "@/data/competencias/2026-02.json";
+import mar2026 from "@/data/competencias/2026-03.json";
+import abr2026 from "@/data/competencias/2026-04.json";
+import mai2026 from "@/data/competencias/2026-05.json";
+import jun2026 from "@/data/competencias/2026-06.json";
+import jul2026 from "@/data/competencias/2026-07.json";
+import ago2026 from "@/data/competencias/2026-08.json";
+import set2026 from "@/data/competencias/2026-09.json";
 
 /**
- * Registro de competências disponíveis no painel.
+ * Competências disponíveis no painel.
  *
- * - Maio/2026: amostra transcrita das planilhas de ANÁLISE (validação visual)
- * - Junho/Julho: relatórios crus + API (scripts/ingest-competencia.mjs)
- * - Agosto/2026: mês corrente, montado por API + Abono do RPA
- *   (scripts/montar-competencia-api.mjs) — sem depender do relatório de
- *   Absenteísmo, que não gera para o quadro completo.
- *
- * Competências sem dados carregados ficam fora do seletor (ver `disponiveis`).
+ * Cada arquivo é gerado por scripts/montar-competencia-api.mjs (API EzPoint +
+ * Abono coletado pelo RPA). Competências sem dados carregados são filtradas e
+ * não aparecem no seletor.
  *
  * Quando o painel passar a ler do Supabase, este registro vira consulta na
  * view `employee_month_summary` por competência.
@@ -26,56 +27,68 @@ export interface CompetenciaData {
   motivoTotals: MotivoMonthTotal[];
   /** origem da carga, exibida no painel */
   source: string;
-  /** visão só com os dias já decorridos (existe apenas no mês em curso) */
+  /** visão só com os dias já decorridos (mês em curso ou carga incompleta) */
   employeesParcial?: EmployeeMonth[];
-  mesEmCurso?: boolean;
   diaCorte?: number | null;
 }
 
-const may2026: CompetenciaData = {
-  key: "2026-05",
-  label: "Maio 2026",
-  employees: employeesMay2026,
-  motivoTotals: motivoTotalsMay2026,
-  source: "amostra das planilhas de análise",
-};
+/** Formato bruto dos arquivos gerados pelos scripts de carga. */
+interface ArquivoCompetencia {
+  competencia?: string;
+  employees?: unknown[];
+  employeesParcial?: unknown[];
+  motivoTotals?: unknown[];
+  meta?: { origem?: string; diaCorte?: number | null };
+}
 
-const june2026: CompetenciaData = {
-  key: "2026-06",
-  label: "Junho 2026",
-  employees: june2026Json.employees as EmployeeMonth[],
-  motivoTotals: june2026Json.motivoTotals as MotivoMonthTotal[],
-  source: "Abono coletado pelo RPA (mês cheio) + HE e cadastro via API EzPoint",
-};
+const MESES = [
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+  "Novembro",
+  "Dezembro",
+];
 
-const july2026: CompetenciaData = {
-  key: "2026-07",
-  label: "Julho 2026",
-  employees: july2026Json.employees as EmployeeMonth[],
-  motivoTotals: july2026Json.motivoTotals as MotivoMonthTotal[],
-  source: "relatórios crus + API de funcionários",
-};
+function paraCompetencia(chave: string, arquivo: unknown): CompetenciaData {
+  const a = arquivo as ArquivoCompetencia;
+  const [ano, mes] = chave.split("-").map(Number);
+  return {
+    key: chave,
+    label: `${MESES[mes - 1]} ${ano}`,
+    employees: (a.employees ?? []) as EmployeeMonth[],
+    employeesParcial: a.employeesParcial as EmployeeMonth[] | undefined,
+    motivoTotals: (a.motivoTotals ?? []) as MotivoMonthTotal[],
+    diaCorte: a.meta?.diaCorte ?? null,
+    source: a.meta?.origem ?? "API EzPoint + Abono coletado pelo RPA",
+  };
+}
 
-const august2026: CompetenciaData = {
-  key: "2026-08",
-  label: "Agosto 2026",
-  employees: august2026Json.employees as EmployeeMonth[],
-  employeesParcial: (august2026Json as { employeesParcial?: EmployeeMonth[] }).employeesParcial,
-  diaCorte: (august2026Json.meta as { diaCorte?: number | null })?.diaCorte ?? null,
-  motivoTotals: august2026Json.motivoTotals as MotivoMonthTotal[],
-  source: "API EzPoint + Abono coletado pelo RPA na VPS",
-};
+const todas: CompetenciaData[] = [
+  paraCompetencia("2026-01", jan2026),
+  paraCompetencia("2026-02", fev2026),
+  paraCompetencia("2026-03", mar2026),
+  paraCompetencia("2026-04", abr2026),
+  paraCompetencia("2026-05", mai2026),
+  paraCompetencia("2026-06", jun2026),
+  paraCompetencia("2026-07", jul2026),
+  paraCompetencia("2026-08", ago2026),
+  paraCompetencia("2026-09", set2026),
+];
 
 /** Só entram no seletor as competências que têm dados carregados. */
-export const competencias: CompetenciaData[] = [
-  may2026,
-  june2026,
-  july2026,
-  august2026,
-].filter((c) => c.employees.length > 0);
+export const competencias: CompetenciaData[] = todas.filter(
+  (c) => c.employees.length > 0
+);
 
 export const defaultCompetenciaKey =
-  competencias[competencias.length - 1]?.key ?? "2026-07";
+  competencias[competencias.length - 1]?.key ?? "2026-08";
 
 export function getCompetencia(key?: string): CompetenciaData {
   return (
@@ -100,12 +113,13 @@ function competenciaCorrente(): string {
  * fechamento (foi o caso de agosto: última carga em 14/08 e o mês seguiu).
  *
  * Decidir isso pela DATA, e não por um valor gravado no arquivo, evita que o
- * painel fique preso a um estado antigo: agosto tinha `mesEmCurso: true` de
- * 14/08 e, em setembro, a flag sumia — deixando o usuário só com a visão
- * inflada, sem caminho para o número real.
+ * painel fique preso a um estado antigo.
  */
 export function permiteParcial(c: CompetenciaData): boolean {
-  return !!c.employeesParcial?.length && (c.key === competenciaCorrente() || estaDesatualizada(c));
+  return (
+    !!c.employeesParcial?.length &&
+    (c.key === competenciaCorrente() || estaDesatualizada(c))
+  );
 }
 
 /**
@@ -119,11 +133,6 @@ export function estaDesatualizada(c: CompetenciaData): boolean {
   const [ano, mes] = c.key.split("-").map(Number);
   const ultimoDia = new Date(ano, mes, 0).getDate();
   return c.diaCorte < ultimoDia;
-}
-
-/** Último dia coberto pela carga, para exibição. */
-export function diaCoberto(c: CompetenciaData): number | null {
-  return c.diaCorte ?? null;
 }
 
 /**
