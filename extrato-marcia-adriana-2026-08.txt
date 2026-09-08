@@ -3,9 +3,9 @@ Matrícula 2480 · Negócios · sem setor
 Competência: 2026-08
 
 Dias com jornada prevista: 21
-Dias efetivamente trabalhados: 10
-Dias sem registro de ponto: 11
-Total de atraso no período: 1:24
+Dias efetivamente trabalhados: 21
+Dias sem registro de ponto: 0
+Total de atraso no período: 3:03
 
 DIA A DIA
 Data        Previsto  Trabalhado  Falta   Atraso  Situação
@@ -19,17 +19,16 @@ Data        Previsto  Trabalhado  Falta   Atraso  Situação
 12/08/2026     8:30       8:30    0:00    0:00  trabalhou
 13/08/2026     8:30       8:24    0:00    0:00  trabalhou
 14/08/2026     8:30       8:30    0:00    0:00  trabalhou
-17/08/2026     8:30       0:00    8:30    0:00  sem registro
-18/08/2026     8:30       0:00    8:30    0:00  sem registro
-19/08/2026     8:30       0:00    8:30    0:00  sem registro
-20/08/2026     8:30       0:00    8:30    0:00  sem registro
-21/08/2026     8:30       0:00    8:30    0:00  sem registro
-24/08/2026     8:30       0:00    8:30    0:00  sem registro
-25/08/2026     8:30       0:00    8:30    0:00  sem registro
-26/08/2026     8:30       0:00    8:30    0:00  sem registro
-27/08/2026     8:30       0:00    8:30    0:00  sem registro
-28/08/2026     8:30       0:00    8:30    0:00  sem registro
-31/08/2026     8:30       0:00    8:30    0:00  sem registro
+17/08/2026     8:30       8:00    0:00    0:30  trabalhou (com atraso)
+18/08/2026     8:30       8:30    0:00    0:00  trabalhou
+19/08/2026     8:30       8:30    0:00    0:00  trabalhou
+20/08/2026     8:30       8:16    0:00    0:14  trabalhou (com atraso)
+21/08/2026     8:30       8:30    0:00    0:00  trabalhou
+24/08/2026     8:30       8:01    0:00    0:29  trabalhou (com atraso)
+25/08/2026     8:30       8:30    0:00    0:00  trabalhou
+26/08/2026     8:30       8:30    0:00    0:00  trabalhou
+27/08/2026     8:30       8:30    0:00    0:00  trabalhou
+28/08/2026     8:30       8:24    0:00    0:00  trabalhou
+31/08/2026     8:30       8:04    0:00    0:26  trabalhou (com atraso)
 
-OBSERVAÇÃO: os 11 dias sem registro concentram-se de 17/08/2026 a 31/08/2026.
 ================================================================
