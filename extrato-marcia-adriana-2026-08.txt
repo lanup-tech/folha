@@ -1,0 +1,35 @@
+EXTRATO — MARCIA ADRIANA DOS SANTOS
+Matrícula 2480 · Negócios · sem setor
+Competência: 2026-08
+
+Dias com jornada prevista: 21
+Dias efetivamente trabalhados: 10
+Dias sem registro de ponto: 11
+Total de atraso no período: 1:24
+
+DIA A DIA
+Data        Previsto  Trabalhado  Falta   Atraso  Situação
+03/08/2026     8:30       7:48    0:00    0:42  trabalhou (com atraso)
+04/08/2026     8:30       8:27    0:00    0:00  trabalhou
+05/08/2026     8:30       8:26    0:00    0:00  trabalhou
+06/08/2026     8:30       8:30    0:00    0:00  trabalhou
+07/08/2026     8:30       8:30    0:00    0:00  trabalhou
+10/08/2026     8:30       8:00    0:00    0:30  trabalhou (com atraso)
+11/08/2026     8:30       8:18    0:00    0:12  trabalhou (com atraso)
+12/08/2026     8:30       8:30    0:00    0:00  trabalhou
+13/08/2026     8:30       8:24    0:00    0:00  trabalhou
+14/08/2026     8:30       8:30    0:00    0:00  trabalhou
+17/08/2026     8:30       0:00    8:30    0:00  sem registro
+18/08/2026     8:30       0:00    8:30    0:00  sem registro
+19/08/2026     8:30       0:00    8:30    0:00  sem registro
+20/08/2026     8:30       0:00    8:30    0:00  sem registro
+21/08/2026     8:30       0:00    8:30    0:00  sem registro
+24/08/2026     8:30       0:00    8:30    0:00  sem registro
+25/08/2026     8:30       0:00    8:30    0:00  sem registro
+26/08/2026     8:30       0:00    8:30    0:00  sem registro
+27/08/2026     8:30       0:00    8:30    0:00  sem registro
+28/08/2026     8:30       0:00    8:30    0:00  sem registro
+31/08/2026     8:30       0:00    8:30    0:00  sem registro
+
+OBSERVAÇÃO: os 11 dias sem registro concentram-se de 17/08/2026 a 31/08/2026.
+================================================================

@@ -10,7 +10,7 @@ import { AbsenceCompositionChart } from "@/components/charts/absence-composition
 import { TopMotivosChart } from "@/components/charts/top-motivos";
 import { TopColaboradores } from "@/components/top-colaboradores";
 import { companySummaries, qualityAlerts, rankedEmployees } from "@/lib/data/aggregate";
-import { employeesDaVisao, getCompetencia, permiteParcial } from "@/lib/data/competencias";
+import { employeesDaVisao, estaDesatualizada, getCompetencia, permiteParcial } from "@/lib/data/competencias";
 import { aplicarFiltros, filtrosDaQuery, temFiltroAtivo } from "@/lib/data/dimensoes";
 import { agruparPor, agruparPorNivelOrdenado, opcoesDeFiltro, totais, type Dimensao } from "@/lib/data/analise";
 import { formatDuration, formatPercent } from "@/lib/format";
@@ -71,13 +71,29 @@ export default async function DashboardPage({
           </Suspense>
         </div>
 
+        {estaDesatualizada(comp) && !parcial && (
+          <div className="card flex items-start gap-2.5 border-l-4 border-l-[var(--status-warning)] p-3">
+            <AlertTriangle size={16} className="mt-0.5 shrink-0 text-[var(--status-warning)]" />
+            <div className="text-sm">
+              <p className="font-medium">
+                Dados desta competência cobrem apenas até o dia {comp.diaCorte}
+              </p>
+              <p className="mt-0.5 text-xs text-[var(--ink-secondary)]">
+                Os dias seguintes aparecem como falta porque ainda não foram carregados —
+                o indicador está superestimado. Use <strong>Parcial até dia {comp.diaCorte}</strong> para
+                ver o número real do período coberto, ou aguarde a próxima carga.
+              </p>
+            </div>
+          </div>
+        )}
+
         <p className="text-xs text-[var(--ink-muted)]">
           Competência {comp.label} · fonte: {comp.source}
           {permiteParcial(comp) && (
             <span className="ml-2 font-medium text-[var(--brand-primary)]">
               {parcial
                 ? `· análise parcial: dias 1 a ${comp.diaCorte}`
-                : "· mês cheio (inclui dias que ainda não ocorreram)"}
+                : "· visão cheia (inclui dias sem dados carregados)"}
             </span>
           )}
         </p>

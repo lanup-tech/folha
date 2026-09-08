@@ -61,10 +61,9 @@ const august2026: CompetenciaData = {
   label: "Agosto 2026",
   employees: august2026Json.employees as EmployeeMonth[],
   employeesParcial: (august2026Json as { employeesParcial?: EmployeeMonth[] }).employeesParcial,
-  mesEmCurso: (august2026Json.meta as { mesEmCurso?: boolean })?.mesEmCurso,
   diaCorte: (august2026Json.meta as { diaCorte?: number | null })?.diaCorte ?? null,
   motivoTotals: august2026Json.motivoTotals as MotivoMonthTotal[],
-  source: "mês corrente · API EzPoint + Abono coletado pelo RPA na VPS",
+  source: "API EzPoint + Abono coletado pelo RPA na VPS",
 };
 
 /** Só entram no seletor as competências que têm dados carregados. */
@@ -96,11 +95,35 @@ function competenciaCorrente(): string {
 }
 
 /**
- * A análise parcial só faz sentido no mês em curso: em meses fechados todos os
- * dias já ocorreram, então "parcial" seria apenas um recorte arbitrário.
+ * A análise parcial faz sentido enquanto os dados não cobrem o mês inteiro —
+ * seja porque o mês está em curso, seja porque a carga parou antes do
+ * fechamento (foi o caso de agosto: última carga em 14/08 e o mês seguiu).
+ *
+ * Decidir isso pela DATA, e não por um valor gravado no arquivo, evita que o
+ * painel fique preso a um estado antigo: agosto tinha `mesEmCurso: true` de
+ * 14/08 e, em setembro, a flag sumia — deixando o usuário só com a visão
+ * inflada, sem caminho para o número real.
  */
 export function permiteParcial(c: CompetenciaData): boolean {
-  return c.key === competenciaCorrente() && !!c.employeesParcial?.length;
+  return !!c.employeesParcial?.length && (c.key === competenciaCorrente() || estaDesatualizada(c));
+}
+
+/**
+ * Competência de mês já encerrado cuja carga parou antes do fim do mês.
+ * Nesse estado os dias posteriores ao corte entram como falta e inflam o
+ * indicador — o painel precisa avisar, não apresentar como número final.
+ */
+export function estaDesatualizada(c: CompetenciaData): boolean {
+  if (!c.diaCorte) return false;
+  if (c.key === competenciaCorrente()) return false; // ainda em curso: normal
+  const [ano, mes] = c.key.split("-").map(Number);
+  const ultimoDia = new Date(ano, mes, 0).getDate();
+  return c.diaCorte < ultimoDia;
+}
+
+/** Último dia coberto pela carga, para exibição. */
+export function diaCoberto(c: CompetenciaData): number | null {
+  return c.diaCorte ?? null;
 }
 
 /**

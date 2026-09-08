@@ -4,7 +4,7 @@ import { EmployeesTable } from "@/components/tables/employees-table";
 import { FiltrosGlobais } from "@/components/filtros-globais";
 import { TrilhaFiltros } from "@/components/trilha-filtros";
 import { rankedEmployees } from "@/lib/data/aggregate";
-import { employeesDaVisao, getCompetencia, permiteParcial } from "@/lib/data/competencias";
+import { employeesDaVisao, estaDesatualizada, getCompetencia, permiteParcial } from "@/lib/data/competencias";
 import { aplicarFiltros, filtrosDaQuery } from "@/lib/data/dimensoes";
 import { opcoesDeFiltro, totais } from "@/lib/data/analise";
 import { formatDuration, formatPercent } from "@/lib/format";
