@@ -68,4 +68,9 @@ if (consolidou) {
 console.log(
   `\n[${carimbo()}] ciclo encerrado — abono=${abono ? "ok" : "falhou"} · carga=${carga ? "ok" : "falhou"} · consolidação=${consolidou ? "ok" : "falhou"} · validação=${integra ? "ok" : "com problemas"}`
 );
+// Registro de saúde: grava o estado das cargas para o painel exibir, de modo
+// que uma falha apareça na tela e não só no log do servidor — foi assim que a
+// carga ficou 25 dias quebrada sem ninguém notar (ver docs/backlog.md).
+etapa("5/5 registro de saúde", "node", ["scripts/saude-cargas.mjs", "--json"], raiz);
+
 if (!abono || !carga || !consolidou || !integra) process.exitCode = 1;

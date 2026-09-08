@@ -31,9 +31,8 @@ rotacionado ao virar produção:
 
 ## Dados
 
-- **Junho/2026 incompleto**: reexportar Abono de Faltas do mês cheio
-  (01/06–30/06; o arquivo atual tem só o dia 30). Extrato e Absenteísmo de
-  junho não precisam — a API cobre.
+- ~~**Junho/2026 incompleto**~~ **RESOLVIDO**: o Abono do mês cheio já foi
+  coletado pelo robô (2.284 lançamentos). Reconferido em 08/09/2026.
 - **Matrícula duplicada no ponto**: 6053 na Tattini pertence a duas pessoas
   (LUIZ CARLOS DA SILVA e PABLO CABALLE NASCIMENTO DA SILVA). O painel já
   tolera (chave = id da API), mas vale corrigir no cadastro do ponto.
@@ -44,10 +43,11 @@ rotacionado ao virar produção:
   688/704. Ver docs/integracao-nobriponto.md.
 
 - **Divergências residuais de julho a investigar** (conferência banco×planilha):
-  - **HE: 88 casos** — a maior lacuna restante. Hipótese: o relatório usa
-    "Extra Diurna Trabalhada (EX¹)" e a API expõe `extraDiurna`; podem ser
-    definições diferentes (com/sem compensação). Verificar caso a caso antes
-    de trocar a fonte da HE.
+  - ~~**HE: 88 casos**~~ **RESOLVIDO (08/09/2026)**: não era diferença de
+    definição. Reconsultando a API para uma amostra, 3 de 4 casos batem
+    exatamente com a planilha — as divergências eram **dados velhos no banco**,
+    de cargas anteriores. A HE da API é confiável; o que faltava era manter a
+    carga em dia (ver "Falha silenciosa do cron").
   - **Abonos: 38 casos** — provável efeito da valoração 8h/dia da planilha
     (a API usa a jornada real). Tende a sumir quando a ABONADA passar a vir
     da API + motivo do RPA.
