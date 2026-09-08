@@ -18,6 +18,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import * as XLSX from "xlsx";
 import pg from "pg";
+import { carregarEnv } from "./_env.mjs";
 
 const competencia = process.argv[2] ?? new Date().toISOString().slice(0, 7);
 const rawDir = process.argv[3] ?? `data/raw/${competencia}`;
@@ -39,11 +40,7 @@ if (competenciaCorrente) {
   console.log(`[montar] mês em curso: gerando visão cheia + parcial (dias 1 a ${diaCorte})`);
 }
 
-const env = {};
-for (const l of readFileSync(".env.local", "utf8").split(/\r?\n/)) {
-  const m = l.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
-  if (m) env[m[1]] = m[2];
-}
+const env = carregarEnv();
 
 // ---------- utilitários (iguais aos da ingestão por planilha) ----------
 function toMinutes(v) {

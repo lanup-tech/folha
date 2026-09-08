@@ -6,13 +6,10 @@
  */
 import { readFileSync } from "node:fs";
 import pg from "pg";
+import { carregarEnv } from "./_env.mjs";
 
 const competencia = process.argv[2] ?? "2026-07";
-const env = {};
-for (const l of readFileSync(".env.local", "utf8").split(/\r?\n/)) {
-  const m = l.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
-  if (m) env[m[1]] = m[2];
-}
+const env = carregarEnv();
 const BASE = "https://api.ezpointweb.com.br/ezweb-ws";
 const EMPRESA = env.NOBRIPONTO_API_EMPRESA ?? env.EZPOINT_EMPRESA;
 const toMin = (v) => {

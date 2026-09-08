@@ -12,17 +12,14 @@
  */
 import { readFileSync, existsSync } from "node:fs";
 import pg from "pg";
+import { carregarEnv } from "./_env.mjs";
 
 const competencia = process.argv[2] ?? new Date().toISOString().slice(0, 7);
 const CLIENT_SLUG = process.argv[3] ?? "funchal";
 const BASE = "https://api.ezpointweb.com.br/ezweb-ws";
 
 // ---------- env ----------
-const env = {};
-for (const line of readFileSync(".env.local", "utf8").split(/\r?\n/)) {
-  const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
-  if (m) env[m[1]] = m[2];
-}
+const env = carregarEnv();
 const EMPRESA = env.EZPOINT_EMPRESA ?? env.NOBRIPONTO_API_EMPRESA;
 const USUARIO = env.EZPOINT_USUARIO ?? env.NOBRIPONTO_API_USER;
 const SENHA = env.EZPOINT_SENHA ?? env.NOBRIPONTO_API_PASSWORD;

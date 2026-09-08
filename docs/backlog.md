@@ -61,3 +61,22 @@ rotacionado ao virar produção:
   de forma intermitente (~7% das chamadas na carga de 14/08). A carga já trata
   com 3 tentativas e **nunca grava zero** de resposta vazia — mas vale monitorar
   a taxa a cada competência.
+
+## Falha silenciosa do cron (descoberta em 08/09/2026)
+
+**Sintoma**: cliente apontou ABS alto em agosto. Investigando, os dados estavam
+parados desde 14/08 — o mês fechou e nunca foi recarregado.
+
+**Causa**: os scripts da raiz liam `.env.local` por caminho fixo, mas na VPS o
+arquivo de credenciais é `rpa/.env`. O ciclo diário rodava todo dia às 06:00,
+o robô do Abono funcionava, e a **carga da API falhava** com ENOENT — só que o
+erro ficava no log do servidor e ninguém olhava.
+
+**Correção**: `scripts/_env.mjs` procura o arquivo em vários caminhos e dá
+precedência ao arquivo sobre variáveis do ambiente (uma variável solta de outro
+projeto apontava a carga para o banco errado).
+
+**Lição para o processo**: falha em etapa do cron precisa ser VISÍVEL. Hoje o
+único sinal é o log da VPS. Providenciar alerta (e-mail ou painel) quando o
+ciclo diário terminar com erro — sem isso, o dado envelhece em silêncio e só
+aparece quando o cliente reclama.

@@ -11,14 +11,9 @@
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import pg from "pg";
+import { carregarEnv } from "./_env.mjs";
 
-const env = {};
-if (existsSync(".env.local")) {
-  for (const line of readFileSync(".env.local", "utf8").split(/\r?\n/)) {
-    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
-    if (m) env[m[1]] = m[2];
-  }
-}
+const env = carregarEnv();
 if (!env.SUPABASE_DB_URL) {
   console.error(
     "SUPABASE_DB_URL ausente no .env.local.\n" +

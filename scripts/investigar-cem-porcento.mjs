@@ -10,13 +10,10 @@
  */
 import { readFileSync } from "node:fs";
 import pg from "pg";
+import { carregarEnv } from "./_env.mjs";
 
 const competencia = process.argv[2] ?? "2026-08";
-const env = {};
-for (const l of readFileSync(".env.local", "utf8").split(/\r?\n/)) {
-  const m = l.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
-  if (m) env[m[1]] = m[2];
-}
+const env = carregarEnv();
 const fmt = (m) => `${Math.floor(m / 60)}:${String(m % 60).padStart(2, "0")}`;
 
 const db = new pg.Client({ connectionString: env.SUPABASE_DB_URL, ssl: { rejectUnauthorized: false } });

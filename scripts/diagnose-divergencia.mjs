@@ -8,15 +8,12 @@
  */
 import { readFileSync } from "node:fs";
 import pg from "pg";
+import { carregarEnv } from "./_env.mjs";
 
 const nomeBusca = (process.argv[2] ?? "").toUpperCase();
 const competencia = process.argv[3] ?? "2026-07";
 
-const env = {};
-for (const l of readFileSync(".env.local", "utf8").split(/\r?\n/)) {
-  const m = l.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
-  if (m) env[m[1]] = m[2];
-}
+const env = carregarEnv();
 const fmt = (min) => `${Math.floor(min / 60)}:${String(min % 60).padStart(2, "0")}`;
 
 // ---- planilha ----
