@@ -22,3 +22,6 @@ data/raw/
 
 rpa/screens/
 scripts/_*.mjs
+
+# logs de execucao
+*.log
